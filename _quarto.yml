@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: "docs"
+
+website:
+  title: "Ekumbo Botuli Babby"
+  navbar:
+    left: 
+      - text: "Home"
+        file: index.qmd
+      - text: "Portfolio"
+        file: portfolio.qmd
+      - text: "CV"
+        file: cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/babbymed
+      - icon: twitter
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: facebook
+        href: https://facebook.com
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+
+

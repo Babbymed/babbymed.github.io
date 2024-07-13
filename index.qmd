@@ -1,0 +1,21 @@
+---
+title: "Ekumbo B. Babby"
+image: bbz_zbourg.png
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/babbymed
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/babbymed
+    - icon: facebook
+      text: facebook
+      href: https://facebook.com
+---
+
+Dr. EKUMBO B. Babby est un médecin éco-épidémiologiste spécialisé en maladies infectieuses, antibiorésistance et microbiotes intestinaux des oiseaux. Il est clinicien hospitalo-universitaire de l'Université de Mbandaka (UNIMBA) et formateur certifié en Prévention et Contrôle d’Infections. Actuellement, il poursuit second Master pour un Doctorat, tout en étant chercheur affilié à l’Institut OneHealth pour l’Afrique (INOHA) en collaboration avec l'Unité d'ornithologie du Département de Biologie à la faculté des Sciences de l'Université de Kinshasa (UNIKIN).

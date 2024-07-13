@@ -1,0 +1,9 @@
+---
+title: "Analyse des données de DHS"
+author: "Babby Zbourg"
+date: "2024-07-13"
+categories: [code, analysis,r]
+image: "image.jpg"
+---
+
+This is was a project using DHS data, you can find more [here](https://demolandscapes.info/){target="_blink"}
