@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Ecologie des maladies Infectieuses",
+    "section": "",
+    "text": "Analyse des données de DHS\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nr\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nBabby Zbourg\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 10, 2024\n\n\nEkumbo B. Babby\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ekumbo B. Babby",
+    "section": "",
+    "text": "Dr. EKUMBO B. Babby est un médecin éco-épidémiologiste spécialisé en maladies infectieuses, antibiorésistance et microbiotes intestinaux des oiseaux. Il est clinicien hospitalo-universitaire de l’Université de Mbandaka (UNIMBA) et formateur certifié en Prévention et Contrôle d’Infections. Actuellement, il poursuit second Master pour un Doctorat, tout en étant chercheur affilié à l’Institut OneHealth pour l’Afrique (INOHA) en collaboration avec l’Unité d’ornithologie du Département de Biologie à la faculté des Sciences de l’Université de Kinshasa (UNIKIN)."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Analyse des données de DHS",
+    "section": "",
+    "text": "This is was a project using DHS data, you can find more here"
+  }
+]
