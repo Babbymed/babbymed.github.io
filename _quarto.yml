@@ -3,7 +3,7 @@ project:
   output-dir: "docs"
 
 website:
-  title: "Ekumbo Botuli Babby"
+  title: "Babby Ekumbo MD. MSc."
   navbar:
     left: 
       - text: "Home"
