@@ -1,17 +1,59 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "publication.html",
+    "href": "publication.html",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "En tant qu’auteur principal/Directeur ou co-directeur de travail :\n\n\n\n\nEkumbo Babby\nAvec : Bompangue Didier, Sylvie-Mireille Bambi & Robert Kisasa\nJournal of Applied Biosciences 181:18941-18961\nSur ResearchGate : ![here]\n\n\n\n\n\n\nRobert Kisasa Ekumbo Babby\nDOI: 10.4236/oalib.1107353\nLire cet article ici : ![here]\n\n\n\n\n\n\nCo-Directeur de travail de fin de cycle (TFC) : pour l’obtention du titre de diplôme de Médecine Général, Chirurgie et accouchement à l’Université de Mbandaka (UNIMBA).\nAuteurs:\nTravail non publié\n\n\n\n\n\n\nDirecteur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016.\nAuteur: Mathy NGOMA\nTravail non publié\n\n\n\nDirecteur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016\nAuteur: Arlette MAZEBI\nTravail non publié\n\n\n\n\n\n\nTravaild e Fin de cycle (TFC) pour l’obtention du titre de diplômé en Sciences Biomédicales, au Centre Universitaire de Mbandaka extension de l’UNIKIN (actuelle Université de Mbandaka).\nCo-redacteur: Ekumbo Babby, Gbeffa N. Delly, Mbadi M. Jacques\nTravail non publié"
+  },
+  {
+    "objectID": "publication.html#section",
+    "href": "publication.html#section",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "Ekumbo Babby\nAvec : Bompangue Didier, Sylvie-Mireille Bambi & Robert Kisasa\nJournal of Applied Biosciences 181:18941-18961\nSur ResearchGate : ![here]"
+  },
+  {
+    "objectID": "publication.html#section-1",
+    "href": "publication.html#section-1",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "Robert Kisasa Ekumbo Babby\nDOI: 10.4236/oalib.1107353\nLire cet article ici : ![here]"
+  },
+  {
+    "objectID": "publication.html#section-2",
+    "href": "publication.html#section-2",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "Co-Directeur de travail de fin de cycle (TFC) : pour l’obtention du titre de diplôme de Médecine Général, Chirurgie et accouchement à l’Université de Mbandaka (UNIMBA).\nAuteurs:\nTravail non publié"
+  },
+  {
+    "objectID": "publication.html#section-3",
+    "href": "publication.html#section-3",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "Directeur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016.\nAuteur: Mathy NGOMA\nTravail non publié\n\n\n\nDirecteur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016\nAuteur: Arlette MAZEBI\nTravail non publié"
+  },
+  {
+    "objectID": "publication.html#section-4",
+    "href": "publication.html#section-4",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "Travaild e Fin de cycle (TFC) pour l’obtention du titre de diplômé en Sciences Biomédicales, au Centre Universitaire de Mbandaka extension de l’UNIKIN (actuelle Université de Mbandaka).\nCo-redacteur: Ekumbo Babby, Gbeffa N. Delly, Mbadi M. Jacques\nTravail non publié"
+  },
+  {
+    "objectID": "posts/ISGlobal formation/index.html",
+    "href": "posts/ISGlobal formation/index.html",
+    "title": "Institut de Saude Global | ISGolbal",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Ecologie des maladies Infectieuses",
+    "objectID": "posts/INOHA/index.html",
+    "href": "posts/INOHA/index.html",
+    "title": "Institut One Health pour l’Afrique | INOHA",
     "section": "",
-    "text": "Analyse des données de DHS\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\nr\n\n\n\n\n\n\n\n\n\nJul 13, 2024\n\n\nBabby Zbourg\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 10, 2024\n\n\nEkumbo B. Babby\n\n\n\n\n\n\nNo matching items"
+    "text": "library(shiny)\nlibrary(flexdashboard)\nlibrary(shinyWidgets)\n\nL’Institut One Health pour l’Afrique en sigle INOHA vient de réaliser le lancement officiel de ses activités.\n\nCe lancement fait suite à la dixième année d’anniversaire de son précurseur, le Master ECOM ALGER (Master en Écologie des Maladies Infectieuses, Gestions du Risque et aléas atures.), qui était un service attaché au Département des Sciences de base dans la faculté de Médecinde l’Université de Kinshasa. La naissance de cette nouvelle intstitution de recherche au sein de la faculté de Médecine de l’Université de Kinshasa (UNIKIN) qui a une vocation internationale offrant des enseignements dans le cadre des approches systémiques pour lutter contre les problèmes de santé complèxes qui necessitent des solutions pluridisciplinaires dont le One Health dite “une Seule Santé”.\n\nNous avons eu l’opportunité de participer dans ces activités étant donné que l’ECOM ALGER actuel INOHA est notre Alma mater dans le cadre des recherches que nous sommes entrain de réaliser actuellement.\nLire plus:"
   },
   {
     "objectID": "index.html",
@@ -21,10 +63,31 @@
     "text": "Dr. EKUMBO B. Babby est un médecin, éco-épidémiologiste des maladies infectieuses, gestion du risque et aléas naturels.\nIl est clinicien hospitalo-universitaire de l’Université de Mbandaka (UNIMBA) et formateur certifié en Prévention et Contrôle d’Infections.\nChercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux de l’Université de Mbandaka (UNIMBA), en collaboration avec l’Unité d’ornithologie du Département de Biologie à la faculté des Sciences et l’Institut de OneHealth pour l’Afrique (INOHA) de l’Université de Kinshasa (UNIKIN)."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Analyse des données de DHS",
+    "objectID": "posts/The GRAPH Courses/index.html",
+    "href": "posts/The GRAPH Courses/index.html",
+    "title": "The GRAPH Courses",
     "section": "",
-    "text": "This is was a project using DHS data, you can find more here"
+    "text": "Analyse de l’usage des antipaludiques en Angola, 2015 - 2016\n\n\nEkumbo Babby\nR: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Profil: Médecin, formateur en Prévention et contrôle des infections | PCI",
+    "section": "",
+    "text": "En tant que présentateur/Participation dans des séminaires et conférences :\n\n\n\n\nPrésentation des résultats de l’étude au cours du Colloque international One Health 2024 du 28 au 31 Mars à Kinshasa,\nDiapositives disponibles : \n\n\n\nEkumbo Babby\nR: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)\n\n\n\n\n\n\n\nAnalysing time series data: Analysing time series data collected with digital technologies\nImpacts of climate change on human health : Impacts of climate change on human health and future liability\n\n(Trainer: ISGlobal, International Spring School in Global Health, Barcelona/Spain – March, 2023).\nPlus d-information, voir ici: ![ici]\n\n\n\n\n\n\n\n\n\nEkumbo Babby\nInternation MEdical Corps DR Congo\nDiapositives disponibles : propriété de l’IMC (voir ici)"
+  },
+  {
+    "objectID": "presentation.html#présentations-et-activités-scientifiques",
+    "href": "presentation.html#présentations-et-activités-scientifiques",
+    "title": "Profil: Médecin, formateur en Prévention et contrôle des infections | PCI",
+    "section": "",
+    "text": "En tant que présentateur/Participation dans des séminaires et conférences :\n\n\n\n\nPrésentation des résultats de l’étude au cours du Colloque international One Health 2024 du 28 au 31 Mars à Kinshasa,\nDiapositives disponibles : \n\n\n\nEkumbo Babby\nR: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)\n\n\n\n\n\n\n\nAnalysing time series data: Analysing time series data collected with digital technologies\nImpacts of climate change on human health : Impacts of climate change on human health and future liability\n\n(Trainer: ISGlobal, International Spring School in Global Health, Barcelona/Spain – March, 2023).\nPlus d-information, voir ici: ![ici]\n\n\n\n\n\n\n\n\n\nEkumbo Babby\nInternation MEdical Corps DR Congo\nDiapositives disponibles : propriété de l’IMC (voir ici)"
+  },
+  {
+    "objectID": "publication.html#publications-et-rédactions-scientifiques",
+    "href": "publication.html#publications-et-rédactions-scientifiques",
+    "title": "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels",
+    "section": "",
+    "text": "En tant qu’auteur principal/Directeur ou co-directeur de travail :\n\n\n\n\nEkumbo Babby\nAvec : Bompangue Didier, Sylvie-Mireille Bambi & Robert Kisasa\nJournal of Applied Biosciences 181:18941-18961\nSur ResearchGate : ![here]\n\n\n\n\n\n\nRobert Kisasa Ekumbo Babby\nDOI: 10.4236/oalib.1107353\nLire cet article ici : ![here]\n\n\n\n\n\n\nCo-Directeur de travail de fin de cycle (TFC) : pour l’obtention du titre de diplôme de Médecine Général, Chirurgie et accouchement à l’Université de Mbandaka (UNIMBA).\nAuteurs:\nTravail non publié\n\n\n\n\n\n\nDirecteur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016.\nAuteur: Mathy NGOMA\nTravail non publié\n\n\n\nDirecteur de travail de fin de cycle (TFC) : pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016\nAuteur: Arlette MAZEBI\nTravail non publié\n\n\n\n\n\n\nTravaild e Fin de cycle (TFC) pour l’obtention du titre de diplômé en Sciences Biomédicales, au Centre Universitaire de Mbandaka extension de l’UNIKIN (actuelle Université de Mbandaka).\nCo-redacteur: Ekumbo Babby, Gbeffa N. Delly, Mbadi M. Jacques\nTravail non publié"
   }
 ]

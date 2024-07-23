@@ -1,5 +1,6 @@
 ---
 title: "Ekumbo B. Babby MD. MSc."
+lightbox: true
 image: bbz_zbourg.png
 about:
   template: marquee

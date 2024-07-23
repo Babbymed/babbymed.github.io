@@ -1,0 +1,61 @@
+---
+title: "Profil: Médecin, formateur en Prévention et contrôle des infections | PCI"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+## Présentations et activités scientifiques
+
+En tant que présentateur/Participation dans des séminaires et conférences :
+
+### **2024**
+
+#### Profil de l'antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo
+
+Présentation des résultats de l'étude au cours du **Colloque international One Health 2024** du 28 au 31 Mars à Kinshasa,\
+Diapositives disponibles : ![here](http://www.Colloque%202024%20-%20INOHA%20(ac.cd)){alt="here"}
+
+#### Analyse de l'usage des antipaludiques en Angola, 2015 - 2016
+
+Ekumbo Babby\
+R: Basic Training \| Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)
+
+### **2023**
+
+#### Summer School of International Spring School in Global Health
+
+1.  **Analysing time series data:** Analysing time series data collected with digital technologies
+
+2.  **Impacts of climate change on human health :** Impacts of climate change on human health and future liability
+
+(Trainer: ISGlobal, International Spring School in Global Health, Barcelona/Spain – March, 2023).\
+Plus d-information, voir ici: \![ici\]
+
+### **2021**
+
+### 2019
+
+#### Formation de base en PCI dans le contexte de la maladie à virus Ebola (MVE)
+
+Ekumbo Babby\
+Internation MEdical Corps DR Congo\
+Diapositives disponibles : propriété de l'IMC (voir ici) ![ici](https://internationalmedicalcorps.org/country/democratic-republic-of-congo/){alt="ici"}
+
+### 2017
+
+#### 
+
+### 2016
+
+#### 
+
+### 2005
+
+#### 

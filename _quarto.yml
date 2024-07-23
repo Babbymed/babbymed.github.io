@@ -8,8 +8,10 @@ website:
     left: 
       - text: "Home"
         file: index.qmd
-      - text: "Portfolio"
-        file: portfolio.qmd
+      - text: "Publication"
+        file: publication.qmd
+      - text: "Présentation"
+        file: presentation.qmd
       - text: "CV"
         file: cv.qmd
     right:

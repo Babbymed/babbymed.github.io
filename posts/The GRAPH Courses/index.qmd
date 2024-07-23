@@ -1,0 +1,13 @@
+---
+title: "The GRAPH Courses"
+author: "Babby Zbourg"
+date: "2024-07-13"
+categories: [code, analysis,r]
+image: "image.jpg"
+---
+
+#### Analyse de l'usage des antipaludiques en Angola, 2015 - 2016
+
+#### ![Ekumbo Babby](https://i1.rgstatic.net/ii/profile.image/11431281117445880-1675441698492_Q64/Ekumbo-Babby.jpg){.lightbox alt="Ekumbo Babby" width="30"}[Ekumbo Babby](https://www.researchgate.net/profile/Ekumbo-Babby?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw)
+
+R: Basic Training \| Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)

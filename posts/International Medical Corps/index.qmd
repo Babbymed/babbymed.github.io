@@ -1,0 +1,11 @@
+---
+title: "international MEdical Corpos | IMC"
+author: "Babby Zbourg"
+date: "2024-07-13"
+categories: [analysis]
+image: "image.jpg"
+---
+
+## 2019
+
+#### Formation de base en PCI dans le contexte de la maladie à virus Ebola (MVE)

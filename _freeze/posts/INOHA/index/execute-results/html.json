@@ -1,0 +1,15 @@
+{
+  "hash": "af206821dfefe9e7992f0e074ba70ff5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Institut One Health pour l'Afrique | INOHA\"\nauthor: \"Babby Zbourg\"\ndate: \"2024-07-13\"\ncategories: [info]\nimage: \"image.jpg\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(shiny)\nlibrary(flexdashboard)\nlibrary(shinyWidgets)\n```\n:::\n\n\nL'**Institut One Health pour l’Afrique** en sigle **INOHA** vient de réaliser le lancement officiel de ses activités.\n\n![](images/clipboard-329813831.png)\n\nCe lancement fait suite à la dixième année d'anniversaire de son précurseur, le Master ECOM ALGER (Master en Écologie des Maladies Infectieuses, Gestions du Risque et aléas atures.), qui était un service attaché au Département des Sciences de base dans la faculté de Médecinde l'Université de Kinshasa. La naissance de cette nouvelle intstitution de recherche au sein de la faculté de Médecine de l'Université de Kinshasa **(UNIKIN)** qui a une vocation internationale offrant des enseignements dans le cadre des approches systémiques pour lutter contre les problèmes de santé complèxes qui necessitent des solutions pluridisciplinaires dont le One Health dite \"une Seule Santé\".\\\n\\\nNous avons eu l'opportunité de participer dans ces activités étant donné que l'ECOM ALGER actuel INOHA est notre Alma mater dans le cadre des recherches que nous sommes entrain de réaliser actuellement.\n\nLire plus:\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
