@@ -1,5 +1,5 @@
 ---
-title: "Profil: Médecin, Éco-épidémiologiste de la gestion des risques de maladies infectieuses et Aléas naturels"
+title: "Publications et rédactions scientifiques"
 listing:
   contents: posts
   sort: "date desc"
@@ -11,8 +11,6 @@ page-layout: full
 title-block-banner: true
 lightbox: true
 ---
-
-## Publications et rédactions scientifiques
 
 En tant qu'auteur principal/Directeur ou co-directeur de travail :
 

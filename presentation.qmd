@@ -1,5 +1,5 @@
 ---
-title: "Profil: Médecin, formateur en Prévention et contrôle des infections | PCI"
+title: "Présentations et activités scientifiques"
 listing:
   contents: posts
   sort: "date desc"
@@ -10,8 +10,6 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-## Présentations et activités scientifiques
 
 En tant que présentateur/Participation dans des séminaires et conférences :
 
