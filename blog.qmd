@@ -1,0 +1,31 @@
+---
+title: "Éco-épidémiologie des maladies Infectieuses, Gestions du risque et Aléas Naturels"
+subtitle: "R Data analyse des données de santé"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+**ECOLOGIE DES MALADIES INFECTIEUSES**
+
+Professeur Didier BOMPANGUE
+
+La maladie ne fonctionne pas de façon isolée dans un système. Dans l’approche écologique la maladie est regardée dans ce continuum. Intégrer les concepts de bases par rapport à l’écologie, énoncer les principaux outils et réunir les éléments nécessaires à la conception d’une étude sur une approche écologique (à travers un exemple concret).
+
+Pour tout travail de recherche l’approche est la même : question de recherche, hypothèses, objectifs, matériels et méthodes, résultats et discussion.
+
+Enoncer les principaux outils (statistique).
+
+L’éco-épidémiologie ne se limite pas seulement sur le temps, lieu et espace (‘approche classique de l’épidémiologie), mais on s’occupe aussi de ce qui se passe avant et après l’épidémiologie.
+
+La particularité des approches écologiques est de prendre toutes les disciplines possibles pour répondre à un problème de santé (approche « one health » ou « Socio-Ecological system »), ce n’est pas non plus une juxtaposition des différentes disciplines mais il y une organisation de toutes ces disciplines autour de la question avec un chef d’orchestre qui harmonise les interventions de chaque disciplines sur la question.
+
+Les contraintes dans cette entreprise sont multiples car le monde est très sectorisé et ce statut hybride est une sorte de faiblesse cependant il est important dans la réalisation. Il exige un travail en équipe interdisciplinaire.
+
+D’autres contraintes sont liées aux difficultés à croiser des données (limites des études). Pour arriver à faire le matching des données, les règles de collectes et de production doivent être les mêmes.

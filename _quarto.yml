@@ -12,9 +12,11 @@ website:
         file: publication.qmd
       - text: "Présentation"
         file: presentation.qmd
+      - text: "Blog"
+        file: blog.qmd
+    right:
       - text: "CV"
         file: cv.qmd
-    right:
       - icon: github
         href: https://github.com/babbymed
       - icon: twitter

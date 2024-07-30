@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Babby Zbourg">
-<meta name="dcterms.date" content="2024-07-13">
 
-<title>Babby Ekumbo MD. MSc. - The GRAPH Courses</title>
+<title>Babby Ekumbo MD. MSc. - Éco-épidémiologie des maladies Infectieuses, Gestions du risque et Aléas Naturels</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,19 +68,77 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Babby Ekumbo MD. MSc.</span>
     </a>
   </div>
@@ -94,25 +149,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publication.html"> 
+    <a class="nav-link" href="./publication.html"> 
 <span class="menu-text">Publication</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../presentation.html"> 
+    <a class="nav-link" href="./presentation.html"> 
 <span class="menu-text">Présentation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../cv.html"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -145,59 +200,199 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">The GRAPH Courses</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-                <div class="quarto-category">r</div>
-              </div>
-                  </div>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Éco-épidémiologie des maladies Infectieuses, Gestions du risque et Aléas Naturels</h1>
+            <p class="subtitle lead">R Data analyse des données de santé</p>
+                      </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Babby Zbourg </p>
-            </div>
-    </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">July 13, 2024</p>
-      </div>
-    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="info">info <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
-<section id="analyse-de-lusage-des-antipaludiques-en-angola-2015---2016" class="level4">
-<h4 class="anchored" data-anchor-id="analyse-de-lusage-des-antipaludiques-en-angola-2015---2016">Analyse de l’usage des antipaludiques en Angola, 2015 - 2016</h4>
+<p><strong>ECOLOGIE DES MALADIES INFECTIEUSES</strong></p>
+<p>Professeur Didier BOMPANGUE</p>
+<p>La maladie ne fonctionne pas de façon isolée dans un système. Dans l’approche écologique la maladie est regardée dans ce continuum. Intégrer les concepts de bases par rapport à l’écologie, énoncer les principaux outils et réunir les éléments nécessaires à la conception d’une étude sur une approche écologique (à travers un exemple concret).</p>
+<p>Pour tout travail de recherche l’approche est la même&nbsp;: question de recherche, hypothèses, objectifs, matériels et méthodes, résultats et discussion.</p>
+<p>Enoncer les principaux outils (statistique).</p>
+<p>L’éco-épidémiologie ne se limite pas seulement sur le temps, lieu et espace (’approche classique de l’épidémiologie), mais on s’occupe aussi de ce qui se passe avant et après l’épidémiologie.</p>
+<p>La particularité des approches écologiques est de prendre toutes les disciplines possibles pour répondre à un problème de santé (approche «&nbsp;one health&nbsp;» ou «&nbsp;Socio-Ecological system&nbsp;»), ce n’est pas non plus une juxtaposition des différentes disciplines mais il y une organisation de toutes ces disciplines autour de la question avec un chef d’orchestre qui harmonise les interventions de chaque disciplines sur la question.</p>
+<p>Les contraintes dans cette entreprise&nbsp;sont multiples car le monde est très sectorisé et ce statut hybride est une sorte de faiblesse cependant il est important dans la réalisation. Il exige un travail en équipe interdisciplinaire.</p>
+<p>D’autres contraintes sont liées aux difficultés à croiser des données (limites des études). Pour arriver à faire le matching des données, les règles de collectes et de production doivent être les mêmes.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="info" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721747850413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="271">
+<div class="thumbnail">
+<p><a href="./posts/INOHA/index.html" class="no-external"></a></p><a href="./posts/INOHA/index.html" class="no-external">
+<p><img src="./posts/INOHA/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/INOHA/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/INOHA/index.html" class="no-external">Institut One Health pour l’Afrique | INOHA</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/INOHA/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('info'); return false;">
+info
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/INOHA/index.html" class="no-external">L’<strong>Institut One Health pour l’Afrique</strong> en sigle <strong>INOHA</strong> vient de réaliser le lancement officiel de ses activités.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/INOHA/index.html" class="no-external">
+<div class="listing-date">
+Jul 13, 2024
+</div>
+<div class="listing-author">
+Babby Zbourg
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="analysis" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721748231104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="thumbnail">
+<p><a href="./posts/International Medical Corps/index.html" class="no-external"></a></p><a href="./posts/International Medical Corps/index.html" class="no-external">
+<p><img src="./posts/International Medical Corps/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/International Medical Corps/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/International Medical Corps/index.html" class="no-external">international MEdical Corpos | IMC</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/International Medical Corps/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/International Medical Corps/index.html" class="no-external">
+
+<section id="formation-de-base-en-pci-dans-le-contexte-de-la-maladie-à-virus-ebola-mve" class="level4">
+
+
+
 </section>
-<section id="ekumbo-babbyekumbo-babby" class="level4">
-<h4 class="anchored" data-anchor-id="ekumbo-babbyekumbo-babby"><a href="https://i1.rgstatic.net/ii/profile.image/11431281117445880-1675441698492_Q64/Ekumbo-Babby.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Ekumbo Babby"><img src="https://i1.rgstatic.net/ii/profile.image/11431281117445880-1675441698492_Q64/Ekumbo-Babby.jpg" class="img-fluid" alt="Ekumbo Babby" width="30"></a><a href="https://www.researchgate.net/profile/Ekumbo-Babby?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw">Ekumbo Babby</a></h4>
-<p>R: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)</p>
-
-
-</section>
-
-</main> <!-- /main -->
+</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/International Medical Corps/index.html" class="no-external">
+<div class="listing-date">
+Jul 13, 2024
+</div>
+<div class="listing-author">
+Babby Zbourg
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="code,analysis,r" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721747405634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
+<div class="thumbnail">
+<p><a href="./posts/The GRAPH Courses/index.html" class="no-external"></a></p><a href="./posts/The GRAPH Courses/index.html" class="no-external">
+<p><img src="./posts/The GRAPH Courses/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/The GRAPH Courses/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/The GRAPH Courses/index.html" class="no-external">The GRAPH Courses</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/The GRAPH Courses/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
+r
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/The GRAPH Courses/index.html" class="no-external">R: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/The GRAPH Courses/index.html" class="no-external">
+<div class="listing-date">
+Jul 13, 2024
+</div>
+<div class="listing-author">
+Babby Zbourg
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1720566000000" data-listing-file-modified-sort="1721731458727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail">
+<p><a href="./posts/ISGlobal formation/index.html" class="no-external"></a></p><a href="./posts/ISGlobal formation/index.html" class="no-external">
+<p class="card-img-top"><img src="posts\ISGlobal formation\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/ISGlobal formation/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/ISGlobal formation/index.html" class="no-external">Institut de Saude Global | ISGolbal</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/ISGlobal formation/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/ISGlobal formation/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/ISGlobal formation/index.html" class="no-external">
+<div class="listing-date">
+Jul 10, 2024
+</div>
+<div class="listing-author">
+Ekumbo B. Babby
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -608,31 +803,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
