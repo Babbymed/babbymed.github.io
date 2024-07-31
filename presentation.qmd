@@ -1,14 +1,17 @@
 ---
 title: "Présentations et activités scientifiques"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+about:
+  template: marquee
+  links:
+    - icon: folder
+      text: CV
+      href: cv.qmd
+    - icon: github
+      text: Github
+      href: https://github.com/babbymed
 page-layout: full
 title-block-banner: true
+lightbox: true
 ---
 
 En tant que présentateur/Participation dans des séminaires et conférences :

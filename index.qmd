@@ -5,6 +5,9 @@ image: bbz_zbourg.png
 about:
   template: marquee
   links:
+    - icon: folder
+      text: CV
+      href: cv.qmd
     - icon: twitter
       text: Twitter
       href: https://twitter.com/babbymed
@@ -23,4 +26,4 @@ about:
 
 Il est clinicien hospitalo-universitaire de l'Université de Mbandaka (**UNIMBA**) et formateur certifié en Prévention et Contrôle d’Infections.
 
-Chercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux de l'Université de Mbandaka (**UNIMBA**), en collaboration avec l'Unité d'ornithologie du Département de Biologie à la faculté des Sciences et l'Institut de OneHealth pour l’Afrique (**INOHA**) de l'Université de Kinshasa (**UNIKIN**).
+Chercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux de l'Université de Mbandaka (**UNIMBA**), en collaboration avec l'Unité de Recherche d'Ornithologie du Département de Biologie à la faculté des Sciences, et l'Institut de OneHealth pour l’Afrique (**INOHA**) de l'Université de Kinshasa (**UNIKIN**).

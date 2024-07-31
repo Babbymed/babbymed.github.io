@@ -4,3 +4,12 @@
     background: linear-gradient(to bottom, lightgreen, white);
     border-radius: 4px;
 }
+
+.custom-row {
+  display: flex;
+  flex-direction: row;
+}
+.custom-col {
+  flex: 1;
+  padding: 10px;
+}

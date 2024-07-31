@@ -1,24 +1,6 @@
 [
   {
-    "listing": "/publication.html",
-    "items": [
-      "/posts/INOHA/index.html",
-      "/posts/International Medical Corps/index.html",
-      "/posts/The GRAPH Courses/index.html",
-      "/posts/ISGlobal formation/index.html"
-    ]
-  },
-  {
     "listing": "/blog.html",
-    "items": [
-      "/posts/INOHA/index.html",
-      "/posts/International Medical Corps/index.html",
-      "/posts/The GRAPH Courses/index.html",
-      "/posts/ISGlobal formation/index.html"
-    ]
-  },
-  {
-    "listing": "/presentation.html",
     "items": [
       "/posts/INOHA/index.html",
       "/posts/International Medical Corps/index.html",

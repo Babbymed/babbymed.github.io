@@ -6,7 +6,8 @@ website:
   title: "Babby Ekumbo MD. MSc."
   navbar:
     left: 
-      - text: "Home"
+      - icon: house-fill
+        text: "Home"
         file: index.qmd
       - text: "Publication"
         file: publication.qmd
@@ -15,7 +16,8 @@ website:
       - text: "Blog"
         file: blog.qmd
     right:
-      - text: "CV"
+      - icon: folder
+        text: "CV"
         file: cv.qmd
       - icon: github
         href: https://github.com/babbymed
@@ -29,5 +31,4 @@ format:
   html:
     theme: cyborg
     css: styles.css
-
-
+    
