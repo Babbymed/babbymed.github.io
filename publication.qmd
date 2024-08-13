@@ -17,7 +17,7 @@ title-block-banner: true
 lightbox: true
 ---
 
-##### `En tant qu'auteur principal / Directeur ou co-directeur de travaux publiés`
+##### En tant qu'auteur principal / Directeur ou co-directeur de travaux publiés
 
 ### **2023**
 
@@ -40,7 +40,7 @@ Sur ResearchGate cliquer ici : [here](https://www.researchgate.net/publication/3
 DOI: 10.4236/oalib.1107353\
 Lire cet article ici : [here](#0)
 
-##### `En tant qu'auteur principal / Directeur ou co-directeur de travaux non publiés`
+##### En tant qu'auteur principal / Directeur ou co-directeur de travaux non publiés
 
 ### **2017**
 

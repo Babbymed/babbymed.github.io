@@ -1,0 +1,100 @@
+SITE;Date_prelevement;Kovacs;Gluc;H2S;Lact.;Gaz;CITR.;Especes;MP2;Pi;AM;GEM;TE;CI;CRO
+MAZAMBA;15/07/2021;0;1;0;1;1;1;Levinea;23;;18;15;15;21;26
+MAZAMBA;15/07/2021;1;1;1;1;1;1;Dwarsielle tarda ;23;;18;15;15;21;26
+MAZAMBA;15/07/2021;;;;;;;;;;;;;;
+MAMA YEMO;15/07/2021;0;1;1;1;0;1;Proteus mirabilis;26;17;5;14;9;22;7
+MAMA YEMO;15/07/2021;1;1;1;1;1;0;Dwarsielle tarda ;5;5;8;7;10;14;18
+MAMA YEMO;15/07/2021;0;1;0;1;0;0;Salmonella paratyphi;5;11;5;13;5;14;31
+MAMA YEMO;15/07/2021;1;1;0;1;1;0;Proteus morgani ;;5;5;13;12;11;11
+KIMBONDO;20/07/2021;1;1;0;1;1;1_0;Klebsiella oxytoca;5;5;;17;5;5;6
+KIMBONDO;20/07/2021;0;1;0;0;1;0;Klebsiella pneuminae;5;5;;6;11;22;6
+KIMBONDO;20/07/2021;1;1;1;0;1;0;Salmonella typhi;5;5;;5;6;18;12
+PLATEAU;17/07/2021;0;1;1;1;1;1;Salmonella sp;29;5;5;5;12;5;23
+PLATEAU;17/07/2021;1;1;0;0;0;0;Escherichia alcancensa-dispar;29;5;5;14;13;21;6
+PLATEAU;17/07/2021;0;1;0;1;0;1;Salmonella gallinarum pullorum/Proteus mirabilis;5;5;5;14;11;15;5
+PLATEAU;17/07/2021;1;1;0;0;0;0;Escherichia alcancensa-dispar;31;5;5;13;5;17;23
+PLATEAU;17/07/2021;0;1;1;1;0;1;Proteus mirabilis;19;5;5;6;5;21;5
+PLATEAU;17/07/2021;1;1;0;0;0;0;Escherichia coli (Proteus morgani);27;5;5;9;5;26;8
+PLATEAU;17/07/2021;0;1;0;1;1;1;Levinea;29;5;7;13;5;11;5
+PLATEAU;17/07/2021;0;1;0;1;1;0;Salmonella paratyphi;24;5;5;15;5;21;5
+PLATEAU;17/07/2021;0;1;1;1;1;0;Salmonella typhi;;5;5;18;8;22;28
+PLATEAU;17/07/2021;0;1;0;1;1;0;Salmonella paratyphi;23;5;5;13;5;22;5
+PLATEAU;17/07/2021;0;1;1;1;1;0;Salmonella typhi;24;5;5;5;5;24;5
+PLATEAU;17/07/2021;1;1;1;1;1;1;Dwarsielle tarda;23;5;5;5;5;22;5
+PLATEAU;17/07/2021;1;1;1;1;1;1;Salmonella sp;29;5;5;10;5;16;5
+MASANGA MBILA;25/07/2021;1;1;1;1;1;1;Dwarsielle tarda;14;5;5;14;12;5;5
+MASANGA MBILA;25/07/2021;1;1;1;1;1;1;Dwarsielle tarda;5;5;5;14;6;14;5
+SANS FIL;25/07/2021;1;1;1;1;1;1;Dwarsielle tarda;;5;5;6;5;14;5
+SANS FIL;25/07/2021;1;1;1;1;1;1;Dwarsielle tarda;;5;5;5;12;10;5
+DON BOSCO;23/07/2021;1;1;1;1;1;1;Salmonella sp;16;;5;5;5;20;5
+DON BOSCO;23/07/2021;1;1;1;1;1;1;Salmonella sp;5;;15;6;5;8;5
+DON BOSCO;23/07/2021;1;1;1;0;1;0;Salmonella typhi;5;;5;5;5;32;5
+DON BOSCO;23/07/2021;1;1;1;0;1;0;Salmonella typhi;20;;5;5;14;22;5
+MAMBRE;25/07/2021;1;1;1;1;1;0;Dwarsielle tarda;23;;5;14;12;32;5
+MAMBRE;25/07/2021;1;1;0;0;1;0;Escherichia coli;5;;5;6;5;12;11
+MAMBRE;25/07/2021;1;1;1;1;1;1_0;Providencia;28;;5;6;5;15;18
+MAMBRE;25/07/2021;1;1;1;0;1;0;Proteus vulgaris;28;;5;5;5;20;5
+MAMBRE;25/07/2021;0;1;0;1_0;S;1;Levinea;29;;5;5;5;18;5
+KINDELE;23/07/2021;1;1;0;0;1;0;Klebsiella oxytoca;18;;5;8;6;23;10
+KINDELE;23/07/2021;1;1;0;0;1;0;Klebsiella oxytoca;5;;5;12;5;18;5
+KINDELE;23/07/2021;1;1;0;0;1;0;Klebsiella oxytoca;5;;5;5;5;5;5
+KINDELE;23/07/2021;1;1;0;0;0;0;Escherichia alcascens-dispar;34;;6;12;8;6;7
+KINDELE;23/07/2021;1;1;0;0;1;0;Escherichia coli;26;;5;8;8;7;8
+KINDELE;23/07/2021;1;1;0;0;1;0;Escherichia coli;5;5;;8;8;7;7
+KINDELE;23/07/2021;1;1;0;1;1;0;Escherichia coli;5;18;;9;6;23;10
+KINDELE;23/07/2021;1;1;0;1;1;0;Escherichia coli;5;5;;5;9;5;5
+KINDELE;23/07/2021;;;;;;;;;;;;;;
+PLATEAU;29/07/2021;1;1;1;0;1;1;Providencia;5;5;8;24;5;24;20
+PLATEAU;29/07/2021;1;1;1;1;1;1;Dwarsielle tarda;24;18;5;8;5;29;5
+PLATEAU;29/07/2021;1;1;0;0;0;0;Escherichia alcalcensa-dispar;28;8;5;14;9;6;5
+PLATEAU;29/07/2021;;;;;;;;;;;;;;
+PLATEAU;29/07/2021;1;1;0;0;0;0;Escherichia alcalescens-dispar;24;5;5;13;5;28;5
+PLATEAU;29/07/2021;0;1;0;1;1;1;Levinea;24;7;5;18;7;22;5
+MAZAMBA;17/07/2021;1;1;0;1;0;1;Proteus retgeri;27;;5;23;5;5;17
+MAZAMBA;17/07/2021;1;1;0;1;0;0;Escherichia alcalescens-dispar;18;;5;13;6;21;5
+MAZAMBA;17/07/2021;1;1;0;0;0;0;Escherichia alcalescens-dispar;16;;5;15;5;10;6
+MAZAMBA;17/07/2021;1;1;1;0;0;0;Proteus vulgaris;5;;5;8;5;22;11
+MAZAMBA;17/07/2021;1;1;0;0;0;1;Escherichia coli;24;;5;7;8;11;5
+MAZAMBA;17/07/2021;0;1;1;1;1;1_0;Citrobacter biotipo;5;;5;9;12;22;5
+MAZAMBA;17/07/2021;0;1;1;1;1;2_0;Citrobacter biotipo;24;;5;14;5;6;5
+MAZAMBA;17/07/2021;0;1;1;1;1;1;Citrobacter biotipo;29;;16;14;5;16;5
+MAZAMBA;17/07/2021;0;1;1;1;0;0;Salmonella;24;;5;5;5;24;5
+MAZAMBA;17/07/2021;0;1;1;1;1;1;Salmonella sp;23;;5;5;5;12;6
+MAZAMBA;17/07/2021;0;1;1;1;1;1;Salmonella sp;5;;5;8;5;6;5
+MAZAMBA;17/07/2021;;;;;;;;;;;;;;
+MAMA YEMO;22/07/2021;0;1;1;0;0;0;Salmonella enterica;24;6;5;13;5;5;5
+MAMA YEMO;22/07/2021;0;1;1;0;1;1;Citrobacter freundi;27;8;7;13;8;16;18
+MAMA YEMO;22/07/2021;;;;I;;;;;;;;;;
+MAMA YEMO;22/07/2021;0;1;1;1;1;1;Citrobacter balereup bethesda;25;5;5;20;16;33;24
+MAMA YEMO;22/07/2021;0;1;1;1;0;1;Providencia;;22;5;16;16;16;6
+MAMA YEMO;22/07/2021;1;1;1;1;0;1;Proteus vulgaris;24;6;5;21;5;21;5
+MAMA YEMO;22/07/2021;0;1;1;0;1;1;Salmonella sp;23;22;5;16;6;7;5
+MAMA YEMO;22/07/2021;;;;I;;;;;;;;;;
+MAMA YEMO;22/07/2021;0;1;1;0;1;1;Salmonella sp;28;5;5;9;5;14;12
+MAMA YEMO;22/07/2021;;;;;;;;;;;;;;
+MAMA YEMO;22/07/2021;;;;;;;;;5;23;6;16;5;10
+MAMA YEMO;22/07/2021;0;1;1;1;0;1;Providencia;29;21;14;16;5;23;24
+MAMA YEMO;22/07/2021;;;;;;;;;24;18;22;15;23;26
+MAMA YEMO;22/07/2021;0;1;1;1;1;1;Citrobacter balereup bethesda;23;6;5;7;6;23;5
+MAMA YEMO;22/07/2021;0;1;1;1;0;1;Providencia;24;5;8;5;5;26;5
+KIMBONDO;25/07/2021;0;1;0;0;1;0;Klebsiella pneumoniae;5;17;5;29;5;9;29
+KIMBONDO;25/07/2021;1;1;1;0;0;1;Providencia;29;14;5;22;8;24;15
+KIMBONDO;25/07/2021;0;1;1;1;0;1;Providencia;5;;5;20;8;5;17
+KIMBONDO;25/07/2021;0;1;1;1;1;1;Salmonella sp;5;;6;5;6;15;11
+KIMBONDO;25/07/2021;1;1;0;0;1;1;Klebsiella oxytoca;5;;5;11;6;23;6
+KIMBONDO;27/07/2021;1;1;1;1;1;1;Salmonella sp;12;;5;5;9;22;17
+KIMBONDO;27/07/2021;0;1;0;0;1;1;Klebsiella pneumoniae;5;;5;21;7;8;5
+KIMBONDO;27/07/2021;1;1;1;1;1;0;dwarsielle tarda;10;;6;24;8;22;12
+KIMBONDO;27/07/2021;1;1;1;1;1;0;Dwarsielle tarda;27;;7;20;5;17;9
+KIMBONDO;27/07/2021;1;1;0;1;0;1;Escherichia alcalescens-dispar;23;;9;13;8;18;11
+KIMBONDO;27/07/2021;0;1;0;1;1;1;Levinea;12;5;;19;5;5;5
+KIMBONDO;28/07/2021;0;1;0;0;1;0;Klebsiella pneumoniae;6;5;;5;5;23;5
+KIMBONDO;28/07/2021;1;1;1;1;1;0;dwarsielle tarda;10;8;;6;5;20;7
+KIMBONDO;28/07/2021;0;1;0;1;1;0;Salmonella paratyphi;12;18;;15;7;28;6
+KIMBONDO;28/07/2021;;;;;;;;;;;;;;
+KIMBONDO;28/07/2021;;;;;;;;;;;;;;
+MASANGA MBILA;27/07/2021;1;1;1;0;1;0;Salmonella gallinarum pullorum;12;5;7;5;6;5;5
+MASANGA MBILA;27/07/2021;1;1;1;0;1;0;salmonella gallinarum pullorum;11;6;5;5;9;32;5
+MASANGA MBILA;28/07/2021;0;1;1;1;1;0;Salmonella typhi;24;5;6;5;13;31;11
+MASANGA MBILA;28/07/2021;;;;;;;;;5;6;11;6;5;6
+MASANGA MBILA;28/07/2021;0;1;0;1;1;0;Salmonella paratyphi;24;;7;15;15;31;29

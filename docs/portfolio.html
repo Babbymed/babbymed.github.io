@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Babby Ekumbo MD. MSc. - Publications et rédactions scientifiques</title>
+<title>Babby Ekumbo MD. MSc. - Ecologie des maladies Infectieuses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -65,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -88,29 +149,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-house-fill" role="img">
-</i> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publication.html" aria-current="page"> 
-<span class="menu-text">Publication</span></a>
+    <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
+<span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./presentation.html"> 
-<span class="menu-text">Présentation</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> <i class="bi bi-folder" role="img">
-</i> 
-<span class="menu-text">CV</span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/babbymed"> <i class="bi bi-github" role="img">
 </i> 
@@ -141,102 +192,116 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Publications et rédactions scientifiques</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Ecologie des maladies Infectieuses</h1>
                       </div>
   </div>
-  <div class="quarto-title-meta column-page">
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
     </div>
+    
+  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-marquee content column-page">
-  <div class="about-image-container">
-  </div>
-  <div class="about-contents">
-     <main class="content quarto-banner-title-block column-page" id="quarto-document-content">
-<section id="en-tant-quauteur-principal-directeur-ou-co-directeur-de-travaux-publiés" class="level5">
-<h5 data-anchor-id="en-tant-quauteur-principal-directeur-ou-co-directeur-de-travaux-publiés">En tant qu’auteur principal / Directeur ou co-directeur de travaux publiés</h5>
-</section>
-<section id="section" class="level3">
-<h3 data-anchor-id="section"><strong>2023</strong></h3>
-</section>
-<section id="profil-de-lantibiorésistance-du-microbiote-intestinal-des-poules-gallus-domesticus-errantes-dans-la-commune-de-mont-ngafula-à-kinshasa-rd-du-congo" class="level2">
-<h2 data-anchor-id="profil-de-lantibiorésistance-du-microbiote-intestinal-des-poules-gallus-domesticus-errantes-dans-la-commune-de-mont-ngafula-à-kinshasa-rd-du-congo">Profil de l’antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo</h2>
-<p><img src="images/IMG_20211014_105044_739.jpg" class="img-fluid" width="284"> <img src="images/IMG_20210824_145021_341.jpg" class="img-fluid" width="160"> <img src="images/IMG_20210824_145958_883.jpg" class="img-fluid" width="160"> <img src="images/IMG_20210826_133652_188.jpg" width="160" height="213"> <img src="images/IMG_20210825_171606_188.jpg" width="250" height="213"></p>
-<p><a href="https://www.researchgate.net/profile/Ekumbo-Babby?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw">Ekumbo Babby</a><br>
-Avec : <a href="https://www.researchgate.net/scientific-contributions/Bompangue-Didier-2242362573?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlSGVhZGVyIn19">Bompangue Didier</a>, <a href="https://www.researchgate.net/profile/Sylvie-Mireille-Bambi?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlSGVhZGVyIn19">Sylvie-Mireille Bambi</a> &amp; <a href="https://www.researchgate.net/profile/Robert-Kisasa?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlSGVhZGVyIn19">Robert Kisasa</a><br>
-Journal of Applied Biosciences 181:18941-18961<br>
-Sur ResearchGate cliquer ici : <a href="https://www.researchgate.net/publication/367557205_Profil_de_l'antibioresistance_du_microbiote_intestinal_des_poules_Gallus_domesticus_errantes_dans_la_commune_de_Mont-Ngafula_a_Kinshasa_RD_du_Congo">here</a></p>
-<section id="section-1" class="level3">
-<h3 data-anchor-id="section-1"><strong>2021</strong></h3>
-</section>
-</section>
-<section id="bacterial-pathogens-in-cattle-egret-bubulcus-ibis-and-pied-crow-corvus-albus-in-kinshasa-democratic-republic-of-the-congo" class="level2">
-<h2 data-anchor-id="bacterial-pathogens-in-cattle-egret-bubulcus-ibis-and-pied-crow-corvus-albus-in-kinshasa-democratic-republic-of-the-congo">Bacterial Pathogens in Cattle Egret (Bubulcus ibis) and Pied Crow (Corvus albus) in Kinshasa, Democratic Republic of the Congo</h2>
-<p><img src="images/kisasa.jpeg" width="178" height="213"> <img src="images/IMG_20210824_145021_341.jpg" class="img-fluid" width="160"> <img src="images/croissance.png" width="160" height="213"> <img src="images/Regime11.png" width="250" height="213"><img src="images/maxresdefault.jpg" width="206" height="213"></p>
-<p><a href="https://www.researchgate.net/profile/Robert-Kisasa?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIiwicG9zaXRpb24iOiJwYWdlSGVhZGVyIn19">Robert Kisasa</a> <a href="https://www.researchgate.net/profile/Ekumbo-Babby?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw">Ekumbo Babby</a><br>
-DOI: 10.4236/oalib.1107353<br>
-Lire cet article ici : <a href="#0">here</a></p>
-<section id="en-tant-quauteur-principal-directeur-ou-co-directeur-de-travaux-non-publiés" class="level5">
-<h5 data-anchor-id="en-tant-quauteur-principal-directeur-ou-co-directeur-de-travaux-non-publiés">En tant qu’auteur principal / Directeur ou co-directeur de travaux non publiés</h5>
-</section>
-<section id="section-2" class="level3">
-<h3 data-anchor-id="section-2"><strong>2017</strong></h3>
-</section>
-</section>
-<section id="prise-en-charge-des-hémorragies-au-3ème-trimestre-de-la-grossesse-cas-de-lhôpital-général-de-wangata-en-2017" class="level2">
-<h2 data-anchor-id="prise-en-charge-des-hémorragies-au-3ème-trimestre-de-la-grossesse-cas-de-lhôpital-général-de-wangata-en-2017">Prise en charge des hémorragies au 3ème trimestre de la grossesse, cas de l’Hôpital Général de Wangata en 2017</h2>
-<p><strong>Co-Directeur de travail de fin de cycle (TFC) :</strong> pour l’obtention du titre de diplôme de Médecine Général, Chirurgie et accouchement à l’Université de Mbandaka <strong>(UNIMBA).<br>
-Auteurs:</strong><br>
-Travail non publié</p>
-<section id="section-3" class="level3">
-<h3 data-anchor-id="section-3"><strong>2015</strong></h3>
-</section>
-</section>
-<section id="détermination-des-causes-du-cas-dhémorragie-du-post-partum-du-csr-muanda-a-année-2015" class="level2">
-<h2 data-anchor-id="détermination-des-causes-du-cas-dhémorragie-du-post-partum-du-csr-muanda-a-année-2015">Détermination des causes du cas d’hémorragie du post-partum du CSR Muanda A année 2015</h2>
-<p><strong>Directeur de travail de fin de cycle (TFC) :</strong> pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016.<br>
-<strong>Auteur:</strong> Mathy NGOMA<br>
-Travail non publié</p>
-<section id="section-4" class="level3">
-<h3 data-anchor-id="section-4"><strong>2015</strong></h3>
-</section>
-</section>
-<section id="prise-en-charge-des-hémorragies-au-3ème-trimestre-de-grossesse-dans-le-cas-csr-muanda-a-en-2015." class="level2">
-<h2 data-anchor-id="prise-en-charge-des-hémorragies-au-3ème-trimestre-de-grossesse-dans-le-cas-csr-muanda-a-en-2015.">Prise en charge des hémorragies au 3ème trimestre de grossesse dans le cas CSR Muanda A en 2015.</h2>
-<p><strong>Directeur de travail de fin de cycle (TFC) :</strong> pour l’obtention du titre d’infirmière sage-femme, ISETC Muanda, année académique 2015 - 2016<br>
-<strong>Auteur:</strong> Arlette MAZEBI<br>
-Travail non publié</p>
-<section id="section-5" class="level3">
-<h3 data-anchor-id="section-5"><strong>2005</strong></h3>
-</section>
-</section>
-<section id="profil-clinique-de-lalcoolisme-du-point-de-vue-des-lésions-digestives-à-mbandaka-année-2004." class="level2">
-<h2 data-anchor-id="profil-clinique-de-lalcoolisme-du-point-de-vue-des-lésions-digestives-à-mbandaka-année-2004.">Profil clinique de l’alcoolisme du point de vue des lésions digestives à Mbandaka année 2004.</h2>
-<p>Travaild e Fin de cycle (TFC) pour l’obtention du titre de diplômé en Sciences Biomédicales, au Centre Universitaire de Mbandaka extension de l’UNIKIN (actuelle Université de Mbandaka).<br>
-<strong>Co-redacteur:</strong> <a href="https://www.researchgate.net/profile/Ekumbo-Babby?_sg%5B0%5D=_ou_kewkaZah9pExn-L05__GaiuCZnNtNIr08qiMdPlmo-tNB9fdm2MDrvwqESZNZQlO0FI.7uqgDbWclrPN1g62ZAdKo1w-9DdgXZMkX100ZMHnTxElFogi-sA1mkFZPwWVf6cI3ht3kfSxMgkALEjG73gTJg&amp;_sg%5B1%5D=eXusPhYRDatc6HEpPb4jH67c3sj4g1Fur8YFOW-PRspF31TQFo5Q0VFsFVNZ20iqSGdcEaE.islw189OJXfqbC4CRSqwGcxfjE16yI3qooW44KC6FsIcXlZbiEULH3ZtLS5WM9y9ckLIXKUCcjYg7hx94VfLRw">Ekumbo Babby</a>, Gbeffa N. Delly, Mbadi M. Jacques<br>
-Travail non publié</p>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</section>
-</main> 
-    <div class="about-footer"><div class="about-links">
-  <a href="/cv.html" class="about-link" rel="" target="">
-    <i class="bi bi-folder"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-  <a href="https://github.com/babbymed" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="code,analysis,r" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1720874888927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+<div class="thumbnail">
+<p><a href="./posts/post-with-code/index.html" class="no-external"></a></p><a href="./posts/post-with-code/index.html" class="no-external">
+<p><img src="./posts/post-with-code/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/post-with-code/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/post-with-code/index.html" class="no-external">Analyse des données de DHS</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/post-with-code/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
+code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
+analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
+r
 </div>
 </div>
-  </div>
+<div class="listing-description">
+<a href="./posts/post-with-code/index.html" class="no-external">This is was a project using DHS data, you can find more here</a>
 </div>
- <!-- /main -->
+</div>
+<div class="metadata">
+<a href="./posts/post-with-code/index.html" class="no-external">
+<div class="listing-date">
+Jul 13, 2024
+</div>
+<div class="listing-author">
+Babby Zbourg
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1720566000000" data-listing-file-modified-sort="1720874144537" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="thumbnail">
+<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
+<p class="card-img-top"><img src="posts\welcome\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/welcome/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/welcome/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/welcome/index.html" class="no-external">
+<div class="listing-date">
+Jul 10, 2024
+</div>
+<div class="listing-author">
+Ekumbo B. Babby
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -257,6 +322,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

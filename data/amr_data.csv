@@ -1,0 +1,98 @@
+SITE,Especes,Genre,Meropenem,Piperacilline,Ampicilline,Gentamycine,Tetracyclyne,Ciprofloxacine,Ceftriaxone
+MAZAMBA,Enterbacter clocae,Klebsielleae,23,NA,5,15,15,21,26
+MAZAMBA,Edwardsiella tarda,Escherichiae,23,NA,18,15,15,21,26
+MAMA YEMO,Proteus mirabilis,Proteae,26,17,5,14,9,22,7
+MAMA YEMO,Edwardsiella tarda tipo 1,Escherichiae,5,5,8,7,10,14,18
+MAMA YEMO,Escherichia coli inactive,Escherichiae,5,11,5,13,5,14,31
+MAMA YEMO,Escherichia coli,Escherichiae,NA,5,5,13,12,11,11
+KIMBONDO,Klebsiella oxytoca,Klebsielleae,5,5,NA,17,5,5,6
+KIMBONDO,Klebsiella rhinoscleromatis,Klebsielleae,5,5,NA,6,11,22,6
+KIMBONDO,Edwardsiella tarda,Escherichiae,5,5,NA,5,6,18,12
+PLATEAU,Salmonella sp,Salmonelleae,29,5,5,5,12,5,23
+PLATEAU,Escherichia alcancensa-dispar,Escherichiae,29,5,5,14,13,21,6
+PLATEAU,Salmonella gallinarum pullorum,Salmonelleae,5,5,5,14,11,15,5
+PLATEAU,Escherichia alcancensa-dispar,Escherichiae,31,5,5,13,5,17,23
+PLATEAU,Proteus mirabilis,Proteae,19,5,5,6,5,21,5
+PLATEAU,Escherichia alcancensa-dispar,Escherichiae,27,5,5,9,5,26,8
+PLATEAU,Klebsiella pneumoniae,Klebsielleae,29,5,7,13,5,11,5
+PLATEAU,Salmonella sp,Salmonelleae,24,5,5,15,5,21,5
+PLATEAU,Salmonella gallinarum pullorum,Salmonelleae,NA,5,5,18,8,22,28
+PLATEAU,Salmonella sp,Salmonelleae,23,5,5,13,5,22,5
+PLATEAU,Salmonella gallinarum pullorum,Salmonelleae,24,5,5,5,5,24,5
+PLATEAU,Edwardsiella tarda,Escherichiae,23,5,5,5,5,22,5
+PLATEAU,Salmonella sp,Salmonelleae,29,5,5,10,5,16,5
+MASANGA MBILA,Edwardsiella tarda,Escherichiae,14,5,5,14,12,5,5
+MASANGA MBILA,Edwardsiella tarda,Escherichiae,5,5,5,14,6,14,5
+SANS FIL,Edwardsiella tarda,Escherichiae,NA,5,5,6,5,14,5
+SANS FIL,Edwardsiella tarda,Escherichiae,NA,5,5,5,12,10,5
+DON BOSCO,Salmonella sp,Salmonelleae,16,NA,5,5,5,20,5
+DON BOSCO,Salmonella sp,Salmonelleae,5,NA,15,6,5,8,5
+DON BOSCO,Edwardsiella tarda,Escherichiae,5,NA,5,5,5,32,5
+DON BOSCO,Edwardsiella tarda,Escherichiae,20,NA,5,5,14,22,5
+MAMBRE,Edwardsiella tarda,Escherichiae,23,NA,5,14,12,32,5
+MAMBRE,Escherichia coli,Escherichiae,5,NA,5,6,5,12,11
+MAMBRE,Edwardsiella tarda,Escherichiae,28,NA,5,6,5,15,18
+MAMBRE,Morganella morganii 1,Proteae,28,NA,5,5,5,20,5
+MAMBRE,Enterobacter cloacae,Klebsielleae,29,NA,5,5,5,18,5
+KINDELE,Escherichia coli,Escherichiae,18,NA,5,8,6,23,10
+KINDELE,Escherichia coli,Escherichiae,5,NA,5,12,5,18,5
+KINDELE,Escherichia coli,Escherichiae,5,NA,5,5,5,5,5
+KINDELE,Escherichia alcascens-dispar,Escherichiae,34,NA,6,12,8,6,7
+KINDELE,Escherichia coli,Escherichiae,26,NA,5,8,8,7,8
+KINDELE,Escherichia coli,Escherichiae,5,5,NA,8,8,7,7
+KINDELE,Proteus morgani,Proteae,5,18,NA,9,6,23,10
+KINDELE,Proteus morgani,Proteae,5,5,NA,5,9,5,5
+PLATEAU,Citrobacter freundii,Salmonelleae,5,5,8,24,5,24,20
+PLATEAU,Edwardsiella tarda,Escherichiae,24,18,5,8,5,29,5
+PLATEAU,Escherichia alcalcensa-dispar,Escherichiae,28,8,5,14,9,6,5
+PLATEAU,Escherichia alcalcensa-dispar,Escherichiae,24,5,5,13,5,28,5
+PLATEAU,Enterbacter clocae,Klebsielleae,24,7,5,18,7,22,5
+MAZAMBA,Proteus retgeri,Proteae,27,NA,5,23,5,5,17
+MAZAMBA,Escherichia alcalescens-dispar,Escherichiae,18,NA,5,13,6,21,5
+MAZAMBA,Escherichia alcalescens-dispar,Escherichiae,16,NA,5,15,5,10,6
+MAZAMBA,Morganella morganii 1,Proteae,5,NA,5,8,5,22,11
+MAZAMBA,Providencia alcalifaciens,Proteae,24,NA,5,7,8,11,5
+MAZAMBA,Citrobacter biotipo,Salmonelleae,5,NA,5,9,12,22,5
+MAZAMBA,Citrobacter biotipo,Salmonelleae,24,NA,5,14,5,6,5
+MAZAMBA,Citrobacter biotipo,Salmonelleae,29,NA,16,14,5,16,5
+MAZAMBA,Salmonella gallinarum pullorum,Salmonelleae,24,NA,5,5,5,24,5
+MAZAMBA,Salmonella sp,Salmonelleae,23,NA,5,5,5,12,6
+MAZAMBA,Salmonella sp,Salmonelleae,5,NA,5,8,5,6,5
+MAMA YEMO,Salmonella gallinarum pullorum,Salmonelleae,24,6,5,13,5,5,5
+MAMA YEMO,Citrobacter freundi,Salmonelleae,27,8,7,13,8,16,18
+MAMA YEMO,Citrobacter balereup bethesda,Salmonelleae,25,5,5,20,16,33,24
+MAMA YEMO,Proteus mirabilis,Proteae,NA,22,5,16,16,16,6
+MAMA YEMO,Proteus vulgaris,Proteae,24,6,5,21,5,21,5
+MAMA YEMO,Salmonella sp,Salmonelleae,23,22,5,16,6,7,5
+MAMA YEMO,Salmonella sp,Salmonelleae,28,5,5,9,5,14,12
+MAMA YEMO,Proteus mirabilis,Proteae,29,21,14,16,5,23,24
+MAMA YEMO,Salmonella sp,Salmonelleae,23,6,5,7,6,23,5
+MAMA YEMO,Proteus mirabilis,Proteae,24,5,8,5,5,26,5
+KIMBONDO,Escherichia coli inactive,Escherichiae,5,17,5,29,5,9,29
+KIMBONDO,Citrobacter freundii,Salmonelleae,29,14,5,22,8,24,15
+KIMBONDO,Proteus mirabilis,Proteae,5,NA,5,20,8,5,17
+KIMBONDO,Salmonella sp,Salmonelleae,5,NA,6,5,6,15,11
+KIMBONDO,Klebsiella oxytoca,Klebsielleae,5,NA,5,11,6,23,6
+KIMBONDO,Edwardsiella tarda,Escherichiae,12,NA,5,5,9,22,17
+KIMBONDO,Klebsiella pneumoniae,Klebsielleae,5,NA,5,21,7,8,5
+KIMBONDO,Edwardsiella tarda,Escherichiae,10,NA,6,24,8,22,12
+KIMBONDO,Edwardsiella tarda,Escherichiae,27,NA,7,20,5,17,9
+KIMBONDO,Escherichia alcalescens-dispar,Escherichiae,23,NA,9,13,8,18,11
+KIMBONDO,Enterbacter clocae,Klebsielleae,12,5,NA,19,5,5,5
+KIMBONDO,Klebsiella rhinoscleromatis,Klebsielleae,6,5,NA,5,5,23,5
+KIMBONDO,Edwardsiella tarda tipo 1,Escherichiae,10,8,NA,6,5,20,7
+KIMBONDO,Salmonella sp,Salmonelleae,12,18,NA,15,7,28,6
+MASANGA MBILA,Morganella morganii 1,Proteae,12,5,7,5,6,5,5
+MASANGA MBILA,Morganella morganii 1,Proteae,11,6,5,5,9,32,5
+MASANGA MBILA,Salmonella gallinarum pullorum,Salmonelleae,24,5,6,5,13,31,11
+MASANGA MBILA,Salmonella sp,Salmonelleae,24,NA,7,15,15,31,29
+ANTENNE,Edwardsiella tarda tipo 1,Escherichiae,12,5,NA,16,5,24,5
+ANTENNE,Proteus vulgaris,Proteae,26,5,NA,13,5,26,25
+ANTENNE,Edwardsiella tarda tipo 1,Escherichiae,9,5,NA,5,5,14,5
+ANTENNE,Proteus vulgaris,Proteae,11,5,NA,5,5,11,5
+ANTENNE,Salmonella sp,Salmonelleae,10,5,NA,14,5,29,5
+ANTENNE,Salmonella sp,Salmonelleae,6,8,NA,6,5,14,12
+ANTENNE,Proteus vulgaris,Proteae,12,6,NA,14,5,31,5
+ANTENNE,Proteus vulgaris,Proteae,5,5,NA,14,5,32,6
+ANTENNE,Salmonella sp,Salmonelleae,5,5,NA,6,5,5,5
+ANTENNE,Salmonella sp,Salmonelleae,12,5,NA,14,5,5,18
