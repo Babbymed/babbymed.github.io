@@ -28,7 +28,18 @@ website:
       - icon: facebook
         href: https://facebook.com
 format:
-  html:
-    theme: cyborg
+  html: 
+    theme: cyborg 
     css: styles.css
+grid:
+    sidebar-width: 300px
+    body-width: 900px
+    margin-width: 300px
+    gutter-width: 1.5rem
     
+    
+#format:
+#  html:
+#    theme:
+#      light: flatly
+#      dark: darkly

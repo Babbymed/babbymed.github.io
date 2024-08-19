@@ -1,9 +1,32 @@
 ---
 title: "Ekumbo B. Babby MD. MSc."
+lang: fr 
+language:
+  en:
+    title-block-published: "Updated"
+  fr:
+    title-block-published: "Mis à jour"
+body-header: | 
+  This page brought to you by <https://Babbymed.github.io>
+#margin-header: |
+ # ![Logo image](/IMG_20210729_070847_011.jpg)
+#page-footer:
+##  left: "Copyright 2024, Ekumbo Babby" 
+##  border: false
+# # background: light
+announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
 lightbox: true
 image: bbz_zbourg.png
 about:
-  template: marquee
+  template: trestles
+  #image-width: 
+  image-shape: rectangle
+  image-title: "Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021"
   links:
     - icon: folder
       text: CV
@@ -20,6 +43,10 @@ about:
     - icon: facebook
       text: facebook
       href: https://facebook.com
+cookie-consent:
+    type: express
+    style: headline
+    palette: dark
 ---
 
 ***Dr. EKUMBO B. Babby*** est un médecin, éco-épidémiologiste des maladies infectieuses, gestion du risque et aléas naturels.

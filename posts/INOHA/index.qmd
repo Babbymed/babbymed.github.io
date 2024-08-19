@@ -2,6 +2,7 @@
 title: "Institut One Health pour l'Afrique | INOHA"
 author: "Babby Zbourg"
 date: "2024-07-13"
+description: "Post description"
 categories: [info]
 image: "image.jpg"
 ---
