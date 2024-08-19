@@ -23,7 +23,7 @@ announcement:
 lightbox: true
 image: bbz_zbourg.png
 about:
-  template: trestles
+  template: marquee  #trestles, jolla
   #image-width: 
   image-shape: rectangle
   image-title: "Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021"

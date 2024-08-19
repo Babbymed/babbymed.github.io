@@ -38,9 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -147,18 +144,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
+<div class="quarto-about-marquee content">
+  <div class="about-image-container">
     <img src="bbz_zbourg.png" class="about-image
-  rectangle " style="width: 20em;" title="Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021">
-<header id="title-block-header" class="quarto-title-block default">
+  rectangle " style="width: 100%;" title="Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021">
+  </div>
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Ekumbo B. Babby MD. MSc.</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header>
-    <div class="about-links">
+</header> <main class="content" id="quarto-document-content">
+<p><strong><em>Dr.&nbsp;EKUMBO B. Babby</em></strong> est un médecin, éco-épidémiologiste des maladies infectieuses, gestion du risque et aléas naturels.</p>
+<p>Il est clinicien hospitalo-universitaire de l’Université de Mbandaka (<strong>UNIMBA</strong>) et formateur certifié en Prévention et Contrôle d’Infections.</p>
+<p>Chercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux de l’Université de Mbandaka (<strong>UNIMBA</strong>), en collaboration avec l’Unité de Recherche d’Ornithologie du Département de Biologie à la faculté des Sciences, et l’Institut de OneHealth pour l’Afrique (<strong>INOHA</strong>) de l’Université de Kinshasa (<strong>UNIKIN</strong>).</p>
+
+
+</main> 
+    <div class="about-footer"><div class="about-links">
   <a href="/cv.html" class="about-link" rel="" target="">
     <i class="bi bi-folder"></i>
      <span class="about-link-text">CV</span>
@@ -180,25 +185,8 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">facebook</span>
   </a>
 </div>
+</div>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><strong><em>Dr.&nbsp;EKUMBO B. Babby</em></strong> est un médecin, éco-épidémiologiste des maladies infectieuses, gestion du risque et aléas naturels.</p>
-<p>Il est clinicien hospitalo-universitaire de l’Université de Mbandaka (<strong>UNIMBA</strong>) et formateur certifié en Prévention et Contrôle d’Infections.</p>
-<p>Chercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux de l’Université de Mbandaka (<strong>UNIMBA</strong>), en collaboration avec l’Unité de Recherche d’Ornithologie du Département de Biologie à la faculté des Sciences, et l’Institut de OneHealth pour l’Afrique (<strong>INOHA</strong>) de l’Université de Kinshasa (<strong>UNIKIN</strong>).</p>
-<div id="ppc">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="IMG_20210729_070847_011.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="BBZ"><img src="IMG_20210729_070847_011.jpg" class="img-fluid figure-img" width="104" alt="BBZ"></a></p>
-<figcaption>BBZ</figcaption>
-</figure>
-</div>
-</div>
-
-
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">BBZ</span>
-</div>
-</main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,31 +592,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

@@ -29,8 +29,12 @@ website:
         href: https://facebook.com
 format:
   html: 
-    theme: cyborg 
+    theme: cyborg # quartz--Dr pitra
     css: styles.css
+mainfont: "'Libre Franklin', sans" 
+fontcolor: "#B1CDBD"
+linkcolor: "#4844B1"
+monofont: courrier new
 grid:
     sidebar-width: 300px
     body-width: 900px
