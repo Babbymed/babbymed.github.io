@@ -1,9 +1,22 @@
 project:
   type: website
   output-dir: "docs"
+  resources:
+    - keybase.txt
+    - resume.pdf
+    - cv.pdf
 
 website:
   title: "Babby Ekumbo MD. MSc."
+  site-url: https://babbymed.github.io
+  description: "Écologie, Épidémiologie et Data analyses"
+  open-graph:
+    locale: fr
+  twitter-card:
+    creator: "babbymed"
+  comments:
+    utterances:
+      repo: babbymed/bbz.dev
   navbar:
     left: 
       - icon: house-fill
@@ -27,19 +40,25 @@ website:
         href: https://linkedin.com
       - icon: facebook
         href: https://facebook.com
+page-footer:
+    left: "© Copyright 2024 Ekumbo Babby. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
 format:
-  html: 
-    theme: cyborg # quartz--Dr pitra
+  html:
+    theme: [superhero, _variables.scss]
     css: styles.css
-mainfont: "'Libre Franklin', sans" 
-fontcolor: "#B1CDBD"
-linkcolor: "#4844B1"
-monofont: courrier new
-grid:
-    sidebar-width: 300px
-    body-width: 900px
-    margin-width: 300px
-    gutter-width: 1.5rem
+    
+ 
+    
+    
+#mainfont: "'operator ultra italique', sans" 
+#fontcolor: "#7E9372"
+#linkcolor: "#525878"
+#monofont: courrier new
+#grid:
+   # sidebar-width: 300px
+   # body-width: 900px
+    #margin-width: 300px
+    #gutter-width: 1.5rem
     
     
 #format:
