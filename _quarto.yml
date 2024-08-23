@@ -44,11 +44,9 @@ page-footer:
     left: "© Copyright 2024 Ekumbo Babby. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
 format:
   html:
-    theme: [superhero, _variables.scss]
+    theme: superhero  #[superhero, _variables.scss]
     css: styles.css
-    
- 
-    
+
     
 #mainfont: "'operator ultra italique', sans" 
 #fontcolor: "#7E9372"

@@ -2,11 +2,12 @@
 title: "Éco-épidémiologie des maladies Infectieuses, Gestions du risque et Aléas Naturels"
 subtitle: "R Data analyse des données de santé"
 abstract: |
-  Approche écologique : La maladie est vue dans un continuum écologique, intégrant divers concepts et outils pour concevoir des études.
-  Méthodologie de recherche : Inclut question de recherche, hypothèses, objectifs, matériels et méthodes, résultats et discussion.
-  Éco-épidémiologie : Va au-delà du temps, lieu et espace, en intégrant ce qui se passe avant et après l’épidémiologie.
-  Interdisciplinarité : Utilise toutes les disciplines possibles pour répondre à un problème de santé, nécessitant une organisation harmonisée et un travail en équipe interdisciplinaire. 
-abstract-title: "Résumé"
+   L’approche écologique de l’épidémiologie des maladies infectieuses considère la maladie dans un continuum, en intégrant divers concepts et outils écologiques pour concevoir des études sur l’incidence et la prévalence des maladies au sein de la population. 
+   
+   Sa méthodologie de recherche inclut les étapes classiques de la recherche selon l’IMRAD (question de recherche, hypothèses, objectifs, matériaux et méthodes, résultats et discussion). Cependant, au-delà des dimensions temporelles (présent), spatiales et géographiques, elle approfondit la notion de temps en y intégrant les dimensions temporelles antérieures et postérieures à l’épidémie. 
+   
+   Elle utilise toutes les disciplines possibles pour répondre à un problème de santé, nécessitant une organisation harmonisée ainsi qu’un travail d’équipe interdisciplinaire. 
+abstract-title: "L’approche écologique de l’épidémiologie"
 listing:
   contents: posts
   sort: "date desc"
@@ -32,10 +33,13 @@ id: ppc
 **ECOLOGIE DES MALADIES INFECTIEUSES**
 
 ::: {#ppc}
-![Professeur Didier Bompangue recevant la parole auprès du Professeur MUYEMBE](images/bompague.jpg){width="635"}
+![INOHA, Grands-Témoins](images/bompague.jpg){fig-alt="Professeur Didier Bompangue recevant la parole auprès du Professeur MUYEMBE lors d'une prédéfense des grands-témoins" fig-align="left" width="266"}
 :::
 
-Professeur **Didier BOMPANGUE**
+::: callout-note
+## Didier Bompangue MD. PhD
+
+<div>
 
 La maladie ne fonctionne pas de façon isolée dans un système. Dans l’approche écologique la maladie est regardée dans ce continuum. Intégrer les concepts de bases par rapport à l’écologie, énoncer les principaux outils et réunir les éléments nécessaires à la conception d’une étude sur une approche écologique (à travers un exemple concret).
 
@@ -50,3 +54,6 @@ La particularité des approches écologiques est de prendre toutes les disciplin
 Les contraintes dans cette entreprise sont multiples car le monde est très sectorisé et ce statut hybride est une sorte de faiblesse cependant il est important dans la réalisation. Il exige un travail en équipe interdisciplinaire.
 
 D’autres contraintes sont liées aux difficultés à croiser des données (limites des études). Pour arriver à faire le matching des données, les règles de collectes et de production doivent être les mêmes.
+
+</div>
+:::

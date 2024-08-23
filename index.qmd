@@ -68,7 +68,7 @@ Avec l'entrainement, je suis datanalyste qui se spécialise dans les analyses de
 
 Mon travail implique la médecine clinique, la formation en prévention et contrôle des infections, ainsi que l'utilisation d'outils logiciels tels que R Studio pour analyser les données statistiques. Mon objectif est d'élaborer des modèles de prédiction pour mieux comprendre l'antibiorésistance dans différents environnements, allant du milieu hospitalier à la communauté. J'utilise également QGIS et R Markdown ou Quarto pour faciliter la visualisation et la reproduction des environnements de recherche, et R Shiny dans la création des applications utiles dans la recherche et dans la pratique clinique routinière.
 
-### **Background**
+## **Background**
 
 Je suis médecin, avec Master en science en Éco-Épidémiologie des maladies infectieuses, gestion du risque et aléas naturels.
 

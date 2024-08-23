@@ -1,58 +1,68 @@
 ---
 title: "Présentations et activités scientifiques"
-listing:
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+about:
+  template: marquee
+  links:
+    - icon: folder
+      text: CV
+      href: cv.qmd
+    - icon: github
+      text: Github
+      href: https://github.com/babbymed
 page-layout: full
+format:
+  html:
+    css: styles.css
 title-block-banner: true
+lightbox: true
+back-to-top-navigation: true
+page-footer:
+  left: "Copyright 2024, Ekumbo Babby" 
+  border: false
+  background: light
+sidebar:
+    style: "docked"
+    width: 100
+    search: true
+    contents:
+      - section: "Basics"
+        contents:
+          - index.qmd
+          - basics-jupyter.md
 ---
 
-En tant que présentateur/Participation dans des séminaires et conférences :
+[*En tant que présentateur/Participation dans des séminaires et conférences :*]{.underline}
 
-### **2024**
+::: panel-tabset
+## 2024
 
-#### Profil de l'antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| #### Profil de l'antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo | -   Présentation des résultats de l'étude au cours du **Colloque international One Health 2024** du 28 au 31 Mars à Kinshasa,\ |
+|                                                                                                                                                             |     **INOHA 2024**, Univcersité de Kinshasa (UNIKIN)                                                                           |
+|                                                                                                                                                             |                                                                                                                                |
+|                                                                                                                                                             | -   Diapositives disponibles : [here](http://www.Colloque%202024%20-%20INOHA%20(ac.cd)){alt="here"}                            |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| #### Analyse de l'usage des antipaludiques en Angola, 2015 - 2016                                                                                           | -   Ekumbo Babby\                                                                                                              |
+|                                                                                                                                                             |     R: Basic Training \| Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)          |
+|                                                                                                                                                             | -   Diapositives disponibles : [here](http://babbymed.github.io/)                                                              |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 
-Présentation des résultats de l'étude au cours du **Colloque international One Health 2024** du 28 au 31 Mars à Kinshasa,\
-Diapositives disponibles : ![here](http://www.Colloque%202024%20-%20INOHA%20(ac.cd)){alt="here"}
+: Présentations
 
-#### Analyse de l'usage des antipaludiques en Angola, 2015 - 2016
+## 2023
 
-Ekumbo Babby\
-R: Basic Training \| Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)
++--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| #### Summer School of International Spring School in Global Health                                                 | Trainer: ISGlobal, International Spring School in Global Health, Barcelona/Spain – March, 2023). |
+|                                                                                                                    |                                                                                                  |
+| 1.  **Analysing time series data:** Analysing time series data collected with digital technologies                 | Plus d-information, voir ici: \[ici\]                                                            |
+|                                                                                                                    |                                                                                                  |
+| 2.  **Impacts of climate change on human health :** Impacts of climate change on human health and future liability |                                                                                                  |
++--------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
-### **2023**
+## 2019
 
-#### Summer School of International Spring School in Global Health
-
-1.  **Analysing time series data:** Analysing time series data collected with digital technologies
-
-2.  **Impacts of climate change on human health :** Impacts of climate change on human health and future liability
-
-(Trainer: ISGlobal, International Spring School in Global Health, Barcelona/Spain – March, 2023).\
-Plus d-information, voir ici: \![ici\]
-
-### **2021**
-
-### 2019
-
-#### Formation de base en PCI dans le contexte de la maladie à virus Ebola (MVE)
-
-Ekumbo Babby\
-Internation MEdical Corps DR Congo\
-Diapositives disponibles : propriété de l'IMC (voir ici) ![ici](https://internationalmedicalcorps.org/country/democratic-republic-of-congo/){alt="ici"}
-
-### 2017
-
-#### 
-
-### 2016
-
-#### 
-
-### 2005
-
-#### 
++----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| #### Formation de base en PCI dans le contexte de la maladie à virus Ebola (MVE) | -   Ekumbo Babby  Internation MEdical Corps DR Congo                                                                                                       |
+|                                                                                  | -   Diapositives disponibles : propriété de l'IMC (voir ici) [ici](https://internationalmedicalcorps.org/country/democratic-republic-of-congo/){alt="ici"} |
++----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
+:::
