@@ -1,0 +1,64 @@
+---
+title: "Institut One Health pour l'Afrique | INOHA"
+author: "Babby Zbourg"
+date: "2024-07-13"
+abstract: |
+    L’Institut One Health pour l’Afrique (INOHA) est une institution de recherche et de formation au sein de l’Université de Kinshasa.
+    La création de l’INOHA est l’aboutissement d’un long processus logique amorcé en 2005 visant à contribuer à la recherche de solutions innovantes pour faire face à des problématiques de santé publiques à travers des approches multidisciplinaires dites aussi « une seule santé ».
+abstract-title: "'One Health' : L’approche écologique de l’épidémiologie"
+description: "L’approche écologique de l’épidémiologie des maladies infectieuses"
+categories: [info]
+image: "inoha.jpg"
+page-layout: full
+title-block-banner: true
+lightbox: true
+icon: "globe-europe-africa"
+theme: "quartz"
+reference-doc: "template.docx" 
+quarto-required: ">= 1.2.0"
+id: ppc
+---
+
+::: {#INOHA .panel-tabset}
+## INOHA
+
+## L'approche éco-épidémiologique des maladies infectieuses
+
+## Lisez
+:::
+
+.panel-tabset style="green"} \## L’approche écologique de l’épidémiologie des maladies infectieuses [*Didier Bompangue* Md. PhD]{.underline} ![La maladie ne fonctionne pas de façon isolée dans un système. Dans l’approche écologique la maladie est regardée dans ce continuum. Intégrer les concepts de bases par rapport à l’écologie, énoncer les principaux outils et réunir les éléments nécessaires à la conception d’une étude sur une approche écologique (à travers un exemple concret).](images/bompague.jpg){fig-alt="Professeur Didier Bompangue recevant la parole auprès du Professeur MUYEMBE lors d'une prédéfense des grands-témoins" fig-align="left" width="266"}
+
+![](images/clipboard-4221870186.png){width="266"}
+
+## Lire cet article
+
+<div>
+
+Selon le professeur Didier Bompangue responsable académique de l'ECOM ALGER qui s'est récemment muté et INOHA (Institut One Health pour l'Afrique), la maladie ne fonctionne pas de façon isolée dans un système. Les maladies notamment les maladies infectieuses sont dans un approche systémique. Et les approches systémique dans ce cadre de l’approche écologique, la maladie est regardée dans ce continuum. Dans la recherche de moyen de lutte contre ces maladies, on doit intégrer les concepts de bases par rapport à l’écologie, énoncer les principaux outils et réunir les éléments nécessaires à la conception d’une étude sur une approche écologique (à travers un exemple concret).
+
+Pour tout travail de recherche, l’approche reste la même comprenant  : une question de recherche, des hypothèses, des objectifs, la partie matériels et méthodes, les résultats et la discussion (IMRAD ou IMRED).
+
+En énonçant le problème, l'utilisation des principaux outils statistiques est très capitale.
+
+L’éco-épidémiologie ne se limite pas seulement sur le temps, lieu et espace (‘approche classique de l’épidémiologie), mais on s’occupe aussi de ce qui se passe avant et après l’épidémiologie.
+
+La particularité des approches écologiques est de prendre toutes les disciplines possibles pour répondre à un problème de santé (approche « one health » ou « Socio-Ecological system »), ce n’est pas non plus une juxtaposition des différentes disciplines mais il y une organisation de toutes ces disciplines autour de la question avec un chef d’orchestre qui harmonise les interventions de chaque disciplines sur la question.
+
+Les contraintes dans cette entreprise sont multiples car le monde est très sectorisé et ce statut hybride est une sorte de faiblesse cependant il est important dans la réalisation. Il exige un travail en équipe interdisciplinaire.
+
+D’autres contraintes sont liées aux difficultés à croiser des données (limites des études). Pour arriver à faire le matching des données, les règles de collectes et de production doivent être les mêmes. L’approche écologique de l’épidémiologie des maladies infectieuses considère la maladie dans un continuum, en intégrant divers concepts et outils écologiques pour concevoir des études sur l’incidence et la prévalence des maladies au sein de la population.
+
+Sa méthodologie de recherche inclut les étapes classiques de la recherche selon l’IMRAD (question de recherche, hypothèses, objectifs, matériaux et méthodes, résultats et discussion). Cependant, au-delà des dimensions temporelles (présent), spatiales et géographiques, elle approfondit la notion de temps en y intégrant les dimensions temporelles antérieures et postérieures à l’épidémie.
+
+Elle utilise toutes les disciplines possibles pour répondre à un problème de santé, nécessitant une organisation harmonisée ainsi qu’un travail d’équipe interdisciplinaire.
+
+</div>
+
+Ce lancement fait suite à la dixième année d'anniversaire de son précurseur, le Master ECOM ALGER (Master en Écologie des Maladies Infectieuses, Gestions du Risque et aléas atures.), qui était un service attaché au Département des Sciences de base dans la faculté de Médecinde l'Université de Kinshasa. La naissance de cette nouvelle intstitution de recherche au sein de la faculté de Médecine de l'Université de Kinshasa **(UNIKIN)** qui a une vocation internationale offrant des enseignements dans le cadre des approches systémiques pour lutter contre les problèmes de santé complèxes qui necessitent des solutions pluridisciplinaires dont le One Health dite "une Seule Santé".\
+\
+Nous avons eu l'opportunité de participer dans ces activités étant donné que l'ECOM ALGER actuel INOHA est notre Alma mater dans le omnde de rechercheur que nous sommes entrain de réaliser actuellement.
+
+Lire plus:
+
+L'INOHA offre des cours de haute qualité avec un personnel qualifié de divers horizons. ![](images/inoha.jpg)

@@ -80,7 +80,7 @@ En tant que **Médecin environnementaliste**, chercheur spécialisé en antibior
 
 Professionnellement, je travaille comme clinicien (en médecine générale, Chirurgie et accouchement) , et consultant en analyse de données et développement de projets dans des contextes difficiles.
 
-Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [Présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
+Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
 
 <p>
 
