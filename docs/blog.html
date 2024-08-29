@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description des publications">
+<meta name="description" content="A collection of medical blogs and talks on ecology learning and data science.">
 
 <title>Babbymed Blog – Babby Ekumbo MD. MSc.</title>
 <style>
@@ -72,20 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-blog-listings .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-blog-listings'] = new List('listing-blog-listings', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -130,12 +130,12 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Babbymed Blog – Babby Ekumbo MD. MSc.">
-<meta property="og:description" content="Description des publications">
+<link rel="alternate" type="application/rss+xml" title="Babby Ekumbo MD. MSc." href="blog.xml" data-external="1"><meta property="og:title" content="Babbymed Blog – Babby Ekumbo MD. MSc.">
+<meta property="og:description" content="A collection of medical blogs and talks on ecology learning and data science.">
 <meta property="og:site_name" content="Babby Ekumbo MD. MSc.">
 <meta property="og:locale" content="fr">
 <meta name="twitter:title" content="Babbymed Blog – Babby Ekumbo MD. MSc.">
-<meta name="twitter:description" content="Description des publications">
+<meta name="twitter:description" content="A collection of medical blogs and talks on ecology learning and data science.">
 <meta name="twitter:creator" content="babbymed">
 <meta name="twitter:card" content="summary">
 </head>
@@ -143,7 +143,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -209,210 +209,159 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Babbymed Blog</h1>
-            <p class="subtitle lead">Éco-épidémiologie - Prévention et Contrôle d’infections - Médecine générale</p>
-                  <div>
-        <div class="description">
-          Description des publications
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">R code</div>
-                <div class="quarto-category">analysis</div>
-                <div class="quarto-category">health</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  <div>
-    <div class="abstract">
-      <div class="block-title"></div>
-      <p>Cette page se consacre aux activités de recherche en éco-épidémiologie, la Prévention et Contrôles d’infections et la pratique générale de la médecine clinique dans le context africain, ainsi que les analyses des données de santé avec R.</p>
-    </div>
-  </div>
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="code">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="info">info <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Babbymed Blog</h1>
+<p class="subtitle lead">Éco-épidémiologie - Prévention et Contrôle d’infections - Médecine générale</p>
+</div>
+
+<div>
+  <div class="description">
+    A collection of medical blogs and talks on ecology learning and data science.
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<div>
 
+</div>
+<div class="profile-header quarto-layout-panel" data-layout="[21,79]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 21.0%;justify-content: flex-start;">
+<p><img src="bbz_pass.jpg" width="114" height="127"> <strong>Bonjour !</strong> Je suis Ekumbo B. Babby, médecin avec 14 ans d’<a href="https://linkedin.com">expérience</a> de Médecine Générale, Chirurgie et Accouchement. J’ai exercé au CH de l’Université de Mbandaka (<a href="#0">UNIMBA</a>), à l’HGR Wangata, au CH Ma Providence et au CMF Maimona &amp; Filhos à Cabinda en Angola.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 79.0%;justify-content: flex-start;">
+<p>Titulaire d’un Master en Éco-Épidémiologie des Maladies Infectieuses, je dispose des connaissances sur le One Health et le SocioEcoHealth. renforcées par des compétences en Gestion du risque et Aléas Naturels, diagnostic territorial au niveau de l’Institut One Health pour l’Afrique (<a href="#0">INOHA</a>), sur le changement climatiques et les analyses approfondies sur l’analyse des séries tempporelles utilisant le logiciel R avec ISGLOBAL de Barcelone en Espagne. J’ai appronfondi mes compétences en R avec The Graph courses (TGC) de l’Université de Genève.</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 21.0%;justify-content: flex-start;">
+<p>Actuellement, je me spécialise dans la recherche sur l’antibiorésistance du microbiote intestinal des oiseaux en collaboration avec l’unité de recherche d’ornithologie sous la direction du professeur <a href="#0">Robert Kisasa</a> de l’Université de Kinshasa (<a href="#0">UNIKIN</a>).</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 79.0%;justify-content: flex-start;">
+<p>En parallèle, je suis consultant indépendant, aidant les chercheurs en santé publique à intégrer les modèles de langage R.</p>
+</div>
+</div>
+</div>
+<div>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="code,analysis,r" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721747405634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="thumbnail">
-<p><a href="./posts/Médecine clinique/index.html" class="no-external"></a></p><a href="./posts/Médecine clinique/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Médecine clinique/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Médecine clinique/index.html" class="no-external"></a></p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Médecine clinique/index.html" class="no-external">The GRAPH Courses</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Médecine clinique/index.html" class="no-external"></a>
+<div class="profile-header quarto-layout-panel" data-layout="[21,79]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 21.0%;justify-content: flex-start;">
+<p><strong>Présentation de Ekumbo B. Babby</strong></p>
 </div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('code'); return false;">
-code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
-r
+<div class="quarto-layout-cell" style="flex-basis: 79.0%;justify-content: flex-start;">
+<p>Ayant également travaillé comme formateur en Prévention et Contrôle d’Infections (PCI) avec l’International Medical Corps (IMC) et en collaboration avec MSF Belgique lors des épidémies d’Ebola en RD Congo de 2018 et 2019.</p>
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/Médecine clinique/index.html" class="no-external">R: Basic Training | Introduction to Health Data Analysis (Trainer: The GRAPH Courses, Cohort Q1-2024, Barcelona)</a>
 </div>
-</div>
-<div class="metadata">
-<a href="./posts/Médecine clinique/index.html" class="no-external">
-<div class="listing-date">
-Jul 13, 2024
-</div>
-<div class="listing-author">
-Babby Zbourg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="analysis" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721748231104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
-<div class="thumbnail">
-<p><a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external"></a></p><a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/Prévention et Contrôle d'infections/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external">international MEdical Corpos | IMC</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
-analysis
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external">
-
-<section id="formation-de-base-en-pci-dans-le-contexte-de-la-maladie-à-virus-ebola-mve" class="level4">
-
-
-
+<section id="contacter-nous" class="level2">
+<h2 class="anchored" data-anchor-id="contacter-nous">💼 Contacter-nous</h2>
+<p>Avez-vous besoin d’aide pour analyser, designer ou modeliser les données de santé volumineuses ?</p>
+<p>Je suis ouvert au travail de conseil et à d’autres formes de conseil. Si vous souhaitez discuter, envoyez-moi un e-mail à <a href="babbyzbourgmed@gmail.com">babbyzbourgmed@gamil.com</a></p>
+<hr>
 </section>
-</a>
+<section id="articles-de-blog" class="level2">
+<h2 class="anchored" data-anchor-id="articles-de-blog">📮 Articles de blog</h2>
+<p>J’ai bien sûre envoyer mon expérience en Médecine cinique, en Éco-Épidémiologie et en Data anlayse des données dans mon <a href="https://babbymed.github.io/cv.qmd/">CV</a>. Ci-dessous, j’ai selectionné par ordre mes différentes compétences les plus relevants.</p>
+</section>
+<section id="sinscrire" class="level2">
+<h2 class="anchored" data-anchor-id="sinscrire">📬 S’inscrire</h2>
+<p>Abonnez-vous via&nbsp;<a href="https://babby.github.io/babby/index.xml">&nbsp;RSS</a>&nbsp;ou entrez votre adresse e-mail ci-dessous : <a href="babbyzbourgmed@gmail.com">babbyzbourgmed@gamil.com</a></p>
+<p>Je suis aussi actif sur <a href="https://twitter.com/khelomite">Twitter</a> and <a href="https://github.com/Babbymed">GitHub</a>.</p>
+<script async="" data-uid="f405c5ca98" src="https://Babbymed.github.io" <="" script="">
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Publication">Publication</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/publication.html">/publication.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Présentation">Présentation</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/presentation.html">/presentation.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/blog.html">/blog.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/cv.html">/cv.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://github.com/babbymed">https://github.com/babbymed</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://twitter.com">https://twitter.com</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://linkedin.com">https://linkedin.com</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://facebook.com">https://facebook.com</span></p>
 </div>
+<div id="quarto-listing-pipeline" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-enable-math-inline"><span class="math inline">\(e = mC^2\)</span></span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="pipeline-listing-blog-listings">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter" />
+    </div>
 </div>
-<div class="metadata">
-<a href="./posts/Prévention et Contrôle d'infections/index.html" class="no-external">
-<div class="listing-date">
-Jul 13, 2024
-</div>
-<div class="listing-author">
-Babby Zbourg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="info" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1724517219258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="646">
-<div class="thumbnail">
-<p><a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external"></a></p><a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external">
-<p><img loading="lazy" src="./posts/Éco-Épidémiologie/inoha.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external">Institut One Health pour l’Afrique | INOHA</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('info'); return false;">
-info
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external">L’approche écologique de l’épidémiologie des maladies infectieuses</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Éco-Épidémiologie/inoha.html" class="no-external">
-<div class="listing-date">
-Jul 13, 2024
-</div>
-<div class="listing-author">
-Babby Zbourg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1720566000000" data-listing-file-modified-sort="1721731458727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail">
-<p><a href="./posts/Géo  &amp; Santé/index.html" class="no-external"></a></p><a href="./posts/Géo  &amp; Santé/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\Géo  & Santé\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/Géo  &amp; Santé/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Géo  &amp; Santé/index.html" class="no-external">Institut de Saude Global | ISGolbal</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/Géo  &amp; Santé/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/Géo  &amp; Santé/index.html" class="no-external">This is the first post in a Quarto blog. Welcome!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/Géo  &amp; Santé/index.html" class="no-external">
-<div class="listing-date">
-Jul 10, 2024
-</div>
-<div class="listing-author">
-Ekumbo B. Babby
-</div>
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="code,analysis,r" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721747405634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="The GRAPH Courses" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="/posts\Médecine clinique\index.qmd" class="title listing-title">The GRAPH Courses</a>
+</td>
+</tr>
+<tr data-index="1" data-categories="analysis" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721748231104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16" data-listing-title-sort="international MEdical Corpos | IMC" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="/posts\Prévention et Contrôle d'infections\index.qmd" class="title listing-title">international MEdical Corpos | IMC</a>
+</td>
+</tr>
+<tr data-index="2" data-categories="info" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1724517219258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="646" data-listing-title-sort="Institut One Health pour l&#39;Afrique | INOHA" data-listing-filename-sort="inoha.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="/posts\Éco-Épidémiologie\inoha.qmd" class="title listing-title">Institut One Health pour l’Afrique | INOHA</a>
+</td>
+</tr>
+<tr data-index="3" data-categories="news" data-listing-date-sort="1720566000000" data-listing-file-modified-sort="1721731458727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32" data-listing-title-sort="Institut de Saude Global | ISGolbal" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/10/24</span>
+</td>
+<td>
+<a href="/posts\Géo  & Santé\index.qmd" class="title listing-title">Institut de Saude Global | ISGolbal</a>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Babbymed Blog – Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Babbymed Blog – Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Babbymed Blog – Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Babby Ekumbo MD. MSc.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc">A collection of medical blogs and talks on ecology learning and data science.</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc">A collection of medical blogs and talks on ecology learning and data science.</span></p>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -834,7 +783,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <script src="https://utteranc.es/client.js" repo="babbymed/bbz.dev" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
-</div> <!-- /content -->
+</section><div class="quarto-listing quarto-listing-container-table" id="listing-blog-listings"></div></main></div> <!-- /content -->
 
 
 

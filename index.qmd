@@ -57,28 +57,42 @@ about:
     #margin-width: 300px
     #gutter-width: 1.5rem
 #Backgroundcolor: “primary”
+#isting:
+#  date-format: short
+ # feed: true
+#  filter-ui: true
+#  type: table
+#  sort-ui: false
+#  sort: "date desc"
+#  categories: false
+#  fields: [date, title]
+#  id: blog-listings
+#  contents: posts
+##aliases: ["blog/"]
+##metadata-files: 
+ # - _subscribe.yml
 ---
 
 ::: column-page
 ## Bio
 
-Je cherche une bourse de doctorat pour compléter ma formation spécialisé dans la recherche sur l'antibiorésistance des entérobactéries et le microbiote intestinale des oiseaux. Je cherche à comprendre comment l'environnement peut influencer notre santé et à traiter les maladies en tenant compte de ces facteurs environnementaux. Je travaille en collaboration avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://www.unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://www.4icu.org/reviews/15437.htm)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://www.inoha.ac.cd/)) à l'UNIKIN.
+Je suis à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://www.unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://www.4icu.org/reviews/15437.htm)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://www.inoha.ac.cd/)) à l'UNIKIN..
 
-Avec l'entrainement, je suis datanalyste qui se spécialise dans les analyses des données de santé publique et écologiques, à travers ma double casquette de écologiste et épidémiologiste.
+En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie et épidémiologie.
 
-Mon travail implique la médecine clinique, la formation en prévention et contrôle des infections, ainsi que l'utilisation d'outils logiciels tels que R Studio pour analyser les données statistiques. Mon objectif est d'élaborer des modèles de prédiction pour mieux comprendre l'antibiorésistance dans différents environnements, allant du milieu hospitalier à la communauté. J'utilise également QGIS et R Markdown ou Quarto pour faciliter la visualisation et la reproduction des environnements de recherche, et R Shiny dans la création des applications utiles dans la recherche et dans la pratique clinique routinière.
+Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, et l’utilisation d’outils logiciels comme R Studio pour l’analyse statistique. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également QGIS, R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
 
 ## **Background**
 
-Je suis médecin, avec Master en science en Éco-Épidémiologie des maladies infectieuses, gestion du risque et aléas naturels.
+Je suis médecin, avec un Master en Éco-Épidémiologie des maladies infectieuses, gestion du risque et aléas naturels.
 
-En tant que **Médecin environnementaliste**, chercheur spécialisé en antibiorésistance et microbiotes intestinaux des oiseaux, je possède une double expertise en :
+En tant que **Médecin environnementaliste** et chercheur spécialisé en antibiorésistance et microbiote intestinal des oiseaux, j'ai une double expertise en :
 
--   Médecine : Médecine générale, Chirurgie et accouchement, Épidémiologie des maladies infectieuses.
+-   **Médecine** : Médecine générale, Chirurgie et accouchement, épidémiologie des maladies infectieuses.
 
--   Écologie (scientifique de l'environnement) : spécialisé dans la gestion des risques et des catastrophes naturelles.
+-   **Écologie** : Gestion des risques et des catastrophes naturelles.
 
-Professionnellement, je travaille comme clinicien (en médecine générale, Chirurgie et accouchement) , et consultant en analyse de données et développement de projets dans des contextes difficiles.
+Professionnellement, je travaille comme clinicien (médecine générale, Chirurgie et accouchement) , et consultant en analyse de données et développement de projets dans des contextes difficiles.
 
 Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
 

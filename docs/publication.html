@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,10 +67,68 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog-listings'] = new List('listing-blog-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Publications et rédactions scientifiques – Babby Ekumbo MD. MSc.">
+<link rel="alternate" type="application/rss+xml" title="Babby Ekumbo MD. MSc." href="publication.xml" data-external="1"><meta property="og:title" content="Publications et rédactions scientifiques – Babby Ekumbo MD. MSc.">
 <meta property="og:description" content="Écologie, Épidémiologie et Data analyses">
 <meta property="og:site_name" content="Babby Ekumbo MD. MSc.">
 <meta property="og:locale" content="fr">
@@ -271,7 +331,63 @@ Travail non publié</li>
 </div>
 
 
-</main> 
+<div class="quarto-listing quarto-listing-container-table" id="listing-blog-listings">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Title
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="code,analysis,r" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721747405634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="The GRAPH Courses" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="./posts/Médecine clinique/index.html" class="title listing-title">The GRAPH Courses</a>
+</td>
+</tr>
+<tr data-index="1" data-categories="analysis" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1721748231104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16" data-listing-title-sort="international MEdical Corpos | IMC" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="./posts/Prévention et Contrôle d'infections/index.html" class="title listing-title">international MEdical Corpos | IMC</a>
+</td>
+</tr>
+<tr data-index="2" data-categories="info" data-listing-date-sort="1720825200000" data-listing-file-modified-sort="1724517219258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="646" data-listing-title-sort="Institut One Health pour l'Afrique | INOHA" data-listing-filename-sort="inoha.qmd">
+<td>
+<span class="listing-date">7/13/24</span>
+</td>
+<td>
+<a href="./posts/Éco-Épidémiologie/inoha.html" class="title listing-title">Institut One Health pour l’Afrique | INOHA</a>
+</td>
+</tr>
+<tr data-index="3" data-categories="news" data-listing-date-sort="1720566000000" data-listing-file-modified-sort="1721731458727" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32" data-listing-title-sort="Institut de Saude Global | ISGolbal" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">7/10/24</span>
+</td>
+<td>
+<a href="./posts/Géo  &amp; Santé/index.html" class="title listing-title">Institut de Saude Global | ISGolbal</a>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> 
     <div class="about-footer"><div class="about-links">
   <a href="/cv.html" class="about-link" rel="" target="">
     <i class="bi bi-folder"></i>
