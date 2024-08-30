@@ -9,7 +9,7 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/presentation.html",
     "items": [
       "/posts/Médecine clinique/index.html",
       "/posts/Prévention et Contrôle d'infections/index.html",
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "listing": "/presentation.html",
+    "listing": "/blog.html",
     "items": [
       "/posts/Médecine clinique/index.html",
       "/posts/Prévention et Contrôle d'infections/index.html",

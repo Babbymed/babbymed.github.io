@@ -1,7 +1,8 @@
 ---
-title: "Institut de Saude Global | ISGolbal"
+title: "Climate change | ISGolbal"
 author: "Ekumbo B. Babby"
 date: "2024-07-10"
+date-modified: "30/08/2024"
 categories: [news]
 ---
 
