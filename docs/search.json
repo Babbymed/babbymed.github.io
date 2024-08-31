@@ -53,32 +53,39 @@
     "href": "blog.html",
     "title": "Babbymed Blog",
     "section": "",
-    "text": "Actuellement, je me spécialise dans la recherche sur l’antibiorésistance du microbiote intestinal des oiseaux. Parallèlement, en tant que consultant indépendant, j’aide les chercheurs en santé publique à intégrer les modèles de langage R."
+    "text": "Actuellement, je me spécialise dans la recherche sur l’antibiorésistance du microbiote intestinal des oiseaux. Parallèlement, en tant que clinicien hospitalo-universitaire et consultant indépendant, j’aide les chercheurs en santé publique à intégrer les modèles de langage R."
   },
   {
     "objectID": "blog.html#contacter-nous",
     "href": "blog.html#contacter-nous",
     "title": "Babbymed Blog",
     "section": "💼 Contacter-nous",
-    "text": "💼 Contacter-nous\nAvez-vous besoin d’aide pour analyser, designer ou modeliser les données de santé volumineuses ?\nJe suis ouvert au travail de conseil et à d’autres formes de conseil. Si vous souhaitez discuter, envoyez-moi un e-mail à babbyzbourgmed@gmail.com"
+    "text": "💼 Contacter-nous\nAvez-vous besoin d’aide pour analyser, designer ou modeliser les données de santé volumineuses ?\nJe suis ouvert au travail de conseil et à d’autres formes de consultance. Si vous souhaitez discuter, envoyez-moi un e-mail à babbyzbourgmed@gmail.com"
   },
   {
     "objectID": "blog.html#articles-de-blog",
     "href": "blog.html#articles-de-blog",
     "title": "Babbymed Blog",
     "section": "📮 Articles de blog",
-    "text": "📮 Articles de blog\nJ’ai bien sûre envoyer mon expérience en Médecine cinique, en Éco-Épidémiologie et en Data anlayse des données dans mon CV. Ci-dessous, j’ai selectionné par ordre mes différentes compétences les plus relevants.\n\n\n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n7/13/24\n\n\nThe GRAPH Courses\n\n\n\n\n7/13/24\n\n\ninternational MEdical Corpos | IMC\n\n\n\n\n7/13/24\n\n\nInstitut One Health pour l’Afrique | INOHA\n\n\n\n\n7/10/24\n\n\nClimate change | ISGolbal\n\n\n\n\n\nNo matching items"
+    "text": "📮 Articles de blog\nJ’ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data anlayse des données dans mon CV. Ci-dessous, j’ai selectionné par ordre mes différentes publications et articles les plus relevants.\n\n\n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\n\n\n\n\n7/13/24\n\n\nThe GRAPH Courses\n\n\n\n\n7/13/24\n\n\ninternational MEdical Corpos | IMC\n\n\n\n\n7/13/24\n\n\nInstitut One Health pour l’Afrique | INOHA\n\n\n\n\n7/10/24\n\n\nClimate change | ISGolbal\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html#sinscrire",
     "href": "blog.html#sinscrire",
     "title": "Babbymed Blog",
     "section": "📬 S’inscrire",
-    "text": "📬 S’inscrire\nAbonnez-vous via  RSS ou entrez votre adresse e-mail ci-dessou.Je suis aussi actif sur Twitter and GitHub.\n\nSouscrire ici"
+    "text": "📬 S’inscrire\nAbonnez-vous via  RSS ou entrez votre adresse e-mail ci-dessous.Je suis aussi actif sur Twitter and GitHub.\n\nSouscrire ici"
   },
   {
-    "objectID": "nononono.html",
-    "href": "nononono.html",
+    "objectID": "guest-blog.html",
+    "href": "guest-blog.html",
+    "title": "Guest Blogs",
+    "section": "",
+    "text": "Ecolgie + La forêt: Ecologie des maladies infectieuses, Tolekiso blog, July 2024.\nNotebooks in production with Metaflow Introduces a new Metaflow feature that allows users to use notebooks in production ML workflows.\nPython Concurrency: The Tricky Bits: An exploration of threads, processes, and coroutines in Python, with interesting examples that illuminate the differences between each.\nghapi, a new third-party Python client for the GitHub API by Jeremy Howard & Hamel Husain, GitHub Repo.\nNbdev: A literate programming environment that democratizes software engineering best practices by Hamel Husain, Jeremy Howard, The GitHub Blog.\nfastcore: An Underrated Python Library by Hamel Husain, Jeremy Howard, GitHub Repo.\nData Science Meets Devops: MLOps with Jupyter, Git, & Kubernetes: An end-to-end example of deploying a machine learning product using Jupyter, Papermill, Tekton, GitOps and Kubeflow. by Jeremy Lewi, Hamel_Husain, The Kubeflow Blog.\nIntroducing fastpages, An easy to use blogging platform with extra features for Jupyter Notebooks. by Jeremy Howard & Hamel Husain, GitHub Repo\nGitHub Actions: Providing Data Scientists With New Superpowers by Jeremy Howard & Hamel Husain.\nCodeSearchNet Challenge: Evaluating the State of Semantic Code Search: by Miltiadis Allamanis, Marc Brockschmidt, Hamel Husain, Ho-Hsiang Wu, Tiferet Gazit GitHub Repo\nHow To Create Natural Language Semantic Search for Arbitrary Objects With Deep Learning. (Related: GitHub engineering blog article, Live demo)\nHow To Create Magical Data Products Using Sequence-to-Sequence Models\nHow to Automate Tasks on GitHub With Machine Learning for Fun and Profit\nHow Docker Can Make You A More Effective Data Scientist\nAutomated Machine Learning, A Paradigm Shift That Accelerates Data Scientst Productivity At Airbnb"
+  },
+  {
+    "objectID": "nononono_files/nononono.html",
+    "href": "nononono_files/nononono.html",
     "title": "Untitled",
     "section": "",
     "text": "Library in packages used in this application\nlibrary(shiny) library(DT) library(DBI) library(RSQLite) library(shinyjs) library(shinycssloaders) library(lubridate) library(shinyFeedback) library(dplyr) library(dbplyr)\ndb_config &lt;- config::get()$db\n\n\nCreate database connection\nconn &lt;- dbConnect( RSQLite::SQLite(), dbname = db_config$dbname )\n\n\nStop database connection when application stops\nshiny::onStop(function() { dbDisconnect(conn) })\n\n\nTurn off scientific notation\noptions(scipen = 999)\n\n\nSet spinner type (for loading)\noptions(spinner.type = 8)"

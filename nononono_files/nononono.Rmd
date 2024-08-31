@@ -18,7 +18,6 @@ library(dplyr)
 library(dbplyr)
 
 
-
 db_config <- config::get()$db
 
 # Create database connection
