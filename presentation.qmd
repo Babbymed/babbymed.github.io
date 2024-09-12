@@ -13,7 +13,7 @@ page-layout: full
 format:
   html:
     css: styles.css
-title-block-banner: true
+title-block-banner: "#113946"
 lightbox: true
 back-to-top-navigation: true
 page-footer:

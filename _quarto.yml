@@ -45,11 +45,13 @@ format:
   html:
     reference-location: document
     theme: 
-      dark: [supehero, custom.scss]
-      light: [flatly, custom-light.scss]
+      dark: [minty, custom.scss]
+      light: [minty, custom-light.scss]
     css:
       - styles.css
     toc: true
+    toc-depth: 2
+    number-sections: true
     #syntax-definitions: 
     #- fomo.xml
 
