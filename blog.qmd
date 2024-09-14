@@ -48,7 +48,6 @@ En effet, je suis Médecin, Éco-Épidémiologiste des Maladies Infectieuses, fo
 Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ?
 
 Je suis ouvert au travail de conseil et à d’autres formes de consultance. Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com)
-
 J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
 
 ------------------------------------------------------------------------
