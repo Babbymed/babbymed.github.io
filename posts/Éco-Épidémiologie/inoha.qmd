@@ -32,6 +32,7 @@ search: true
 format:
   html:
     anchor-sections: true
+draft: false
 ---
 
 ## Qu'est-ce que l'**INOHA** ?

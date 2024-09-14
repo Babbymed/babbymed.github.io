@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://babbymed.github.io/blog.html</loc>
-    <lastmod>2024-09-10T18:42:58.113Z</lastmod>
-  </url>
-  <url>
-    <loc>https://babbymed.github.io/posts/Prévention et Contrôle d&amp;#39;infections/index.html</loc>
-    <lastmod>2024-09-10T20:05:18.093Z</lastmod>
-  </url>
-  <url>
     <loc>https://babbymed.github.io/publication.html</loc>
     <lastmod>2024-09-10T18:37:41.056Z</lastmod>
   </url>
@@ -17,27 +9,35 @@
     <lastmod>2024-09-10T18:38:08.796Z</lastmod>
   </url>
   <url>
+    <loc>https://babbymed.github.io/nononono_files/nononono.html</loc>
+    <lastmod>2024-08-30T21:31:40.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://babbymed.github.io/cv.html</loc>
+    <lastmod>2024-09-12T18:12:34.911Z</lastmod>
+  </url>
+  <url>
+    <loc>https://babbymed.github.io/about.html</loc>
+    <lastmod>2024-09-14T16:01:14.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://babbymed.github.io/blog.html</loc>
+    <lastmod>2024-09-14T15:55:51.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://babbymed.github.io/index.html</loc>
+    <lastmod>2024-09-14T16:00:37.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://babbymed.github.io/posts/Géo  &amp; Santé/guest-blog.html</loc>
+    <lastmod>2024-08-30T23:02:02.303Z</lastmod>
+  </url>
+  <url>
     <loc>https://babbymed.github.io/posts/Éco-Épidémiologie/inoha.html</loc>
-    <lastmod>2024-09-10T19:42:14.810Z</lastmod>
+    <lastmod>2024-09-14T10:09:43.088Z</lastmod>
   </url>
   <url>
     <loc>https://babbymed.github.io/privacy_policy.html</loc>
     <lastmod>2024-08-29T19:01:03.538Z</lastmod>
-  </url>
-  <url>
-    <loc>https://babbymed.github.io/posts/Prévention et Contrôle d&amp;#39;infections/index.html</loc>
-    <lastmod>2024-09-10T20:05:18.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://babbymed.github.io/index.html</loc>
-    <lastmod>2024-08-31T01:25:30.181Z</lastmod>
-  </url>
-  <url>
-    <loc>https://babbymed.github.io/posts/Prévention et Contrôle d&amp;#39;infections/index.html</loc>
-    <lastmod>2024-09-10T20:20:35.809Z</lastmod>
-  </url>
-  <url>
-    <loc>https://babbymed.github.io/posts/Prévention et Contrôle d&#39;infections/index.html</loc>
-    <lastmod>2024-09-10T20:20:35.809Z</lastmod>
   </url>
 </urlset>

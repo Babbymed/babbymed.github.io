@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/Prévention et Contrôle d'infections/index.html",
-      "/posts/Médecine clinique/index.html",
-      "/posts/Géo  & Santé/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/Prévention et Contrôle d'infections/index.html",
-    "items": []
-  },
-  {
     "listing": "/publication.html",
     "items": [
       "/posts/Géo  & Santé/guest-blog.html",
@@ -30,6 +18,14 @@
       "/posts/Éco-Épidémiologie/inoha.html",
       "/posts/Géo  & Santé/index.html"
     ]
+  },
+  {
+    "listing": "/posts/Prévention et Contrôle d'infections/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": []
   },
   {
     "listing": "/posts/Éco-Épidémiologie/inoha.html",

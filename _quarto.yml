@@ -28,11 +28,15 @@ website:
       - text: "Blog"
         file: blog.qmd
     right:
-      - icon: folder
-        text: "CV"
-        file: cv.qmd
+      - text: "À propos"
+        file: about.qmd
       - icon: github
         href: https://github.com/babbymed
+        menu:
+          - text: Source Code
+            href: https://code.com
+          - text: Report a Bug
+            href: https://bugs.com
       - icon: twitter
         href: https://twitter.com
       - icon: linkedin
@@ -46,12 +50,12 @@ format:
     reference-location: document
     theme: 
       dark: [minty, custom.scss]
-      light: [minty, custom-light.scss]
+      light: [default, custom-light.scss]
     css:
       - styles.css
-    toc: true
-    toc-depth: 2
-    number-sections: true
+    #toc: true
+    #toc-depth: 2
+    #number-sections: true
     #syntax-definitions: 
     #- fomo.xml
 

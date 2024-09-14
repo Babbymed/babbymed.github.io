@@ -1,0 +1,88 @@
+---
+title: "À propos de moi"
+subtitle: "Merci de vous être arrêté pour en savoir plus sur moi !"
+image: bbz_relax.jpg
+lightbox: true
+page-layout: full
+title-block-banner: "url('bbz_banner.jpeg')"
+title-block-banner-color: body
+about:
+  template: solana
+  image-width: 15em
+  image-title: "pré-défense des grands témoins ECOM-ALGER | 2020"
+  links:
+    - icon: folder
+      text: CV 
+      href: cv.qmd
+      menu:
+          - text: Source Code
+            href: https://code.com
+          - text: Report a Bug
+            href: https://bugs.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com/babbymed
+    - icon: facebook
+      text: facebook
+      href: https://facebook.com
+---
+### Bienvenue, je suis EKUMBO B. Babby.
+
+::: {#hero-heading}
+## 📮 **Bio**
+
+Je suis Médecin et Éco-épidémiologiste à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance et le microbiote intestinal des oiseaux.
+
+![](bbz_pampedick.jpeg){width="242"}
+
+Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://unimba.ac.cd)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://inoha.ac.cd)) à l'UNIKIN.
+
+![](PRedefense_gt.jpg)
+
+En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie, géographie de la santé et épidémiologie.
+
+J'aime passer du temps à écouter et chanter le gospel congolais et les louvores brésiliens, et à jouer aux jeux vidéo avec ma famille et mes amis, et parfois à marcher, à la plage ou à jouer au foot.
+
+## 📬 **Éducation**
+
+-   Université de Kinshasa, Lemba \| Kinshasa, RDC\
+    MSc en Éco-Épidémiologie des maladies infecieuses, Gestion du risque et aléas naturels \| Sep 2020 - Oct 2021
+-   Université de Kinshasa, Lemba \| Kinshasa, RDC\
+    Médecine Générale, Chirurgie & Accouchement \| Oct 2005 - Oct 2009
+-   Université de Mbandaka, Mbandaka \| Équateur, RDC\
+    Ancien Centre Universitaire de Mbandaka / Extension de l’UNIKIN (CUMBA/UNIKIN)\
+    Graduat en Sciences Biomédicales \| Oct 2001- Oct 2005
+
+Je suis titulaire d'un Master en Éco-Épidémiologie des maladies infectieuses, gestion du risque et aléas naturels. J'ai 14 ans d'[expérience](https://linkedin.com/in/babby-ekumbo-md-msc-b87765171/) de Médecine Générale.
+
+![](FB_IMG_1621969392081.jpg){width="191"} Je suis également formateur en PCI, disposant d'une expertise en Maladie à virus Ebola (MVE), ainsi que des bonnes connaissances sur le One Health, renforcées par des compétences en Gestion du risque et Aléas Naturels de l'[Institut One Health pour l'Afrique](https://inoha.ac.cd/home) (INOHA), sur le changement climatiques et les analyses approfondies sur l'analyse des séries temporelles avec [ISGLOBAL](https://www.isglobal.org/en/education) de Barcelone en Espagne. J'ai appronfondi mes compétences d'analyse des données de santé en utilisant divers logiciels comme R avec [The Graph courses](htpps://http://thegraphcourses.org/) (TGC) de l'Université de Genève.
+
+## 💼 **Expérience**
+
+Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, et l’utilisation d’outils logiciels comme R Studio pour l’analyse statistique. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également QGIS, R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
+
+En tant que **Médecin environnementaliste** et chercheur spécialisé en antibiorésistance et microbiote intestinal des oiseaux, j'ai une double expertise en :
+
+-   **Médecine** : Médecine générale, Chirurgie et accouchement, épidémiologie des maladies infectieuses.
+
+-   **Écologie** : Gestion des risques et des catastrophes naturelles.
+
+-   **Data anlayste** : des données de santé et créateur de contenu web et applications avec R et QGIS.
+
+Professionnellement, je travaille comme clinicien (médecine générale, Chirurgie et accouchement), et consultant en analyse de données et développement de projets dans des contextes difficiles. J'ai travaillé avec [International Medical Corps](#0) (IMC) comme formateur en Prévention et Contrôle d'Infections (IPC trainer).
+
+Vous trouverez tous les détails me concernant sur mon CV [Cliquez ici](https://babbymed.github.io/CV).
+
+Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
+
+<p>
+
+</p>
+
+## Merci de prendre le temps de visiter mon blog ! 
+:::
+
+### 

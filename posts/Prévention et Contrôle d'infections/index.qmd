@@ -35,6 +35,7 @@ format:
 editor: 
   markdown: 
     wrap: 72
+draft: true
 ---
 <a href="path/to/your/file.pdf" download="NomDuFichier">Télécharger le PDF</a>
 

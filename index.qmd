@@ -23,18 +23,13 @@ title: "Ekumbo B. Babby MD. MSc."
 image: bbz_zbourg.png
 #lightbox: true
 about:
-  template: trestles   #broadside  #marquee, jolla
+  template: trestles   # solana  broadside  #marquee, jolla
   #image-width: 50em
   image-title: "Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021"
   links:
     - icon: folder
-      text: CV
+      text: CV 
       href: cv.qmd
-      menu:
-          - text: Source Code
-            href:  https://code.com
-          - text: Report a Bug
-            href:  https://bugs.com
     - icon: twitter
       text: Twitter
       href: https://twitter.com/babbymed
@@ -57,9 +52,9 @@ about:
     #margin-width: 300px
     #gutter-width: 1.5rem
 #Backgroundcolor: “primary”
-#isting:
+#listing:
 #  date-format: short
- # feed: true
+#  feed: true
 #  filter-ui: true
 #  type: table
 #  sort-ui: false
@@ -74,25 +69,9 @@ about:
 ---
 
 ::: column-page
-## Bio
+Je suis médecin à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://www.unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://www.4icu.org/reviews/15437.htm)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://www.inoha.ac.cd/)) à l'UNIKIN.
 
-Je suis à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://www.unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://www.4icu.org/reviews/15437.htm)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://www.inoha.ac.cd/)) à l'UNIKIN..
-
-En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie et épidémiologie.
-
-Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, et l’utilisation d’outils logiciels comme R Studio pour l’analyse statistique. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également QGIS, R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
-
-## **Background**
-
-Je suis médecin, avec un Master en Éco-Épidémiologie des maladies infectieuses, gestion du risque et aléas naturels.
-
-En tant que **Médecin environnementaliste** et chercheur spécialisé en antibiorésistance et microbiote intestinal des oiseaux, j'ai une double expertise en :
-
--   **Médecine** : Médecine générale, Chirurgie et accouchement, épidémiologie des maladies infectieuses.
-
--   **Écologie** : Gestion des risques et des catastrophes naturelles.
-
-Professionnellement, je travaille comme clinicien (médecine générale, Chirurgie et accouchement) , et consultant en analyse de données et développement de projets dans des contextes difficiles.
+Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, combinant mes compétences en écologie et épidémiologie. J'analyse des données de santé publique et écologiques utilisant divers outils logiciels comme R ou Qgis. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également QGIS, R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
 
 Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
 
@@ -100,9 +79,11 @@ Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.i
 
 </p>
 
-## Projets sélectionnés
+## 💼 Projets sélectionnés
 
-Forfaits R
+### Forfaits R
+
+-   [Projet Gapminder](https://github.com/Babbymed/gapminder_dash)
 
 <link rel="me" href="https://Babbymed.github.io/@babbymed2024">
 :::

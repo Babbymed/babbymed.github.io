@@ -4,6 +4,7 @@ author: "Babby Zbourg"
 date: "2024-07-13"
 categories: [code, analysis,r]
 image: "image.jpg"
+draft: true 
 ---
 
 #### Analyse de l'usage des antipaludiques en Angola, 2015 - 2016
