@@ -41,7 +41,6 @@ Salut ! Je suis ***Dr. Ekumbo B. Babby***. Merci d’avoir pris le temps de visi
 Pour plus d'information me concernant suivez ce lien : [À propos](https://babbymed.github.io/about.rmd)
 
 En effet, je suis Médecin, Éco-Épidémiologiste des Maladies Infectieuses, formateur en PCI, expertise en Maladie à virus Ebola (MVE), analyse des données de santé. Actuellement, je me spécialise dans la recherche sur l’**antibiorésistance du microbiote intestinal des oiseaux.** Parallèlement, en tant que clinicien hospitalo-universitaire et consultant indépendant, j’aide les chercheurs en santé publique à intégrer les modèles de langage R.
-
 :::
 
 ## 💼 Contacter-nous
@@ -59,21 +58,6 @@ J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémi
 Ci-dessous, j'ai selectionné par ordre mes différentes publications et articles les plus relevants.
 
 ::: {#blog-listings}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :::
 
 ## 📬 S'inscrire
@@ -114,6 +98,4 @@ Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog
 
 <!--End mc_embed_signup-->
 ```
- 
-
 Merci d’avoir pris le temps de visiter mon blog
