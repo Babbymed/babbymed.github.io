@@ -58,7 +58,7 @@ format:
     #number-sections: true
     #syntax-definitions: 
     #- fomo.xml
-
+draft: true
     
 #mainfont: "'operator ultra italique', sans" 
 #fontcolor: "#7E9372"
