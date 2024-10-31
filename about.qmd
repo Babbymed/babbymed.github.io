@@ -37,31 +37,21 @@ about:
       href: https://facebook.com
 ---
 
-### Bienvenue, je suis EKUMBO B. Babby.
+# Bienvenue, je suis EKUMBO B. Babby.
 
-<!-- Section Bio -->
-<div id="hero-heading" class="section">
 ## 📮 Bio
 
-<div class="content">
-  <div class="image-container">
-    <img src="bbz_pampedick.jpeg" alt="Photo de Babby">
-  </div>
-  <div class="text">
-    Je suis Médecin et Éco-épidémiologiste à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://unimba.ac.cd)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://inoha.ac.cd)) à l'UNIKIN.
-  </div>
-</div>
+::: {.profile-header layout="[21,79]"}
+![](bbz_pampedick.jpeg){.profile-pic width="154"}
 
-<!-- Deuxième image et texte -->
-<div class="content">
-  <div class="image-container">
-    <img src="PRedefense_gt.jpg" alt="Photo PRedefense">
-  </div>
-  <div class="text">
-    En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie, géographie de la santé et épidémiologie. J'aime passer du temps à écouter et chanter le gospel congolais et les louvores brésiliens, et à jouer aux jeux vidéo avec ma famille et mes amis.
-  </div>
-</div>
-</div>
+Je suis Médecin et Éco-épidémiologiste à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://unimba.ac.cd)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://inoha.ac.cd)) à l'UNIKIN.
+:::
+
+::: {.profile-header layout="[21,79]"}
+![](PRedefense_gt.jpg){.profile-pic width="154"}
+
+En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie, géographie de la santé et épidémiologie. J'aime passer du temps à écouter et chanter le gospel congolais et les louvores brésiliens, et à jouer aux jeux vidéo avec ma famille et mes amis.
+:::
 
 ## 📬 Éducation
 
@@ -74,15 +64,11 @@ about:
 
 Je suis titulaire d'un Master en Éco-Épidémiologie des maladies infectieuses. J'ai 14 ans d'[expérience](https://linkedin.com/in/babby-ekumbo-md-msc-b87765171/) en Médecine Générale.
 
-<!-- Troisième image et texte -->
-<div class="content">
-  <div class="image-container">
-    <img src="FB_IMG_1621969392081.jpg" alt="Photo d'Ekumbo Babby">
-  </div>
-  <div class="text">
-    Je suis également formateur en PCI, disposant d'une expertise en Maladie à virus Ebola (MVE) ainsi que des compétences en Gestion du risque et Aléas Naturels, renforcées par une formation sur l'analyse des séries temporelles avec [ISGLOBAL](https://www.isglobal.org/en/education) et l'analyse des données de santé avec [The Graph courses](htpps://http://thegraphcourses.org/) de l'Université de Genève.
-  </div>
-</div>
+::: {.profile-header layout="[21,79]"}
+![](FB_IMG_1621969392081.jpg){.profile-pic width="154"}
+
+Je suis également formateur en PCI, disposant d'une expertise en Maladie à virus Ebola (MVE) ainsi que des compétences en Gestion du risque et Aléas Naturels, renforcées par une formation sur l'analyse des séries temporelles avec [ISGLOBAL](https://www.isglobal.org/en/education) et l'analyse des données de santé avec [The Graph courses](https://thegraphcourses.org/) de l'Université de Genève.
+:::
 
 ## 💼 Expérience
 
@@ -97,3 +83,4 @@ Je travaille comme clinicien et consultant en analyse de données dans des conte
 Vous trouverez mon [CV](https://babbymed.github.io/CV), [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), et [blog](https://babbymed.github.io/Blog) technique.
 
 <p>Merci de prendre le temps de visiter mon blog !</p>
+
