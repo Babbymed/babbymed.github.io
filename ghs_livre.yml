@@ -1,0 +1,92 @@
+project:
+  type: book
+output-dir: _book
+resources: 
+  - "*.png"
+- "*.jpeg"
+- "*.jfif"
+- "*.svg"
+
+book:
+  title: "Cleaning Biodiversity Data in R"
+subtitle: "Atlas of Living Australia's practical guide to cleaning ecological data in R"
+favicon: images/cleaner-shrimp_cover.png
+reader-mode: true
+page-navigation: true
+back-to-top-navigation: true
+search: true
+site-url: https://cleaning-data-r.ala.org.au/
+  repo-url: https://github.com/AtlasOfLivingAustralia/cleaning_data
+margin-header: _fathom.html
+image: images/cleaner-shrimp_cover.png
+image-alt: "A Pacific Cleaner Shrimp illustration"
+open-graph: 
+  image: images/cleaner-shrimp_cover.png
+image-alt: "A cover image with a Pacific Cleaner Shrimp illustration"
+twitter-card: 
+  image: images/cleaner-shrimp_cover.png
+image-alt: "A cover image with a Pacific Cleaner Shrimp illustration"
+card-style: summary_large_image
+sidebar:
+  logo: images/ALA_Logo_Inline_RGB.png
+
+page-footer:
+  border: true
+left: |
+  Cleaning Biodiversity Data in R is a product of <a href="https://ala.org.au/">![](/images/ALA_Logo_Inline_RGB.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+  center: |
+  <a href="https://www.education.gov.au/ncris">![](/images/NCRIS_logo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a><a href="https://www.csiro.au/en/">![](/images/CSIRO_logo.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a><a href="https://www.gbif.org/en/">![](/images/GBIF-2015.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+  right: |
+  This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+cover-image: images/cleaner-shrimp_cover.png
+
+chapters:
+  - index.qmd
+- preface.qmd
+- introduction.qmd
+- data-in-this-book.qmd
+- part: 1_exploring/1_intro.qmd
+chapters:
+  - 1_exploring/inspect.qmd
+- 1_exploring/summarise.qmd
+- part: 2_general-cleaning/1_intro.qmd
+chapters:
+  - 2_general-cleaning/column-names-and-classes.qmd
+- 2_general-cleaning/duplicates.qmd
+- 2_general-cleaning/missing-values.qmd
+- 2_general-cleaning/strings.qmd
+- 2_general-cleaning/dates.qmd
+- part: 3_ecological-cleaning/1_intro.qmd
+chapters:
+  - 3_ecological-cleaning/taxonomic-validation.qmd
+- 3_ecological-cleaning/geospatial-investigation.qmd
+- 3_ecological-cleaning/geospatial-cleaning.qmd
+appendices:
+  - 4_appendices/where-to-get-data.qmd
+- 4_appendices/big-data.qmd
+- 4_appendices/data-scope.qmd
+- 4_appendices/joins.qmd
+- 4_appendices/reproducible-workflows.qmd
+- 4_appendices/git.qmd
+- packages.qmd
+- references.qmd
+
+bibliography: 
+  - references.bib
+- data-cleaning-book-references.bib
+
+format:
+  html:
+  mainfont: Roboto
+monofont: Fira Code
+highlight-style: arrow
+monobackgroundcolor: "#F7F7F7"
+theme: 
+  - theme.css
+- theme.scss
+- lumen
+
+execute:
+  code-annotations: hover
+number-depth: 3

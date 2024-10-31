@@ -53,14 +53,15 @@ about:
     #gutter-width: 1.5rem
 #Backgroundcolor: “primary”
 #listing:
-#  date-format: short
+#  date-format: short # ou "YYYY-MM-DD"
 #  feed: true
 #  filter-ui: true
 #  type: table
 #  sort-ui: false
 #  sort: "date desc"
 #  categories: false
-#  fields: [date, title]
+#  fields: [image, title, description, date, reading-time]
+#  page-size: 9
 #  id: blog-listings
 #  contents: posts
 ##aliases: ["blog/"]

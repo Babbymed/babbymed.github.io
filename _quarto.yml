@@ -9,13 +9,7 @@ website:
   title: "Babby Ekumbo MD. MSc."
   site-url: https://babbymed.github.io
   description: "Écologie, Épidémiologie et Data analyses"
-  open-graph:
-    locale: fr
-  twitter-card:
-    creator: "babbymed"
-  comments:
-    utterances:
-      repo: babbymed/bbz.dev
+  open-graph: true
   navbar:
     left: 
       - icon: house-fill
@@ -43,11 +37,27 @@ website:
         href: https://linkedin.com
       - icon: facebook
         href: https://facebook.com
-page-footer:
-    left: "© Copyright 2024 Ekumbo Babby. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
+
 format:
   html:
+    twitter-card:
+      creator: "babbymed"
+      card-style: summary_large_image
+    page-footer:
+      left: "© Copyright 2024 Ekumbo Babby. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
+      right: ""
+      comments:
+    utterances:
+      repo: babbymed.github.io
     reference-location: document
+    code-link: true
+    anchor-sections: true
+    #fig-cap-location: margin
+    #reference-location: margin
+    mainfont: "Lato"
+    monofont: "Fira Mono"
+    footnotes-hover: true
+    fontsize: 1em
     theme: 
       dark: [minty, custom.scss]
       light: [default, custom-light.scss]
@@ -58,7 +68,7 @@ format:
     #number-sections: true
     #syntax-definitions: 
     #- fomo.xml
-draft: true
+draft: false
     
 #mainfont: "'operator ultra italique', sans" 
 #fontcolor: "#7E9372"

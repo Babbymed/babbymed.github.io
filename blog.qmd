@@ -45,10 +45,7 @@ En effet, je suis Médecin, Éco-Épidémiologiste des Maladies Infectieuses, fo
 
 ## 💼 Contacter-nous
 
-Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ?
-
-Je suis ouvert au travail de conseil et à d’autres formes de consultance. Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com)
-J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
+Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ? Je suis ouvert au travail de conseil et à d’autres formes de consultance. Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com) J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
 
 ------------------------------------------------------------------------
 
@@ -57,22 +54,16 @@ J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémi
 Ci-dessous, j'ai selectionné par ordre mes différentes publications et articles les plus relevants.
 
 ::: {#blog-listings}
-
-
-
-
-
-
-
-
-
 :::
 
 ## 📬 S'inscrire
 
-Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog.qmd/index.xml) ou entrez votre adresse e-mail ci-dessous.Je suis aussi actif sur [Twitter](https://twitter.com/khelomite) and [GitHub](https://github.com/Babbymed).
+Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog.qmd/index.xml) ou entrez votre adresse e-mail ci-dessous.
 
-```{=html}
+Retrouvez-moi également sur [Twitter](https://twitter.com/khelomite) et suivez mon travail sur [GitHub](https://github.com/Babbymed).
+
+💬 Vous pouvez aussi commenter les articles directement sur [GitHub Discussions](https://github.com/Babbymed/bbz.dev/issues) !
+
 <span style="font-weight: 600;">Subscribe</span>
 
 <!-- Begin Mailchimp Signup Form -->
@@ -105,5 +96,9 @@ Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog
 </div>
 
 <!--End mc_embed_signup-->
-```
+
 Merci d’avoir pris le temps de visiter mon blog
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="thomasmock" data-color="#5F7FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+
+<br>
