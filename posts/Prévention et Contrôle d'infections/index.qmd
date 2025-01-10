@@ -3,7 +3,7 @@ title: "Pandémie de MPOX | Variole de singe"
 author: "Babby Zbourg"
 date: "2024-09-10"
 categories: [info]
-image: "image.jpg"
+image: "mpox_logo.webp"
 abstract: |
     "Evitez la désinformation en partageant uniquement des informations fiables, fondées sur des preuves et non stigmatisantes provenant de sources fiables, telles que les autorités sanitaires locales ou l'OMS. Évitez de diffuser des allégations non vérifiées, car elles peuvent contribuer à la peur et à la désinformation"
     OMS, 2024
@@ -35,10 +35,17 @@ format:
 editor: 
   markdown: 
     wrap: 72
-draft: true
+draft: false
 ---
-<a href="path/to/your/file.pdf" download="NomDuFichier">Télécharger le PDF</a>
 
+<link rel="alternate" type="application/rss+xml" title="Babbymed Blog RSS" href="http://babbymed.github.io/bbz.xml">
+
+# La variole de singe : MPOX
+
+<a href="posts/Prévention et Contrôle d'infections/mpox_crianca.jpg" download="choses_a_savoir.qmd">Télécharger
+le PDF</a>
+
+![](images/clipboard-2118845851.png){width="652"}
 
 ## Comment la variole simienne se propage-t-elle ?
 
@@ -56,12 +63,78 @@ de rapports sexuels bucco-génitaux ou si l’on embrasse la peau). Au
 cours de la flambée mondiale qui a débuté en 2022, le virus s’est
 principalement propagé par contact sexuel.
 
-Les personnes atteintes de la variole simienne sont contagieuses jusqu’à
-ce que toutes leurs lésions aient formé une croûte, que les croûtes
-soient tombées et qu’une nouvelle couche de peau se soit formée en
-dessous, et que toutes les lésions localisées sur les yeux et sur le
-corps (dans la bouche, dans la gorge, dans le vagin et dans l’anus)
-aient également guéri, généralement dans les deux à quatre semaines.
+![](images/clipboard-1693182695.jpeg)Les personnes atteintes de la
+variole simienne sont contagieuses jusqu’à ce que toutes leurs lésions
+aient formé une croûte, que les croûtes soient tombées et qu’une
+nouvelle couche de peau se soit formée en dessous, et que toutes les
+lésions localisées sur les yeux et sur le corps (dans la bouche, dans la
+gorge, dans le vagin et dans l’anus) aient également guéri, généralement
+dans les deux à quatre semaines.
+
+::: box
+Voici un résumé des 10 choses à savoir sur la variole :
+
+1.  **Qu’est-ce que la variole ?**
+
+    -   La variole, autrefois appelée "monkeypox", est une maladie
+        virale causée par le virus de la variole du singe (MPXV),
+        découvert en 1958 chez des singes d'Asie. Le premier cas humain
+        a été signalé en RDC en 1970.
+
+2.  **Qui peut contracter la variole ?**
+
+    -   Tout le monde peut contracter cette maladie par contact étroit
+        avec une personne ou un animal infecté, ou par manipulation
+        d'objets contaminés.
+
+3.  **Quels sont les symptômes ?**
+
+    -   Les symptômes apparaissent 1 à 21 jours après l’exposition,
+        durant de 2 à 4 semaines. Ils incluent une éruption cutanée,
+        fièvre, mal de gorge, maux de tête, douleurs musculaires,
+        fatigue et ganglions enflés.
+
+4.  **Qui est à risque de complications graves ?**
+
+    -   Les nourrissons, jeunes enfants, et personnes immunodéprimées
+        (par exemple, vivant avec le VIH non traité) sont à risque accru
+        de formes graves.
+
+5.  **Que faire en cas de suspicion de variole ?**
+
+    -   Consultez un médecin, isolez-vous, lavez-vous fréquemment les
+        mains, couvrez les lésions, portez un masque et prenez des
+        analgésiques si nécessaire.
+
+6.  **Que ne faut-il pas faire ?**
+
+    -   Ne grattez pas les lésions pour éviter de retarder la
+        cicatrisation, propager l’infection et provoquer des infections
+        secondaires.
+
+7.  **Comment prévenir la transmission ?**
+
+    -   Les personnes infectées doivent s'isoler, couvrir leurs plaies,
+        porter un masque médical et désinfecter régulièrement les
+        surfaces partagées.
+
+8.  **En quoi consiste le traitement ?**
+
+    -   Le traitement vise à soulager les symptômes, favoriser la
+        cicatrisation et prévenir les complications, avec des soins de
+        soutien précoces étant essentiels.
+
+9.  **Qu’en est-il de la vaccination ?**
+
+    -   La vaccination contre la variole est recommandée pour les
+        personnes à haut risque, telles que les travailleurs de santé et
+        les personnes vivant dans des zones endémiques.
+
+10. **Restez vigilant face à la désinformation**
+
+    -   Partagez des informations fiables provenant de sources comme
+        l'OMS, et évitez les rumeurs non vérifiées.
+:::
 
 Il est également possible que le virus de la variole simienne soit
 présent pendant un certain temps sur des vêtements, du linge de lit ou
@@ -74,6 +147,8 @@ Le nettoyage et la désinfection des surfaces et des objets ainsi que le
 lavage des mains après avoir touché des surfaces ou des objets
 potentiellement contaminés peuvent contribuer à prévenir ce type de
 transmission.
+
+![](mpox_crianca.jpg)
 
 Le virus peut également se transmettre au fœtus pendant la grossesse,
 pendant ou après l’accouchement par le contact de peau à peau, ou d’un
@@ -98,7 +173,7 @@ singes ou des rongeurs terrestres (tels que l’écureuil arboricole). Le
 contact physique peut signifier un contact par des morsures ou des
 griffures, ou lors d’activités telles que la chasse, le dépouillement,
 le piégeage ou la cuisson. On peut également contracter le virus par la
-consommation d’animaux infectés mal cuits.
+consommation d’animaux infectés mal cuits. ![](mpox.jpg)
 
 Afin de réduire les risques de transmission de la variole simienne par
 les animaux, il faut éviter tout contact non protégé avec des animaux
@@ -113,6 +188,8 @@ On a signalé quelques infections par le virus de la variole simienne
 chez des chiens de compagnie. Cependant, il n’est pas confirmé s’il
 s’agissait d’infections réelles ou si la détection du virus était liée à
 une contamination de surface.
+
+![](prev_mpox.jpg)
 
 Sachant que de nombreuses espèces d’animaux sont sensibles à
 l’orthopoxvirus simien, il existe un risque de transmission de l’humain
@@ -136,136 +213,20 @@ l’orthopoxvirose simienne et aider les pays à réduire le risque de
 transmission du virus de l’orthopoxvirose simienne depuis ou vers les
 animaux.
 
-## BON SAVOIR
+## Références
 
-Pour réduire le risque de contracter la variole du singe (anciennement
-connue sous le nom de monkeypox), vous pouvez prendre plusieurs mesures
-préventives :
-
-1.  *Éviter les contacts étroits* :
-    -   Limitez les contacts avec des personnes qui ont un cas confirmé
-        ou suspecté de variole du singe, surtout si elles ont des
-        lésions cutanées visibles ou des symptômes.
-    -   Évitez les contacts étroits, peau à peau, avec des personnes
-        infectées.
-2.  *Pratiquez une bonne hygiène* :
-    -   Lavez-vous fréquemment les mains avec de l'eau et du savon ou
-        utilisez un désinfectant pour les mains à base d'alcool, surtout
-        après avoir touché des objets ou des surfaces potentiellement
-        contaminés.
-    -   Évitez de toucher votre visage, en particulier vos yeux, votre
-        nez et votre bouche, avec des mains non lavées.
-3.  *Utilisez des équipements de protection individuelle (EPI)* :
-    -   Si vous vous occupez de quelqu'un atteint de la variole du
-        singe, portez des gants, un masque et d'autres équipements de
-        protection nécessaires pour éviter l'exposition.
-    -   Jetez correctement les EPI et tout matériel contaminé pour
-        éviter la propagation du virus.
-4.  *Évitez le contact avec des matériaux contaminés* :
-    -   Ne partagez pas de literie, de serviettes, de vêtements ou
-        d'autres articles personnels avec une personne infectée.
-    -   Évitez tout contact avec des matériaux qui pourraient avoir été
-        contaminés par le virus, comme les vêtements ou la literie
-        utilisés par une personne infectée.
-5.  *Soyez prudent avec les animaux* :
-    -   Évitez les contacts avec des animaux qui pourraient porter le
-        virus, en particulier les rongeurs et les primates.
-    -   Pratiquez une bonne hygiène et utilisez des équipements de
-        protection si vous manipulez des animaux susceptibles d'être
-        infectés.
-6.  *Vaccination* :
-    -   Si vous êtes à risque élevé de variole du singe (par exemple,
-        les travailleurs de la santé, le personnel de laboratoire),
-        envisagez la vaccination avec le vaccin contre la variole, qui a
-        montré une efficacité contre la variole du singe.
-    -   Suivez les recommandations de santé publique concernant les
-        recommandations de vaccination dans votre région.
-7.  *Restez informé* :
-    -   Tenez-vous au courant des conseils et des directives de santé
-        publique, car les recommandations peuvent évoluer en fonction
-        des dernières informations sur les épidémies de variole du
-        singe.
-
-En suivant ces précautions, vous pouvez réduire de manière significative
-votre risque de contracter la variole du singe.
-
-## 10 choses à savoir sur la variole
-
-👉🏿 1) La variole, anciennement connue sous le nom de Monkey pox, est une
-maladie virale provoquée par le virus de la variole du singe (MPXV).
-C'est un virus appartenant à l'Orthopoxvirus, de la famille des
-Poxviridae. Le virus a été isolé pour la première fois au Danemark en
-1958 chez des singes d'Asie. La première description de la maladie chez
-l'homme a été observée en RDC en 1970 à Basankusu dans la province de
-l'Équateur.
-
-👉🏿 2) Tout le monde peut contracter la variole. La variole se transmet à
-l'homme par contact étroit avec une personne atteinte de la variole, un
-animal infecté (uniquement dans les zones historiquement endémiques) ou
-avec du matériel contaminé par le virus.
-
-👉🏿 3) La variole provoque des signes et des symptômes qui commencent
-généralement dans la semaine, mais peuvent commencer 1 à 21 jours après
-l'exposition. Les symptômes durent 2 à 4 semaines et comprennent
-généralement : - Éruption cutanée, - Fièvre, - Mal de gorge, - Mal de
-tête, - Douleurs musculaires, - Maux de dos, - Faible consommation
-d'énergie et - Glandes enflées (ganglions lymphatiques).
-
-👉🏿 4) Bien que la plupart des gens se rétablissent complètement en
-quelques semaines, certaines personnes peuvent devenir très malades. Les
-nourrissons, les jeunes enfants et les personnes immunodéprimées, y
-compris les personnes atteintes du VIH non traitées et à un stade avancé
-de la maladie, courent un risque accru de développer une variole grave
-et de mourir.
-
-👉🏿 5) Si vous pensez avoir la variole,
-
--   Demandez conseil à votre médecin pour vous isoler si possible dans
-    votre propre chambre et ouvrir les fenêtres
--   Lavez-vous fréquemment les mains avec de l'eau et du savon ou un
-    désinfectant pour les mains, surtout avant ou après avoir touché des
-    plaies.
--   Portez un masque médical et couvrez les lésions en présence d'autres
-    personnes jusqu'à ce que l'éruption guérisse.
--   Gardez votre peau sèche et découverte (sauf si vous êtes dans une
-    pièce avec une autre personne)
--   Évitez de toucher des objets dans les espaces partagés et
-    désinfectez fréquemment les espaces partagés
--   Utilisez des rinçages à l'eau salée pour les plaies buccales
--   Prendre des bains chauds avec du bicarbonate de soude ou des sels
-    d'Epsom pour les blessures corporelles
--   Prenez des analgésiques en vente libre tels que l'acétaminophène
-    (acétaminophène) ou l'ibuprofène. 👉🏿 6) Si vous pensez avoir la
-    variole, ne grattez pas les ampoules ou les plaies, ce qui peut
-    retarder la cicatrisation, propager l'éruption cutanée à d'autres
-    parties du corps et provoquer l'infection des plaies ; Grattez les
-    zones douloureuses jusqu'à ce que les croûtes soient guéries et que
-    vous ayez une nouvelle peau en dessous (cela peut propager
-    l'éruption cutanée à d'autres parties du corps).
-
-👉🏿 7) Pour éviter la transmission de la variole aux autres, les
-personnes atteintes de la variole doivent s'isoler à domicile, selon
-l'avis de leur médecin, ou à l'hôpital, si nécessaire, pendant la
-période infectieuse (depuis l'apparition des symptômes jusqu'à la
-cicatrisation des plaies et des croûtes). tomber). Couvrir les blessures
-et porter un masque médical en présence d’autres personnes peut aider à
-prévenir la propagation.
-
-👉🏿8) L'objectif du traitement de la variole est de soigner l'éruption
-cutanée, de contrôler la douleur et de prévenir les complications. Des
-soins précoces et de soutien sont importants pour aider à contrôler les
-symptômes et prévenir d’autres problèmes.
-
-👉🏿9) Se faire vacciner contre la variole peut aider à prévenir
-l’infection. Il est recommandé que les personnes présentant un risque
-élevé de contracter la variole soient vaccinées, si possible, pour
-prévenir l'infection par la variole (prophylaxie pré-exposition), en
-particulier lors d'une épidémie.
-
-👉🏿10) *Evitez la désinformation* en partageant uniquement des
-informations fiables, fondées sur des preuves et non stigmatisantes
-provenant de sources fiables, telles que les autorités sanitaires
-locales ou l'OMS. Évitez de diffuser des allégations non vérifiées, car
-elles peuvent contribuer à la peur et à la désinformation.
-
-*Source OMS/Gouvernement de RDC.*
+1.  **Organisation Mondiale de la Santé (OMS)**
+    -   Informations générales sur la variole.\
+        <https://www.who.int/fr>
+2.  **CDC (Centers for Disease Control and Prevention)**
+    -   Recommandations de prévention et vaccination.\
+        <https://www.cdc.gov/poxvirus/monkeypox>
+3.  **Institut Pasteur**
+    -   Études sur les virus de la famille Poxviridae.\
+        <https://www.pasteur.fr>
+4.  **Ministère de la Santé, RDC**
+    -   Lignes directrices sur la prévention et le contrôle de la
+        variole.
+5.  **Public Health England**
+    -   Guide sur la gestion des cas de variole.\
+        <https://www.gov.uk>

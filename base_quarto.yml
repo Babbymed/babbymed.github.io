@@ -1,0 +1,92 @@
+project:
+  type: website
+  output-dir: "docs"
+  resources:
+    - keybase.txt
+    - resume.pdf
+    - cv.pdf
+website:
+  title: "Babby Ekumbo MD. MSc."
+  site-url: https://babbymed.github.io
+  description: "Écologie, Épidémiologie et Data analyses"
+  open-graph: true
+  twitter-card: true
+  back-to-top-navigation: true
+  page-footer:
+    left: "© Copyright bbz_2025. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
+    right: ""
+  comments:
+    utterances:
+      repo: babbymed.github.io
+  navbar:
+    left: 
+      - icon: house-fill
+        text: "Home"
+        file: index.qmd
+      - text: "Publication"
+        file: publication.qmd
+      - text: "Présentation"
+        file: presentation.qmd
+      - text: "Blog"
+        file: blog.qmd
+    right:
+      - text: "À propos"
+        file: about.qmd
+      - icon: github
+        href: https://github.com/babbymed
+        menu:
+          - text: Source Code
+            href: https://code.com
+          - text: Report a Bug
+            href: https://bugs.com
+      - icon: twitter
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: facebook
+        href: https://facebook.com
+reference-location: document
+code-link: true
+anchor-sections: true
+#fig-cap-location: margin
+#reference-location: margin
+mainfont: "Lato"
+monofont: "Fira Mono"
+footnotes-hover: true
+fontsize: 1em
+page-navigation: true
+rss: true
+format:
+  html:
+    theme: 
+      dark: [minty, custom.scss]
+      light: [default, custom-light.scss]
+    css:
+      - styles.css
+    #toc: true
+    #toc-depth: 2
+    #number-sections: true
+    #syntax-definitions: 
+    #- fomo.xml
+    lang: fr
+    highlight-style: github-dark
+    meta:
+      viewport: "width=device-width, initial-scale=1"
+draft: false
+    
+#mainfont: "'operator ultra italique', sans" 
+#fontcolor: "#7E9372"
+#linkcolor: "#525878"
+#monofont: courrier new
+#grid:
+   # sidebar-width: 300px
+   # body-width: 900px
+    #margin-width: 300px
+    #gutter-width: 1.5rem
+    
+    
+#format:
+#  html:
+#    theme:
+#      light: flatly
+#      dark: darkly

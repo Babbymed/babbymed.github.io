@@ -1,0 +1,35 @@
+---
+title: "De la formation au monde du travail : défis et perspectives pour les personnes en situation de handicap"
+format: 
+  html:
+    theme: [default,expresso.css]
+    chalkboard: true
+editor: visual
+draft: false
+---
+
+```{css}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+.header {
+  background-color: #e20074; /* Couleur de l'université */
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+.info-box {
+  border: 1px solid #e20074;
+  padding: 15px;
+  margin: 20px 0;
+}
+.link {
+  color: #e20074;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+````

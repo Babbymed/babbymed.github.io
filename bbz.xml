@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Babbymed Blog</title>
+        <link>http://babbymed.github.io/rss</link>
+        <description>Une collection de blogs techniques et conférences sur l'apprentissage machine et la science des données, Écologie, Épidémiologie et Data analyses.</description>
+        <item>
+            <title>VIH et Droits au Travail : Protéger les Travailleurs Infectés</title>
+            <link>http://babbymed.github.io/Posts/Médecine clinique</link>
+            <description>Pour la journée mondiale de lutte contre le VIH/SIDA du 1er décembre 2024, le thème est "Sur le chemin des droits". Cette initiative met en lumière la protection des travailleurs infectés par le VIH. Malgré des progrès notables, les personnes vivant avec le VIH subissent encore des stigmatisations et des discriminations. Promouvoir les droits humains et garantir l'accès aux soins sont essentiels pour une vie dans la dignité et le respect.</description>
+            <pubDate>Sun, 1 Dec 2024 10:00:00 +0000</pubDate>
+        <item>
+            <title>Pandémie de MPOX | Variole de singe</title>
+            <link>http://babbymed.github.io/Posts/Prévention et Contrôle d'infections/index.qmd</link>
+            <description>Clin d'oeil sur la variole simienne en Afrique.</description>
+            <pubDate>10 Sep 2024 10:00:00 +0000</pubDate>
+        <item>
+        <item>
+            <title>Pandémie de MPOX | 10 choses à savoir</title>
+            <link>http://babbymed.github.io/Posts/Prévention et Contrôle d'infections/choses_a_savoir.qmd</link>
+            <description>10 choses à savoir sur la variole sur la variole simienne en Afrique</description>
+            <pubDate>29 Sep 2024 10:00:00 +0000</pubDate>
+        <item>
+        <item>
+            <title>Institut One Health pour l'Afrique | INOHA</title>
+            <link>http://babbymed.github.io/Posts/Éco-Épidémiologie/inoha.qmd</link>
+            <description>L’approche écologique de l’épidémiologie des maladies infectieuses</description>
+            <pubDate>13 Jul 2024 10:00:00 +0000</pubDate>
+        <item>
+    </channel>
+</rss>

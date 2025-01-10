@@ -1,6 +1,7 @@
 ---
 title: "Babbymed Blog"
 subtitle: "Éco-épidémiologie - Data Analyse - PCI - Médecine générale"
+title-block-banner: "#113946"
 #abstract: |
 #abstract-title: ""
 description: " "
@@ -13,8 +14,8 @@ format:
 page-layout: full
 listing:
   date-format: short
-  feed: true
-  filter-ui: true
+  feed: false
+  filter-ui: false
   type: grid
   sort-ui: false
   sort: "date desc"
@@ -22,32 +23,29 @@ listing:
   fields: [date, title, news, posts]
   id: blog-listings
   contents: "posts/*/index.qmd"
-note-foot: "@babbymed2024"
-page-footer:
-  left: "Copyright 2024, Ekumbo Babby" 
-  border: false
-  background: light
+#note-foot: "@babbymed2024"
+#page-footer:
+ #left: "Copyright 2024, Ekumbo Babby" 
+  #border: false
+  #background: light
 #margin-header: "Recherches associées"
-title-block-banner: "#113946"
 title-block-banner-color: body
 search: true
+draft: false
+grid:
+    body-width: 1000px
 ---
 
-::: {.profile-header layout="[21,79]"}
-![](bbz_pass.jpg){.profile-pic width="154"}
+
+::: {.profile-header layout="[30,70]"}
+![](images/bbz_rem.png){.profile-pic width="120"}
 
 Salut ! Je suis ***Dr. Ekumbo B. Babby***. Merci d’avoir pris le temps de visiter mon blog ! J’espère que vous apprécierez votre lecture et que vous trouverez ici des contenus inspirants et intéressants.
 
-Pour plus d'information me concernant suivez ce lien : [À propos](https://babbymed.github.io/about.rmd)
+Pour plus d’information me concernant suivez ce lien :[ici](https://babbymed.github.io/about.rmd)
 
-En effet, je suis Médecin, Éco-Épidémiologiste des Maladies Infectieuses, formateur en PCI, expertise en Maladie à virus Ebola (MVE), analyse des données de santé. Actuellement, je me spécialise dans la recherche sur l’**antibiorésistance du microbiote intestinal des oiseaux.** Parallèlement, en tant que clinicien hospitalo-universitaire et consultant indépendant, j’aide les chercheurs en santé publique à intégrer les modèles de langage R.
+En effet, je suis Médecin, Éco-Épidémiologiste des Maladies Infectieuses, formateur en PCI, expertise en Maladie à virus Ebola (MVE), analyse des données de santé avec R. Actuellement, je me spécialise dans la recherche sur l’**antibiorésistance du microbiote intestinal des oiseaux.**
 :::
-
-## 💼 Contacter-nous
-
-Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ? Je suis ouvert au travail de conseil et à d’autres formes de consultance. Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com) J'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
-
-------------------------------------------------------------------------
 
 ## 📮 Articles de blog
 
@@ -58,47 +56,28 @@ Ci-dessous, j'ai selectionné par ordre mes différentes publications et article
 
 ## 📬 S'inscrire
 
-Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog.qmd/index.xml) ou entrez votre adresse e-mail ci-dessous.
+Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/bbz.xml) ou entrez votre adresse e-mail ci-dessous.
 
-Retrouvez-moi également sur [Twitter](https://twitter.com/khelomite) et suivez mon travail sur [GitHub](https://github.com/Babbymed).
+<a href="http://babbymed.github.io/bbz.xml" target="_blank">S'abonner au RSS de Babbymed Blog</a>
 
-💬 Vous pouvez aussi commenter les articles directement sur [GitHub Discussions](https://github.com/Babbymed/bbz.dev/issues) !
+::: {#subscribe .box style="font-size: 11px;"}
+-   Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ?
 
-<span style="font-weight: 600;">Subscribe</span>
+-   Je suis ouvert au travail de conseil et à d’autres formes de consultance.
 
-<!-- Begin Mailchimp Signup Form -->
-<link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7_dtp.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:"#113946"; clear:left; font:14px Helvetica,Arial,sans-serif;  width:170px;}
-    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    #mc-embedded-subscribe-form{margin-right:-5px;}
-    #mc-embedded-subscribe-form input:not(.email) {
-  background-color: "#164859";
-  border: none;
-}
-</style>
-<div id="mc_embed_signup">
-<form action="<site_url>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
+-   Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com), j'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
+:::
 
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f718424fc5df77c22533bdaa6_a3c37fb57b" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-            <div class="clear foot" style="margin-top: 10px;">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                <p class="brandingLogo"></p>
-            </div>
-        </div>
-    </div>
-</form>
+## 💼 Contacter-nous
+
+<div>
+
+Pour plus de discussion, retrouvez-moi également sur [Twitter](https://twitter.com/khelomite) et suivez mon travail sur [GitHub](https://github.com/Babbymed).
+
+💬 Vous pouvez aussi commenter les articles directement sur Whatsapp [Cliquez ici](https://wa.me/+243813880485) !
+
+::: {style="color: #F14A00; style"}
+***Merci d’avoir pris le temps de visiter mon blog***
+:::
+
 </div>
-
-<!--End mc_embed_signup-->
-
-Merci d’avoir pris le temps de visiter mon blog
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="thomasmock" data-color="#5F7FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-
-<br>

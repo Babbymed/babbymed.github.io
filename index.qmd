@@ -1,5 +1,7 @@
 ---
 title: "Ekumbo B. Babby MD. MSc."
+title-color: "#66ffdd"
+title-size: 0.2em
 #lang: fr 
 #language:
   #en:
@@ -28,7 +30,7 @@ about:
   image-title: "Défense de mémoire de Master 1 en Éco-Épidémiologie des maladies infectieuses gestion du risque et aléas naturels à l'INOHA, 2021"
   links:
     - icon: folder
-      text: CV 
+      text: Curriculum Vitae 
       href: cv.qmd
     - icon: twitter
       text: Twitter
@@ -42,6 +44,9 @@ about:
     - icon: facebook
       text: facebook
       href: https://facebook.com
+footnotes-hover: true
+page-footer:
+    center: "© Copyright bbz.2025: Sauf indication contraire, tous les textes, images sont sous licence CC-BY-NC 4.0."
 #cookie-consent:
     #type: express
     #style: headline
@@ -67,24 +72,29 @@ about:
 ##aliases: ["blog/"]
 ##metadata-files: 
  # - _subscribe.yml
+# draft: false
 ---
 
 ::: column-page
-Je suis médecin à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs. Je collabore avec plusieurs institutions, dont l'Unité de Recherche d'Ornithologie de l'Université de Kinshasa ([UNIKIN](https://www.unikin.ac.cd)), l'Université de Mbandaka ([UNIMBA](https://www.4icu.org/reviews/15437.htm)) et l'Institut de OneHealth pour l’Afrique ([INOHA](https://www.inoha.ac.cd/)) à l'UNIKIN.
+## 📮 Bio
+:::
+<hr class="hr-teal">
+Je suis médecin à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs.<br>
 
-Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, combinant mes compétences en écologie et épidémiologie. J'analyse des données de santé publique et écologiques utilisant divers outils logiciels comme R ou Qgis. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également QGIS, R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
+Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, combinant mes compétences en écologie et épidémiologie. J'analyse des données de santé publique et écologiques utilisant divers outils logiciels comme R ou QGIS. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
 
-Sur ce site, vous trouverez ma liste de [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
+Sur ce site, vous trouverez ma liste de [publications & Présentations](https://babbymed.github.io/Publication), mon [CV](https://babbymed.github.io/CV), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
 
-<p>
+<hr class="hr-teal">
 
-</p>
+::: column-page
+### 💼 Projets sélectionnés
+:::
 
-## 💼 Projets sélectionnés
-
-### Forfaits R
-
+#### Forfaits R
 -   [Projet Gapminder](https://github.com/Babbymed/gapminder_dash)
 
 <link rel="me" href="https://Babbymed.github.io/@babbymed2024">
-:::
+
+<br>
+

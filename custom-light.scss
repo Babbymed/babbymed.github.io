@@ -1,9 +1,139 @@
 /*-- scss:defaults --*/
 $font-family-sans-serif: Archer;
-$link-color: #0d3ef0;
-$body-color: #000000;
+$link-color: #a7a0f9;
+$body-color:#0087a0;
 $code-color: rgb(86, 51, 51);
-$code-block-bg: #efe8e8;
-$navbar-bg: #021526;
-$navbar-fg: #e0e6e6;
-$body-bg: #ffffff;
+$code-block-bg: rgb(90, 00, 50);
+$navbar-bg: #164859;
+$navbar-fg: #00ffff;
+$body-bg: #ffffff; 
+$footer-bg: #0087a0;
+$footer-text: #00ffff;
+/* Définir la largeur du corps principal */ 
+/*body { 
+  max-width: 1200px; margin: 0 auto; 
+  
+} 
+
+/* Ajuster la largeur de la colonne droite */ 
+/*.right-column { width: 250px; /* Changez cette valeur pour ajuster la largeur */
+
+/* Ajuster la largeur de la colonne principale */ 
+
+/*.main-column { 
+  width: calc(100% - 250px); /* Ajustez cette valeur en fonction de la largeur de la colonne droite */
+
+.footer {
+  background-color: $footer-bg;
+  color: $footer-text;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  height: 0.9em;
+}
+
+
+
+.page-footer .left a:hover, 
+.page-footer .center a:hover, 
+.page-footer .right a:hover {
+  color: #00fabb; /* Couleur des liens au survol */
+}
+
+
+.box {
+  border: 0.5px solid #00ffff; /* couleur et épaisseur de la bordure */ 
+  padding: 5px; /* espace à l'intérieur de l'encadré */ 
+  margin: 50px; /* espace à l'extérieur de l'encadré */ 
+  background-color: #f1f3f4; /* couleur de fond */ 
+  border-radius: 10px; /* coins arrondis */
+  font-size: 8px!important;
+  color: #00eeff!important ;
+  font-family: Archer, sans-serif!important;
+}
+
+/* Styles pour les éléments spécifiques */
+.smallcaps {
+  color: #164859;
+}
+
+.subtitle {
+  color: #d1f1ff;
+  text-shadow: 1px 2px 2px #164859;
+}
+
+.tabset .tab-title.active {
+  color: #00fabb !important;
+}
+
+
+.navbar-brand {
+  color: #00ffff !important;
+  font-weight: bold;
+}
+
+p {
+  font-family: Archer, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #164859;
+  margin: 1rem 0;
+}
+
+.column-page {
+  font-family: Archer, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #164859;
+  margin: 1rem 0;
+}
+
+.h1 {
+  font-family: Archer, sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #00fabb;
+  margin: 1rem 0;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Archer, sans-serif;
+}
+
+p a {
+  color: #0087a0;
+  text-decoration: none;
+  font-weight: italic;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: #a7a0f9 !important;
+}
+
+/*p a:hover {
+  text-decoration: underline;
+  color: #a7a0f9 !important;
+}*/
+
+/*.credit-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #1a0dab;
+}*/
+
+.credit-text a {
+  color: #a7abb4;
+  text-decoration: none;
+}
+
+/*.credit-text a:hover {
+  text-decoration: underline;
+  color: #a7a0f9;
+}*/

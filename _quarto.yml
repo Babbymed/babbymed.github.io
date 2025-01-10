@@ -5,20 +5,51 @@ project:
     - keybase.txt
     - resume.pdf
     - cv.pdf
+
 website:
-  title: "Babby Ekumbo MD. MSc."
+  title: "Babbymed Connect"
   site-url: https://babbymed.github.io
   description: "Écologie, Épidémiologie et Data analyses"
   open-graph: true
+  twitter-card: true
+  reader-mode: true
+  back-to-top-navigation: true
+  page-footer:
+    center:
+      - text: "© Copyright bbz.2025 : Tous droits réservés sous licence CC-BY-NC 4.0. "
+    border: cyan
+    background: "#164859"
+   # right:
+    #  - icon: yahoo
+    #    text: "mail"
+      #  href: "yahoo:bbz_khelomite@yahoo.fr"
+   # left:
+      #- icon: whatsapp
+      #  text: "WhatsApp"
+      #  href: "https://wa.me/+243813880485"
+    #left: |
+     # <p>© Copyright bbz.2025 : Sauf indication contraire, tous les textes, images sont sous licence CC-BY-NC 4.0.</p>
+    #center: |
+     # <p>
+      #  Contactez-nous : 
+       # <a href="mailto:contact@babbymed.com">contact@babbymed.com</a> | 
+        #<a href="https://wa.me/1234567890">WhatsApp</a> | 
+        #<a href="about.qmd">À propos</a>
+      #</p>
+    #right: |
+     # <p>
+    #    Suivez-nous : 
+     #   <a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a> | 
+      #  <a href="https://linkedin.com"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+       # <a href="https://facebook.com"><i class="fab fa-facebook"></i> Facebook</a>
+      #</p>
   navbar:
     left: 
       - icon: house-fill
         text: "Home"
         file: index.qmd
-      - text: "Publication"
+      - text: "Publications"
         file: publication.qmd
-      - text: "Présentation"
-        file: presentation.qmd
       - text: "Blog"
         file: blog.qmd
     right:
@@ -40,49 +71,24 @@ website:
 
 format:
   html:
-    twitter-card:
-      creator: "babbymed"
-      card-style: summary_large_image
-    page-footer:
-      left: "© Copyright 2024 Ekumbo Babby. Sauf indication contraire, tous les textes et images sont sous licence CC-BY-NC 4.0."
-      right: ""
-      comments:
-    utterances:
-      repo: babbymed.github.io
-    reference-location: document
+    theme:
+      light: [theme.css, custom.scss]
+      dark: [theme.css, custom-light.scss]
+    highlight-style: github-dark
+    lang: fr
+    meta:
+      viewport: "width=device-width, initial-scale=1"
     code-link: true
     anchor-sections: true
-    #fig-cap-location: margin
-    #reference-location: margin
-    mainfont: "Lato"
-    monofont: "Fira Mono"
-    footnotes-hover: true
-    fontsize: 1em
-    theme: 
-      dark: [minty, custom.scss]
-      light: [default, custom-light.scss]
-    css:
-      - styles.css
-    #toc: true
-    #toc-depth: 2
-    #number-sections: true
-    #syntax-definitions: 
-    #- fomo.xml
-draft: false
-    
-#mainfont: "'operator ultra italique', sans" 
-#fontcolor: "#7E9372"
-#linkcolor: "#525878"
-#monofont: courrier new
-#grid:
-   # sidebar-width: 300px
-   # body-width: 900px
-    #margin-width: 300px
-    #gutter-width: 1.5rem
-    
-    
-#format:
-#  html:
-#    theme:
-#      light: flatly
-#      dark: darkly
+
+rss: true
+footnotes-hover: true
+fontsize: 1em
+page-navigation: true
+announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Découvrez le nouveau site sur les analyses des données de santé publique et éco-épidémiologie du *EcoData Insight* ! [Cliquez ici pour en savoir plus](https://avt.github.io/posts)."
+    type: light
+    position: below-navbar
+

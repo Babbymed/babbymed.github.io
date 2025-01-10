@@ -1,0 +1,97 @@
+- abstract: >
+    Antibiotic resistance profile of the intestinal microbiota of stray Hens (Gallus domesticus) in Mont-Ngafula commune in Kinshasa, DR. of the Congo. 
+    **Objective**: Pour comprendre et établir le profil bactériologique de résistance aux antibiotiques couramment utilisés dans la ville province de Kinshasa, 
+    la présente étude s’est focalisée sur l’identification des entérobactéries des poules élevées en errance et suivi *in vitro* de la résistance 
+    aux antibiotiques dans la commune de Mont-Ngafula, une des communes périphériques de Kinshasa avec une population très pauvre et dont l’accès aux soins médicaux est encore une énigme. 
+    Deux activités principales ont été répertoriées dans cette commune : l’agriculture et l’élevage parcellaire.
+
+    **Methodologie** : Le test bactériologique conventionnel et la méthode du disque de diffusion ont été respectivement appliqués pour l’identification des Entérobactéries et 
+    le test de sensibilité aux différents antibiotiques couramment vendus sans ordonnance. Il s’agit des antibiotiques suivants qui ont fait l’objet de notre étude : Ampicilline, 
+    Ceftriaxone, Ciprofloxacine, Méropénème, Gentamycine, Pipéracilline et Tétracycline. Des entérobactéries ont été collectées et identifiées après avoir semé dans les milieux de culture aérobie 
+    107 échantillons d’excréments de poules errant dans différentes zones de santé identifiées dans la périphérie de la commune de Mont Ngafula. Au total, 7 espèces d’Entérobactéries ont été 
+    identifiées, puis testées aux différents antibiotiques. Il ressort du test de sensibilité que la proportion de bactéries résistantes aux antibiotiques est plus élevée dans la zone de santé 
+    Antenne et très faible dans le quartier du Plateau plus éloigné de la périphérie. Le genre *Salmonella* a montré plus de résistance aux différents antibiotiques que les autres Entérobactéries. 
+    Dans l’ensemble, le profil de résistance microbienne aux antibiotiques le plus courant est celui à l’ampicilline et à la tétracycline.
+
+    **Conclusion** : Les résultats obtenus corroborent ceux des études similaires réalisées sur des volailles dans certains pays européens, notamment en France et en Belgique. 
+    La résistance croisée pourrait justifier cette ressemblance dans le profil de résistance aux antibiotiques de ces oiseaux commensaux avec celui des humains. 
+    La présente étude constitue une base très solide pour comprendre comment le microbiote intestinal est au cœur de la problématique de la multirésistance bactérienne chez les humains, 
+    en particulier dans la ville province de Kinshasa. Ces résultats seront utilisés dans les études *in silico* pour le développement pharmacochimique des antibiotiques auxquels les germes 
+    pourraient être sensibles.
+
+    **Mots clés** : Oiseaux, Insalubrité, Automédication, Entérobactérie, Résistance, Antibiotique.   
+    **Key words** : Birds, Unsanitary, Self-medication, Enterobacteria, Resistance, Antibiotic.
+    
+accessed: 2023-01-31
+  author:
+    - family: Ekumbo
+      given: Babby  
+    - family: Bompangue
+      given: Didier
+    - family: Bambi Nyanguile
+      given: Sylvie-Mireille
+    - family: Kisasa
+      given: Robert
+  container-title: "Journal of Applied Biosciences"
+  doi: "10.35759/JABs.181.6"
+  id: "DOI.org (Crossref)"
+  issn: "19975902"
+  issue: 181
+  issued: 2022-06
+  page: 18941-18961
+  title: "Profil de l'antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo"
+  type: article-journal
+  url: "https://www.m.elewa.org/Journals/wp-content/uploads/2023/01/6.Ekumbo.pdf"
+  volume: 23
+  journal-title: "Journal of Applied Biosciences"
+  date: 2023-01
+  path: "https://doi.org/0.35759/JABs.181.6"
+  position: "4/12"
+  first: "&emsp;&emsp;&emsp;"
+draft: true
+ 
+
+
+
+
+## 📬 S'inscrire
+[Subscribe]{style="font-weight: 600;"}
+
+<!-- Begin Mailchimp Signup Form -->
+
+<link href="http://cdn-images.mailchimp.com/embedcode/slim-10_7_dtp.css" rel="stylesheet" type="text/css">
+
+```{=html}
+<style type="text/css">
+    #mc_embed_signup{background:"#113946"; clear:left; font:14px Helvetica,Arial,sans-serif;  width:170px;}
+    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc-embedded-subscribe-form{margin-right:-5px;}
+    #mc-embedded-subscribe-form input:not(.email) {
+  background-color: "#164859";
+  border: none;
+}
+</style>
+```
+
+:::: {#mc_embed_signup}
+<form action="<site_url>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+::: {#mc_embed_signup_scroll}
+```         
+Subscribe here
+```
+
+</form>
+:::
+
+<!--End mc_embed_signup-->
+
+Merci d’avoir pris le temps de visiter mon blog
+
+```{=html}
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="thomasmock" data-color="#5F7FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+```
+Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/blog.qmd/index.xml) ou entrez votre adresse e-mail ci-dessous.
+
+
