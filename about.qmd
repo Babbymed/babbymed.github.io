@@ -5,20 +5,18 @@ twitter-card:
 open-graph: true
 title: "À propos de moi"
 subtitle: "Merci de vous être arrêté pour en savoir plus sur moi !"
-title-block-banner: "url('bbz_banner.jpeg')"
-title-block-banner-color: "#164859" #body
 #description: |
- # Be so good they can't ignore you.
-#image: bbz_relax.jpg
-page-footer: false
-lightbox: false
+  #Be humble, hungry and kind. 
+  #Be so good they can't ignore you.
+#image: images/bbz_relax.jpg
+lightbox: true
 page-layout: full
+title-block-banner: "url('images/bbz_banner.jpeg')"
+title-block-banner-color: body
 about:
-  id: edu-exp
   template: solana
-  #image-width: 9em
-  #image-shape: round
-  #image-title: "Ekumbo B. Babby | MD. MSc"
+  image-width: 10em
+  image-title: "Ekumbo B. Babby | MD. MSc"
   links:
     - icon: folder
       text: CV 
@@ -37,169 +35,100 @@ about:
     - icon: facebook
       text: facebook
       href: https://facebook.com
-grid:
-    
-    #sidebar-width: 300px
-    body-width: 900px
-    #margin-width: auto      # Utilisez "auto" pour centrer les marges
-    #gutter-width: 1.5rem    # Espacement entre les colonnes
-# draft: false
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
-### Bienvenue, je suis EKUMBO B. Babby.
+#### Bienvenue, je suis EKUMBO B. Babby.
 
-<hr class="hr-teal">
-
-[ 📮 ***Bio***]{style="color: #16687a;font-size:24px"}
-
-<justify> Je suis Médecin et Éco-épidémiologiste des Maladies
-infectieuses, gestion du risque et aléas naturels. je suis aussi Data
-Analyste des données de santé publique</justify> <br> <br>
+# [ 📮 ***Bio***]{style="color: #0087d5;font-size:24px"}
 
 <p style="text-shadow: 2px 2px 2px #a7a0f9;" class="french-italic">
 
-Je suis Médecin et Éco-épidémiologiste des Maladies infectieuses,
-gestion du risque et aléas naturels. Je suis aussi Data Analyste des
-données de santé publique.
+Je suis Médecin et titulaire d'un Master en Éco-épidémiologiste des Maladies infectieuses, gestion du risque et aléas naturels.
 
 </p>
 
-::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
-🎯 [Centres d'intérêts]{style="color: #16687a;font-size:24px"}
+::: {.profile-header layout="[21,79]"}
+![](images/bbz_pampedick.jpeg){.profile-pic width="154"}
 
+Je suis à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs.
+:::
+
+# [ 📬 ***Éducation***]{style="color:#0087d5;font-size:24px"}
+
+::: {style="text-align:ljustify;font-size:16px"}
+-   ***M.Sc.*** **en Éco-Épidémiologie des maladies infectieuses, Gestion du risque et aléas naturels**, **Sep 2020 - Oct 2021**\
+    *Université de Kinshasa, Lemba \| Kinshasa, RDC*
+-   ***Doctorat*** **en Médecine Générale, Chirurgie & Accouchement** (*Médecine Générale*), **Oct 2005 - Oct 2009**\
+    *Université de Kinshasa, Lemba \| Kinshasa, RDC*
+-   ***Graduat*** **en Sciences Biomédicales** , **Oct 2001- Oct 2005** *Université de Mbandaka, Mbandaka \[Ancien Centre Universitaire de Mbandaka / Extension de l’UNIKIN (CUMBA/UNIKIN)\]\| Équateur, RDC*
+:::
+
+::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
+# [ 🎯 ***Centres d'intérêts***]{style="color:#0087d5;font-size:18px"}
+:::
+
+::: {style="text-align:ljustify;font-size:14px"}
 -   Antibiorésistance
--   R Quarto
--   R Shiny
--   Public Health Data
--   Data Analysis & Data Visualisation
--   R Markdown
+-   Public Health Data (R Markdown)
+-   Data Analysis & Data Visualisation (R Quarto, R Shiny)
 -   Prévention et Contrôle d'infections
 :::
 
 <hr class="hr-teal">
 
-::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
-[ 📬 ***Éducation***]{style="color: #16687a;font-size:24px"}
+Titulaire d'un Master en Éco-Épidémiologie des maladies infectieuses. J'ai 14 ans d'[expérience](https://linkedin.com/in/babby-ekumbo-md-msc-b87765171/) en Médecine Générale, je suis aussi Data Analyste des données de santé publique.
 
--   ***M.Sc.*** **en Éco-Épidémiologie des maladies infectieuses,
-    Gestion du risque et aléas naturels**, **Sep 2020 - Oct 2021**\
-    *Université de Kinshasa, Lemba \| Kinshasa, RDC*
--   ***Doctorat*** **en Médecine Générale, Chirurgie & Accouchement**
-    (*Médecine Générale*), **Oct 2005 - Oct 2009**\
-    *Université de Kinshasa, Lemba \| Kinshasa, RDC*
--   ***Graduat*** **en Sciences Biomédicales** , **Oct 2001- Oct 2005**
-    *Université de Mbandaka, Mbandaka \[Ancien Centre Universitaire de
-    Mbandaka / Extension de l’UNIKIN (CUMBA/UNIKIN)\]\| Équateur, RDC*
+::: {.profile-header layout="[40,60]"}
+![](images/FB_IMG_1621969392081.jpg){.profile-pic width="218"}
+
+-   J'ai appronfondi mes compétences d'analyse des données de santé en utilisant divers logiciels comme R avec [The Graph courses](https://thegraphcourses.org/) (TGC) de l'Université de Genève.
+
+-   Je suis également formateur en PCI, disposant d'une expertise en Maladie à virus Ebola (MVE), ainsi que des bonnes connaissances sur le One Health [Institut One Health pour l'Afrique](https://inoha.ac.cd/home) (INOHA), sur le changement climatiques et les analyses approfondies sur l'analyse des séries temporelles [ISGLOBAL](https://www.isglobal.org/en/education).
 :::
 
-<br> <br>
+# [ ***💼 Expérience***]{style="color:#0087d5;font-size:24px"}
 
-::: {.hero-header layout="[40,60]"}
-![](FB_IMG_1621969392081.jpg){.profile-pic width="200"} J'ai appronfondi
-mes compétences d'analyse des données de santé en utilisant divers
-logiciels comme R avec [The Graph courses](https://thegraphcourses.org/)
-(TGC) de l'Université de Genève.
+En tant que **Médecin environnementaliste** et chercheur spécialisé en antibiorésistance et microbiote intestinal des oiseaux, j'ai une double expertise en :
 
-Je suis également formateur en PCI, disposant d'une expertise en Maladie
-à virus Ebola (MVE), ainsi que des bonnes connaissances sur le One
-Health [Institut One Health pour l'Afrique](https://inoha.ac.cd/home)
-(INOHA), sur le changement climatiques et les analyses approfondies sur
-l'analyse des séries temporelles
-[ISGLOBAL](https://www.isglobal.org/en/education).
-:::
-
-::: {.hero-header layout="[40,60]"}
-![](bbz_pampedick.jpeg){.profile-pic width="200"} Je suis engagé dans la
-médecine clinique, la formation en prévention et contrôle des
-infections, tout en utilisant des outils logiciels tels que R Studio
-pour l’analyse statistique. Mon travail comprend le développement de
-modèles prédictifs pour mieux comprendre l’antibiorésistance dans divers
-contextes, allant des hôpitaux à la communauté.
-
-En parallèle, j’utilise QGIS, R Markdown, Quarto et R Shiny pour
-visualiser les données et créer des applications pratiques en recherche
-et pratique clinique. expérience <br> Mon travail inclut la médecine
-clinique, la formation en prévention et contrôle des infections, et
-l’utilisation d’outils logiciels comme R Studio pour l’analyse
-statistique.
-:::
-
-<hr class="hr-teal">
-
-:::::: columns
-[💼
-***Expérience***]{style="color: #16687a;font-size:24px;font-style: bold"}
-
-::::: columns
-::: {.column width="50%"}
-En tant que **Médecin environnementaliste** et chercheur spécialisé en
-antibiorésistance et microbiote intestinal des oiseaux, j'ai une double
-expertise en :
-
--   **Médecine** : Médecine générale, Chirurgie et accouchement,
-    épidémiologie des maladies infectieuses.
+::: {style="text-align:ljustify;font-size:16px"}
+-   **Médecine** : Médecine générale, Chirurgie et accouchement, épidémiologie des maladies infectieuses.
 -   **Écologie** : Gestion des risques et des catastrophes naturelles.
--   **Data analyste** : Analyse de données de santé et création de
-    contenu web et applications avec R et QGIS.
+-   **Data analyste** : Analyse de données de santé et création de contenu web et applications avec R et QGIS.
 :::
 
-::: {.column width="50%"}
-En tant que data analyste, je me spécialise dans l’analyse des données
-de santé publique et écologiques, combinant mes compétences en écologie,
-géographie de la santé et épidémiologie. Parallèlement, en tant que
-clinicien hospitalo-universitaire et consultant indépendant, j’aide les
-chercheurs en santé publique à intégrer les modèles de langage R.
+::: {.profile-header layout="[30,70]"}
+![](images/PRedefense_gt.jpg){.profile-pic width="218"}
+
+En tant que data analyste, je me spécialise dans l’analyse des données de santé publique et écologiques, combinant mes compétences en écologie, géographie de la santé et épidémiologie. Parallèlement, en tant que clinicien hospitalo-universitaire et consultant indépendant, j’aide les chercheurs en santé publique à intégrer les modèles de langage R.
 :::
 
 <br>
-:::::
-::::::
 
-::::::: columns
-:::::: columns
-::::: columns
-::: {.column width="50%"}
-Professionnellement, je travaille comme clinicien (médecine générale,
-Chirurgie et accouchement), et consultant en analyse de données et
-développement de projets dans des contextes difficiles. J'ai travaillé
-avec [International Medical Corps](#0) (IMC) comme formateur en
-Prévention et Contrôle d'Infections (IPC trainer).
-:::
+::: {#hobit .box style="font-size: 8px;font-style:italic"}
+Professionnellement, je travaille comme clinicien (médecine générale, Chirurgie et accouchement), et consultant en analyse de données et développement de projets dans des contextes difficiles. J'ai travaillé avec [International Medical Corps](#0) (IMC) comme formateur en Prévention et Contrôle d'Infections (IPC trainer).
 
-::: {.column width="50%"}
-J'aime passer du temps à écouter et chanter le gospel congolais et le
-louvore brésilien, et à jouer aux jeux vidéos avec ma famille et mes
-amis, et parfois à marcher, à la plage ou à jouer au foot.
+J'aime passer du temps à écouter et chanter le gospel congolais et le louvore brésilien, et à jouer aux jeux vidéos avec ma famille et mes amis, et parfois à marcher, à la plage ou à jouer au foot.
 :::
 
 <br>
-:::::
-::::::
-:::::::
 
-::: columns
 <hr class="hr-teal">
 
-Vous trouverez tous les détails me concernant sur mon CV [Cliquez
-ici](https://babbymed.github.io/CV).
+<div>
 
-Sur ce site, vous trouverez ma liste des
-[publications](https://babbymed.github.io/Publication),
-[présentations](https://babbymed.github.io/Présentation), mon
-[CV](https://babbymed.github.io/CV), ainsi qu'un
-[blog](https://babbymed.github.io/Blog) technique.
+💬 Sur ce site, vous trouverez tous les détails me concernant sur mon CV [Cliquez ici](https://babbymed.github.io/CV), ma liste des [publications](https://babbymed.github.io/Publication), [présentations](https://babbymed.github.io/Présentation), ainsi qu'un [blog](https://babbymed.github.io/Blog) technique.
+
+::: {style="color: #a7a0f9; text-align:center; font-style:italic;font-size:18px"}
+***Merci d’avoir pris le temps de visiter mon blog !***
 :::
 
-<br>
+</div>
 
 ```{=html}
 <html>
 <body>
   <footer class="footer">
-    <p>bbz©2024. Tous droits réservés.</p>
+    <p>© Copyright bbz.2025 : Tous droits réservés sous licence CC-BY-NC 4.0.</p>
     <p><a href="#contact">Nous contacter</a> | <a href="#about">À propos</a></p>
   </footer>
 </body>
