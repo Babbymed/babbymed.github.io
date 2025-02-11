@@ -10,12 +10,8 @@ about:
       text: Github
       href: https://github.com/babbymed
 
-page-layout: full
-
-format:
-  html:
-    css: styles.css
-title-block-banner: "#113946"
+title-block-banner: "url('images/fond.jpeg')"
+title-block-banner-color: body
 lightbox: true
 back-to-top-navigation: true
 sidebar:
@@ -27,7 +23,10 @@ sidebar:
       contents:
         - index.qmd
         - basics-jupyter.qmd
-
+page-layout: full
+format:
+  html:
+    css: _variables.scss
 listing:
   contents: publication.yml
   page-size: 10
@@ -49,7 +48,7 @@ listing:
 draft: false
 ---
 
-# Publications
+# 🌐Publications {style="color:#007bff"}
 
 [*En tant qu'auteur principal / Directeur ou co-directeur de travaux publiés*]{.underline}
 
@@ -114,11 +113,11 @@ draft: false
 +-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-# Autres activités scientifiques
+# 🖋️Autres activités scientifiques {style="color:#007bff"}
 
 [*Présentations et participation dans des séminaires et conférences :*]{.underline}
 
-## Année 2024
+## Année 2024 {style="color:#08e5ff"}
 
 ::: flex-container
 -   [[***Profil de l'antibiorésistance du microbiote intestinal des poules (Gallus domesticus) errantes dans la commune de Mont-Ngafula à Kinshasa, RD du Congo***, **INOHA 2024**]{.smallcaps}]{style="color: #17ddff;"} 
@@ -144,7 +143,7 @@ draft: false
     \| Clínica Maimona & Filhos, : [Cliquez ici](http://www.clinicamaimona.com){alt="here"}
 :::
 
-## Année 2023
+## Année 2023 {style="color:#08e5ff"}
 
 ::: flex-container
 -   [[***Summer School of International Spring School in Global Health***, **2023**]{.smallcaps}]{style="color: #17ddff;"}

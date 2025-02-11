@@ -14,35 +14,6 @@ website:
   twitter-card: true
   reader-mode: true
   back-to-top-navigation: true
-  page-footer:
-    center:
-      - text: "© Copyright bbz.2025 : Tous droits réservés sous licence CC-BY-NC 4.0. "
-    border: cyan
-    background: "#164859"
-   # right:
-    #  - icon: yahoo
-    #    text: "mail"
-      #  href: "yahoo:bbz_khelomite@yahoo.fr"
-   # left:
-      #- icon: whatsapp
-      #  text: "WhatsApp"
-      #  href: "https://wa.me/+243813880485"
-    #left: |
-     # <p>© Copyright bbz.2025 : Sauf indication contraire, tous les textes, images sont sous licence CC-BY-NC 4.0.</p>
-    #center: |
-     # <p>
-      #  Contactez-nous : 
-       # <a href="mailto:contact@babbymed.com">contact@babbymed.com</a> | 
-        #<a href="https://wa.me/1234567890">WhatsApp</a> | 
-        #<a href="about.qmd">À propos</a>
-      #</p>
-    #right: |
-     # <p>
-    #    Suivez-nous : 
-     #   <a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a> | 
-      #  <a href="https://linkedin.com"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
-       # <a href="https://facebook.com"><i class="fab fa-facebook"></i> Facebook</a>
-      #</p>
   navbar:
     left: 
       - icon: house-fill
@@ -68,11 +39,15 @@ website:
         href: https://linkedin.com
       - icon: facebook
         href: https://facebook.com
-
+page-footer: true
+  #center:
+   # - text: "© Copyright bbz.2025 : Tous droits réservés sous licence CC-BY-NC 4.0."
+  #border: "#0d5a60"
+  #background: "#164859"
 format:
   html:
     theme:
-      light: [theme.css, custom.scss]
+      light: [theme.css, custom.scss,]
       dark: [theme.css, custom-light.scss]
     highlight-style: github-dark
     lang: fr
@@ -80,6 +55,10 @@ format:
       viewport: "width=device-width, initial-scale=1"
     code-link: true
     anchor-sections: true
+    mainfont: "Lato"
+    monofont: "Fira Mono"
+    footnotes-hover: true
+    fontsize: 1em
 
 rss: true
 footnotes-hover: true

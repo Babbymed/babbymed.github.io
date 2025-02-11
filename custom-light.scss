@@ -1,14 +1,35 @@
 /*-- scss:defaults --*/
+
+/*@import url("https://fonts.googleapis.com/css?family=Georgia|Source+Sans+Pro+Merriweather")*/
+
+
+/*--define colors variables--*/
 $font-family-sans-serif: Archer;
 $link-color: #a7a0f9;
-$body-color:#0087a0;
-$code-color: rgb(86, 51, 51);
-$code-block-bg: rgb(90, 00, 50);
-$navbar-bg: #164859;
-$navbar-fg: #00ffff;
+$body-color:#17bd50;
+$code-color: #B8573E;
+$code-block-bg: #0087d5;
+$navbar-bg: #2B1A60;
+$navbar-fg: #00fabb;
 $body-bg: #ffffff; 
-$footer-bg: #0087a0;
-$footer-text: #00ffff;
+$footer-bg: #3b4262;
+$footer-text: #66ffdd;
+$font-size: 10px;
+$body-block-color: #00fabb;
+
+@import"https://fonts.googleapis.com/css2?family=Birthstone&family=Imperial+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";.birthstone-regular {
+    font-family: "Birthstone",serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.imperial-script-regular {
+    font-family: "Birthston",serif;
+    font-weight: 400;
+    font-style: normal
+}
+ 
+
 /* Définir la largeur du corps principal */ 
 /*body { 
   max-width: 1200px; margin: 0 auto; 
@@ -23,14 +44,21 @@ $footer-text: #00ffff;
 /*.main-column { 
   width: calc(100% - 250px); /* Ajustez cette valeur en fonction de la largeur de la colonne droite */
 
-.footer {
+/*.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}*/
+
+.footer, .page-footer  {
   background-color: $footer-bg;
   color: $footer-text;
   text-align: center;
-  padding: 30px;
+  padding: 20px 0;
   position: relative;
-  width: 100%;
-  height: 0.9em;
+  height: auto;
+  font-size: 10px;
 }
 
 
@@ -39,17 +67,19 @@ $footer-text: #00ffff;
 .page-footer .center a:hover, 
 .page-footer .right a:hover {
   color: #00fabb; /* Couleur des liens au survol */
+  text-decoration: underline;
 }
 
 
 .box {
-  border: 0.5px solid #00ffff; /* couleur et épaisseur de la bordure */ 
+  border: 0.5px solid #0087d5; /* couleur et épaisseur de la bordure */ 
   padding: 5px; /* espace à l'intérieur de l'encadré */ 
   margin: 50px; /* espace à l'extérieur de l'encadré */ 
   background-color: #f1f3f4; /* couleur de fond */ 
   border-radius: 10px; /* coins arrondis */
-  font-size: 8px!important;
-  color: #00eeff!important ;
+  font-size: 4px!important;
+  font-style:italic;
+  color: #0087d5!important ;
   font-family: Archer, sans-serif!important;
 }
 
@@ -58,9 +88,18 @@ $footer-text: #00ffff;
   color: #164859;
 }
 
+.title {
+  color: $body-color; /* Usar variável para a cor do corpo */
+  text-shadow: 1px 2px 2px #3b4262;
+  padding: 5px; /* espace à l'intérieur de l'encadré */ 
+  margin-bottom: 5px;
+}
+
 .subtitle {
   color: #d1f1ff;
   text-shadow: 1px 2px 2px #164859;
+  padding: 5px; /* espace à l'intérieur de l'encadré */ 
+  margin-bottom: 5px;
 }
 
 .tabset .tab-title.active {
@@ -69,7 +108,7 @@ $footer-text: #00ffff;
 
 
 .navbar-brand {
-  color: #00ffff !important;
+  color: #00fabb !important;
   font-weight: bold;
 }
 
@@ -77,7 +116,7 @@ p {
   font-family: Archer, sans-serif !important;
   font-size: 1rem;
   line-height: 1.5;
-  color: #164859;
+  color: #00000a;
   margin: 1rem 0;
 }
 
@@ -85,7 +124,7 @@ p {
   font-family: Archer, sans-serif !important;
   font-size: 1rem;
   line-height: 1.5;
-  color: #164859;
+  color: #3b4262;
   margin: 1rem 0;
 }
 
@@ -93,7 +132,7 @@ p {
   font-family: Archer, sans-serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: #00fabb;
+  color: #0aa667;
   margin: 1rem 0;
 }
 
@@ -106,14 +145,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p a {
-  color: #0087a0;
+  color: #a7a0f9;
   text-decoration: none;
   font-weight: italic;
 }
 
 p a:hover {
   text-decoration: underline;
-  color: #a7a0f9 !important;
+  color:#a7abb4 !important;
 }
 
 /*p a:hover {

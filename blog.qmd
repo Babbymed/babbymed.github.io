@@ -1,11 +1,11 @@
 ---
 title: "Babbymed Blog"
 subtitle: "Éco-épidémiologie - Data Analyse - PCI - Médecine générale"
-title-block-banner: "#113946"
+title-block-banner: "#0087a0"
 #abstract: |
 #abstract-title: ""
 description: " "
-image: quarto.png
+image: images/quarto.png
 toc: true
 aliases: ["blog/"]
 format:
@@ -36,7 +36,6 @@ grid:
     body-width: 1000px
 ---
 
-
 ::: {.profile-header layout="[30,70]"}
 ![](images/bbz_rem.png){.profile-pic width="120"}
 
@@ -60,12 +59,12 @@ Abonnez-vous via [<i class="bi bi-rss"></i> RSS](https://babbymed.github.io/bbz.
 
 <a href="http://babbymed.github.io/bbz.xml" target="_blank">S'abonner au RSS de Babbymed Blog</a>
 
-::: {#subscribe .box style="font-size: 11px;"}
+::: {#subscribe .box style="font-size: 9px;"}
 -   Avez-vous besoin d’aide pour analyser, de designer ou modeliser les données de santé volumineuses ?
 
 -   Je suis ouvert au travail de conseil et à d’autres formes de consultance.
 
--   Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com), j'ai bien sûre envoyer mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
+-   Si vous souhaitez discuter, envoyez-moi un e-mail à [babbyzbourgmed\@gmail.com](babbyzbourgmed@gmail.com), j'ai bien sûre mentionner mon expérience en Médecine clinique, en Éco-Épidémiologie et en Data analyse des données dans mon [CV](https://babbymed.github.io/cv.qmd/).
 :::
 
 ## 💼 Contacter-nous
@@ -76,8 +75,19 @@ Pour plus de discussion, retrouvez-moi également sur [Twitter](https://twitter.
 
 💬 Vous pouvez aussi commenter les articles directement sur Whatsapp [Cliquez ici](https://wa.me/+243813880485) !
 
-::: {style="color: #F14A00; style"}
+::: {style="color: #a7a0f9; style"}
 ***Merci d’avoir pris le temps de visiter mon blog***
 :::
+
+```{=html}
+<html>
+<body>
+  <footer class="footer">
+    <p>© Copyright bbz.2025 : Tous droits réservés sous licence CC-BY-NC 4.0.</p>
+    <p><a href="#contact">Nous contacter</a> | <a href="#about">À propos</a></p>
+  </footer>
+</body>
+</html>
+```
 
 </div>

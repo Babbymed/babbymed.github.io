@@ -1,22 +1,52 @@
 /*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Imperial+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
 $body-bg: #021526;
 $body-color: #08e5ff;
 $font-family-sans-serif: Archer;
 $font-size: 12px;
-$link-color: #66ffdd;
+$link-color: #FF5760;
 $code-color: #adffff;
-$code-block-bg: #efe8e8;
+$code-block-bg: #063f43;
 $navbar-bg: #164859;
-$navbar-fg: #d1ffff;
+$navbar-fg: #00ffff;
+$body-block-color: #08e5ff;
+
+
+.birthstone-regular {
+  font-family: "Birthstone", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 /* Styles pour les éléments spécifiques */
 .smallcaps {
   color: #afb7cc;
 }
 
+
+.title {
+  color: $body-color; /* Usar variável para a cor do corpo */
+  text-shadow: 1px 2px 2px #3b4262;
+  padding: 5px; /* espace à l'intérieur de l'encadré */ 
+  margin-bottom: 5px;
+}
+
 .subtitle {
   color: #d1f1ff;
   text-shadow: 1px 2px 2px #164859;
+   padding: 5px; /* espace à l'intérieur de l'encadré */ 
+  margin-bottom: 5px;
 }
 
 .tabset .tab-title.active {
@@ -29,21 +59,22 @@ $navbar-fg: #d1ffff;
 
 
 .page-footer {
-  background-color: #0087a0; /* Couleur de fond */
-  color: #ffffff; /* Couleur du texte */
-  text-align: center; /* Centrer le contenu */
-  padding: 10px; /* Espacement intérieur */
-  height: auto;
+    border-top: 1px solid #0087a0;   /* Bord supérieur avec couleur spécifiée */
+    background-color: #164859;        /* Couleur d'arrière-plan du pied de page */
+    color: #00ffff;                     /* Couleur du texte (à ajuster selon vos besoins) */
+    text-align: center;               /* Centre aligné pour tout le contenu à l'intérieur du pied de page */
+    padding: 20px 0;                  /* Ajout d'espace autour du contenu au-dessus et au-dessous */    
+    height: auto;
 }
 
 
 /* Styles pour le footer */
 .footer, .page-footer {
-  background-color: #021526; /* Couleur de fond */
-  color: #ffffff; /* Couleur du texte */
+  background-color: #164859; /* Couleur de fond */
+  color: #00ffff; /* Couleur du texte */
   text-align: center; /* Centrer le contenu */
   padding: 20px; /* Espacement intérieur */
-  font-family: Arial, sans-serif; /* Police lisible */
+  /*font-family: Arial, sans-serif; /* Police lisible */
   font-size: 11px; /* Taille de police */
 }
 
@@ -66,7 +97,7 @@ $navbar-fg: #d1ffff;
 
 /* Styles pour les sections du footer */
 .page-footer .left, .page-footer .center, .page-footer .right {
-  color: #ffffff; /* Couleur du texte des différentes sections */
+  color: #00ffff; /* Couleur du texte des différentes sections */
 }
 
 
@@ -76,8 +107,9 @@ $navbar-fg: #d1ffff;
   margin: 50px; /* espace à l'extérieur de l'encadré */ 
   background-color: #091b2b; /* couleur de fond */ 
   border-radius: 10px; /* coins arrondis */
-  font-size: 8px!important;
+  font-size: 4px!important;
   color: #00eeff!important ;
+  font-style:italic;
   font-family: Archer, sans-serif!important;
 }
 
@@ -85,12 +117,12 @@ $navbar-fg: #d1ffff;
   font-size: 11px; /* Taille de la police définie à 12 pixels */
 }
 .navbar-brand {
-  color: #0e96b4 !important;
+  color: #00ffff !important;
   font-weight: bold;
 }
 
 p {
-  font-family: Archer, sans-serif !important;
+  /*font-family: Archer, sans-serif !important;*/
   font-size: 1rem;
   line-height: 1.5;
   color: #e0e6e6;
@@ -98,7 +130,7 @@ p {
 }
 
 .column-page {
-  font-family: Archer, sans-serif !important;
+  /*font-family: Archer, sans-serif !important;*/
   font-size: 1rem;
   line-height: 1.5;
   color: #eff6f0;
@@ -106,7 +138,7 @@ p {
 }
 
 .h1 {
-  font-family: Archer, sans-serif;
+  /*font-family: Archer, sans-serif;*/
   font-size: 2rem;
   line-height: 1.5;
   color: #a7a0f9;
@@ -114,7 +146,7 @@ p {
 }
 
 body {
-  font-family: Lato, sans-serif;
+  /*font-family: Lato, sans-serif;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -129,5 +161,20 @@ p a {
 
 p a:hover {
   text-decoration: underline;
-  color: #eeEe00 !important;
+  color: #66ffdd !important; /*#eeEe00*/
 }
+
+.back-to-top-button {
+    background-color: #004a76; /* Couleur d'arrière-plan du bouton */
+    color: #007bff;            /* Couleur du texte du bouton */
+    border-radius: 5px;       /* Rayonnement des bords pour des coins arrondis */
+    text-decoration: none;     /* Supprimer la décoration de texte par défaut (soulignement) */
+    padding: 10px 15px;       /* Ajout d'un peu d'espace autour du texte */
+    display: flex;             /* Pour centrer l'icône et le texte si nécessaire */
+    align-items: center;       /* Centrer verticalement l'icône et le texte dans le bouton */
+}
+
+.back-to-top-button i {
+    margin-right: 5px;        /* Espace entre l'icône et le texte, si l'icône est utilisée avec <i>*/
+}
+

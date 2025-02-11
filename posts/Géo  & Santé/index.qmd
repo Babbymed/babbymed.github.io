@@ -1,10 +1,15 @@
 ---
-title: "Climate change | ISGolbal"
+title: "Climate change | ISGlobal"
 author: "Ekumbo B. Babby"
 date: "2024-07-10"
 date-modified: "30/08/2024"
 categories: [news]
 draft: true 
+format:
+  html:
+    theme:
+      - cosmo
+      - posts/_variables.scss
 ---
 
 <link rel="alternate" type="application/rss+xml" title="Babbymed Blog RSS" href="http://babbymed.github.io/bbz.xml">

@@ -22,7 +22,7 @@ title-size: 0.2em
     #content: "**Alert** - this is some information that you should pay attention to"
     #type: primary
     #position: below-navbar
-image: bbz_zbourg.png
+image: images/bbz_zbourg.png
 #lightbox: true
 about:
   template: trestles   # solana  broadside  #marquee, jolla
