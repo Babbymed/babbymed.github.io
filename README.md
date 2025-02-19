@@ -1,8 +1,8 @@
 # Babbymed_blog
 
-Blog de Dr. Babby B. Ekumbo <a href="https://Babbymed.github.io"> <img src="FB_IMG_1621969392081.jpg" class="rounded" align="right" style="margin: 20px 10px 20px 10px;" height="200"/> </a> <https://ecodata.github.io/>
+Blog de Dr. Babby B. Ekumbo <a href="https://Babbymed.github.io"> <img src="FB_IMG_1621969392081.jpg" class="rounded" align="right" style="margin: 20px 10px 20px 10px;" height="200"/> </a> <https://babbymed.github.io/>
 
-Bienvenu dans mon Blog personnel. Ce blog est dédié au partage des informations et connaissances sur la médecine générale, avec un accent mis sur l'**écologie** et l'**épidémiologie** de maladies infectieuses, gestion du risque et aléas naturels, l'analyse des données de santé davec R et la Prévention et Contrôle d'infections com um foco especial. Dans ce site vous tgrouverez :
+Bienvenu dans mon Blog personnel. Ce blog est dédié au partage des informations et connaissances sur la médecine générale, avec un accent mis sur l'**écologie** et l'**épidémiologie** de maladies infectieuses, gestion du risque et aléas naturels, l'analyse des données de santé davec R et la Prévention et Contrôle d'infections,  avec un focus spécial àl'Antibiorésistance et les approches "One Health". Dans ce site vous trouverez :
 
 -   Des **Articles** Articles d'informations et analyses sur divers domaines et spécialités de médecine, de la santé et de la biotechnologie.
 
