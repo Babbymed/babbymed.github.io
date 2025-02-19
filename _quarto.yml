@@ -48,7 +48,7 @@ format:
   html:
     theme:
       light: [theme.css, custom.scss,]
-      dark: [theme.css, custom-light.scss]
+      dark: [theme.css, custom_light.scss]
     highlight-style: github-dark
     lang: fr
     meta:

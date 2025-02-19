@@ -1,6 +1,6 @@
 ---
 title: "Ekumbo B. Babby MD. MSc."
-title-color: "#66ffdd"
+title-color: "#00539f"
 title-size: 0.2em
 #lang: fr 
 #language:
@@ -75,10 +75,12 @@ page-footer:
 # draft: false
 ---
 
-::: column-page
+::: {#bio .column-page}
 ## 📮 Bio
 :::
+
 <hr class="hr-teal">
+
 Je suis médecin à la recherche d’une bourse de doctorat pour approfondir mes recherches sur l’antibiorésistance des entérobactéries et le microbiote intestinal des oiseaux. Mon objectif est de comprendre l’influence de l’environnement sur la santé et de traiter les maladies en tenant compte de ces facteurs.<br>
 
 Mon travail inclut la médecine clinique, la formation en prévention et contrôle des infections, combinant mes compétences en écologie et épidémiologie. J'analyse des données de santé publique et écologiques utilisant divers outils logiciels comme R ou QGIS. Je développe des modèles de prédiction pour mieux comprendre l’antibiorésistance dans divers environnements, du milieu hospitalier à la communauté. J’utilise également R Markdown, Quarto et R Shiny pour la visualisation et la création d’applications utiles en recherche et en pratique clinique.
@@ -88,13 +90,13 @@ Sur ce site, vous trouverez ma liste de [publications & Présentations](https://
 <hr class="hr-teal">
 
 ::: column-page
-### 💼 Projets sélectionnés
+### 💼 Projets sélectionnés {#bio2}
 :::
 
 #### Forfaits R
+
 -   [Projet Gapminder](https://github.com/Babbymed/gapminder_dash)
 
 <link rel="me" href="https://Babbymed.github.io/@babbymed2024">
 
 <br>
-

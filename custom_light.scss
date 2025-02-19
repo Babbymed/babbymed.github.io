@@ -6,29 +6,30 @@
 /*--define colors variables--*/
 $font-family-sans-serif: Archer;
 $link-color: #0d3ef0;
-$body-color:#000003;
+$body-color:#007bff;
 $code-color: #B8573E;
 $code-block-bg: #0087d5;
-$navbar-bg: #021526 /*#2B1A60;*/;
-$navbar-fg: #00fabb;
+$navbar-bg: #00539f /*#021526 /*#2B1A60;*/;
+$navbar-fg: #FFFFFF /*#00fabb;*/;
 $body-bg: #ffffff; 
-$footer-bg: #3b4262;
+$footer-bg: #1268b2 /*#3b4262*/;
 $footer-text: #66ffdd;
 $font-size: 10px;
-$body-block-color: #00fabb;
+$body-block-color: #ffffff /*#00fabb*/;
 
-/*@import"https://fonts.googleapis.com/css2?family=Birthstone&family=Imperial+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";.birthstone-regular {
+@debug $body-color;
+
+@import"https://fonts.googleapis.com/css2?family=Birthstone&family=Imperial+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";.birthstone-regular {
     font-family: "Birthstone",serif;
     font-weight: 400;
     font-style: normal
 }
 
 .imperial-script-regular {
-    font-family: "Birthston",serif;
+    font-family: "Birthstone",serif;
     font-weight: 400;
     font-style: normal
-}*/
- 
+}
 
 /* Définir la largeur du corps principal */ 
 /*body { 
@@ -79,21 +80,21 @@ $body-block-color: #00fabb;
   border-radius: 10px; /* coins arrondis */
   font-size: 4px!important;
   font-style:italic;
-  color: #0087d5!important ;
+  color: #000005!important ;
   font-family: Archer, sans-serif!important;
 }
 
 /* Styles pour les éléments spécifiques */
 .smallcaps {
-  color: #164859;
+  color: #00539f;
 }
 
-/*.title {
-  color: $body-color; 
-  text-shadow: 1px 2px 2px #3b4262;
+.title {
+  color: #007bff; 
+  text-shadow: 2px 2px 1px #299fca;
   padding: 5px; 
   margin-bottom: 5px;
-}*/
+}
 
 .subtitle {
   color: #d1f1ff;
@@ -106,9 +107,15 @@ $body-block-color: #00fabb;
   color: #00fabb !important;
 }
 
+#bio {
+  color: #007bff; 
+ }
 
+#bio2 {
+  color: #007bff; 
+ }
 .navbar-brand {
-  color: #00fabb !important;
+  color: #ffffff !important   /*#00fabb !important;*/;
   font-weight: bold;
 }
 
@@ -132,7 +139,7 @@ p {
   font-family: Archer, sans-serif;
   font-size: 2rem;
   line-height: 1.5;
-  color: #0aa667;
+  color: #00539f;
   margin: 1rem 0;
 }
 
@@ -145,8 +152,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p a {
-  color: #0d3ef0;
+  color: #0d3ef3;
   text-decoration: none;
+  font-size: 16px;
   font-weight: italic;
 }
 

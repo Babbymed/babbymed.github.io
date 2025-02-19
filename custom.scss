@@ -13,6 +13,7 @@ $code-block-bg: #063f43;
 $navbar-bg: #164859;
 $navbar-fg: #00ffff;
 $body-block-color: #08e5ff;
+$body-color: #00ffff;
 
 
 .birthstone-regular {
@@ -28,6 +29,14 @@ $body-block-color: #08e5ff;
 }
 
 
+#bio {
+  color: #00ffff; 
+ }
+
+#bio2 {
+  color: #00ffff; 
+ }
+
 
 /* Styles pour les éléments spécifiques */
 .smallcaps {
@@ -37,14 +46,14 @@ $body-block-color: #08e5ff;
 
 .title {
   color: $body-color; /* Usar variável para a cor do corpo */
-  text-shadow: 1px 2px 2px #3b4262;
+  text-shadow: 1px 2px 2px #164859;
   padding: 5px; /* espace à l'intérieur de l'encadré */ 
   margin-bottom: 5px;
 }
 
 .subtitle {
   color: #d1f1ff;
-  text-shadow: 1px 2px 2px #164859;
+  text-shadow: 2px 2px 2px #164859;
    padding: 5px; /* espace à l'intérieur de l'encadré */ 
   margin-bottom: 5px;
 }
